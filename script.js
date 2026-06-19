@@ -455,18 +455,6 @@ function finishQuiz() {
       editBtn.addEventListener("click", () => openEditModal(question));
       revTitle.appendChild(editBtn);
 
-      revTitle.className = "review-question review-header-flex";
-
-      const textSpan = document.createElement("span");
-      textSpan.textContent = `[Câu ${question.id}] - ${question.question}`;
-      revTitle.appendChild(textSpan);
-
-      const editBtn = document.createElement("button");
-      editBtn.className = "btn-edit-quick";
-      editBtn.textContent = "✏️ Sửa đáp án";
-      editBtn.addEventListener("click", () => openEditModal(question));
-      revTitle.appendChild(editBtn);
-
       reviewCard.appendChild(revTitle);
 
       const revAnswers = document.createElement("div");
