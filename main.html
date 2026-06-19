@@ -110,12 +110,40 @@
           </div>
         </div>
 
+        <div style="margin-bottom: 24px;">
+          <button id="restart-btn" class="btn btn-primary btn-block">Làm đề khác</button>
+        </div>
+
         <div id="wrong-questions-section" class="hidden">
           <h3 class="subsection-title">Danh sách các câu trả lời sai:</h3>
           <div id="wrong-questions-list"></div>
         </div>
 
-        <button id="restart-btn" class="btn btn-primary btn-block">Làm đề khác</button>
+        <!-- Sửa đáp án nhanh Modal -->
+        <div id="edit-answer-modal" class="modal-overlay hidden">
+          <div class="modal-card">
+            <h3 class="modal-title">Sửa đáp án nhanh</h3>
+            <p id="edit-modal-question-text" style="margin-bottom: 15px; font-weight: 500; font-size: 0.95rem; color: var(--text-secondary);"></p>
+            <div class="form-group">
+              <label for="new-correct-letter">Chọn đáp án đúng mới:</label>
+              <div class="select-wrapper">
+                <select id="new-correct-letter">
+                  <option value="A">A</option>
+                  <option value="B">B</option>
+                  <option value="C">C</option>
+                  <option value="D">D</option>
+                </select>
+              </div>
+            </div>
+            <div class="modal-instructions" style="margin-bottom: 20px; font-size: 0.85rem; color: var(--text-secondary); line-height: 1.4;">
+              <p>Để lưu vĩnh viễn, bạn hãy tải file JSON mới cập nhật bên dưới và ghi đè vào thư mục <strong>questions/</strong> hoặc copy dòng đáp án để cập nhật vào file nguồn <strong>.txt</strong> tương ứng.</p>
+            </div>
+            <div class="modal-actions" style="display: flex; gap: 12px; justify-content: flex-end;">
+              <button id="modal-cancel-btn" class="btn btn-secondary" style="padding: 10px 20px; font-size: 0.9rem;">Hủy</button>
+              <button id="modal-download-btn" class="btn btn-primary" style="padding: 10px 20px; font-size: 0.9rem;">Tải JSON mới</button>
+            </div>
+          </div>
+        </div>
       </section>
     </main>
 
