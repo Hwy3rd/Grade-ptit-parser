@@ -3,49 +3,49 @@
     "id": 1,
     "question": "Câu 1. Đây là một công cụ kiểm tra lỗ hổng tấn công chèn mã SQL trên các website:",
     "answers": [
-      "a. SQLmap",
-      "b. SQLite",
-      "c. SQLCheck",
-      "d. SQL Server"
+      "SQLmap",
+      "SQLite",
+      "SQLCheck",
+      "SQL Server"
     ],
-    "correctAnswer": "",
-    "correctAnswerIndex": -1
+    "correctAnswer": "A",
+    "correctAnswerIndex": 0
   },
   {
     "id": 2,
     "question": "Câu 2. Một trong các biện pháp hiệu quả để phòng chống macro viruses là:",
     "answers": [
-      "a. Sử dụng IPS/IDS.",
-      "b. Sử dụng tường lửa",
-      "c.Cấm tự động thực hiện macro trong Microsoft Office",
-      "d.Cấm tự động thực hiện macro trong Microsoft Exchange"
+      "Sử dụng IPS/IDS.",
+      "Sử dụng tường lửa",
+      "Cấm tự động thực hiện macro trong Microsoft Office",
+      "Cấm tự động thực hiện macro trong Microsoft Exchange"
     ],
-    "correctAnswer": "",
-    "correctAnswerIndex": -1
+    "correctAnswer": "C",
+    "correctAnswerIndex": 2
   },
   {
     "id": 3,
     "question": "Câu 3. Đâu là một kỹ thuật tấn công DoS?",
     "answers": [
-      "a. SYN requests",
-      "b. IP spoofing",
-      "c.DNS spoofing",
-      "d.Ping of death"
+      "SYN requests",
+      "IP spoofing",
+      "DNS spoofing",
+      "Ping of death"
     ],
-    "correctAnswer": "",
-    "correctAnswerIndex": -1
+    "correctAnswer": "D",
+    "correctAnswerIndex": 3
   },
   {
     "id": 4,
     "question": "Câu 4. Đâu là một trong các biện pháp chống tấn công khai thác lỗi tràn bộ đệm?",
     "answers": [
-      "a. Sử dụng công nghệ xác minh mạnh",
-      "b. Sử dụng cơ chế cấm thực hiện mã trong dữ liệu",
-      "c.Sử dụng tường lửa",
-      "d.Sử dụng các kỹ thuật mật mã"
+      "Sử dụng công nghệ xác minh mạnh",
+      "Sử dụng cơ chế cấm thực hiện mã trong dữ liệu",
+      "Sử dụng tường lửa",
+      "Sử dụng các kỹ thuật mật mã"
     ],
-    "correctAnswer": "",
-    "correctAnswerIndex": -1
+    "correctAnswer": "B",
+    "correctAnswerIndex": 1
   },
   {
     "id": 5,
@@ -56,8 +56,8 @@
       "Interruptions",
       "Modifications"
     ],
-    "correctAnswer": "",
-    "correctAnswerIndex": -1
+    "correctAnswer": "B",
+    "correctAnswerIndex": 1
   },
   {
     "id": 6,
@@ -68,8 +68,8 @@
       "Interruptions",
       "Modifications"
     ],
-    "correctAnswer": "",
-    "correctAnswerIndex": -1
+    "correctAnswer": "C",
+    "correctAnswerIndex": 2
   },
   {
     "id": 7,
@@ -80,8 +80,8 @@
       "vùng truy nhập từ xa",
       "vùng hệ thống và ứng dụng"
     ],
-    "correctAnswer": "",
-    "correctAnswerIndex": -1
+    "correctAnswer": "D",
+    "correctAnswerIndex": 3
   },
   {
     "id": 8,
@@ -92,8 +92,8 @@
       "vùng mạng LAN",
       "vùng mạng LAN-to-WAN"
     ],
-    "correctAnswer": "",
-    "correctAnswerIndex": -1
+    "correctAnswer": "D",
+    "correctAnswerIndex": 3
   },
   {
     "id": 9,
@@ -104,8 +104,8 @@
       "vùng mạng WAN",
       "vùng mạng LAN-to-WAN"
     ],
-    "correctAnswer": "",
-    "correctAnswerIndex": -1
+    "correctAnswer": "D",
+    "correctAnswerIndex": 3
   },
   {
     "id": 10,
@@ -116,8 +116,8 @@
       "an toàn mạng, an toàn máy tính và dữ liệu, chính sách an toàn thông tin",
       "an toàn máy tính và dữ liệu, quản lý an toàn thông tin, chính sách an toàn thông tin"
     ],
-    "correctAnswer": "",
-    "correctAnswerIndex": -1
+    "correctAnswer": "A",
+    "correctAnswerIndex": 0
   },
   {
     "id": 11,
@@ -128,8 +128,8 @@
       "toàn vẹn, bí mật",
       "an toàn. bí mật"
     ],
-    "correctAnswer": "",
-    "correctAnswerIndex": -1
+    "correctAnswer": "C",
+    "correctAnswerIndex": 2
   },
   {
     "id": 12,
@@ -140,8 +140,8 @@
       "Câu 13. Trong tấn công khai thác lỗi tràn bộ đệm tin tắc thường sử dụng một số lệnh NOP (No Operation) ở phần đầu của mã tấn công. Mục đích của việc này là gì:",
       "tăng khả năng gây tràn bộ đệm"
     ],
-    "correctAnswer": "",
-    "correctAnswerIndex": -1
+    "correctAnswer": "A",
+    "correctAnswerIndex": 0
   },
   {
     "id": 14,
@@ -152,8 +152,8 @@
       "2007",
       "2003"
     ],
-    "correctAnswer": "",
-    "correctAnswerIndex": -1
+    "correctAnswer": "D",
+    "correctAnswerIndex": 3
   },
   {
     "id": 15,
@@ -164,8 +164,8 @@
       "Tấn công chèn mã CSRF",
       "Tấn công chèn mã HTML"
     ],
-    "correctAnswer": "",
-    "correctAnswerIndex": -1
+    "correctAnswer": "A",
+    "correctAnswerIndex": 0
   },
   {
     "id": 16,
@@ -176,8 +176,8 @@
       "Hệ điều hành",
       "Các dịch vụ mạng"
     ],
-    "correctAnswer": "",
-    "correctAnswerIndex": -1
+    "correctAnswer": "B",
+    "correctAnswerIndex": 1
   },
   {
     "id": 17,
@@ -188,8 +188,8 @@
       "Thiết kế phần mềm",
       "Kiểm thử phần mềm"
     ],
-    "correctAnswer": "",
-    "correctAnswerIndex": -1
+    "correctAnswer": "B",
+    "correctAnswerIndex": 1
   },
   {
     "id": 18,
@@ -200,8 +200,8 @@
       "Sử dụng các kỹ thuật mật mã",
       "Sử dụng công nghệ xác thực mạnh"
     ],
-    "correctAnswer": "",
-    "correctAnswerIndex": -1
+    "correctAnswer": "A",
+    "correctAnswerIndex": 0
   },
   {
     "id": 19,
@@ -212,8 +212,8 @@
       "Trao quyền",
       "Xác thực và Trao quyền"
     ],
-    "correctAnswer": "",
-    "correctAnswerIndex": -1
+    "correctAnswer": "B",
+    "correctAnswerIndex": 1
   },
   {
     "id": 20,
@@ -224,8 +224,8 @@
       "Khai thác, tấn công phá hoại và gây tê liệt hệ thống",
       "Khai thác gây tổn hại đến các thuộc tính an ninh của hệ thống đó"
     ],
-    "correctAnswer": "",
-    "correctAnswerIndex": -1
+    "correctAnswer": "D",
+    "correctAnswerIndex": 3
   },
   {
     "id": 21,
@@ -236,8 +236,8 @@
       "Mã C/C++",
       "Mã máy"
     ],
-    "correctAnswer": "",
-    "correctAnswerIndex": -1
+    "correctAnswer": "D",
+    "correctAnswerIndex": 3
   },
   {
     "id": 22,
@@ -248,8 +248,8 @@
       "Đánh cắp thông tin nhạy cảm của người dùng",
       "Phá hỏng máy chủ"
     ],
-    "correctAnswer": "",
-    "correctAnswerIndex": -1
+    "correctAnswer": "C",
+    "correctAnswerIndex": 2
   },
   {
     "id": 23,
@@ -260,8 +260,8 @@
       "Phần mềm quảng cáo",
       "Phần mềm độc hại"
     ],
-    "correctAnswer": "",
-    "correctAnswerIndex": -1
+    "correctAnswer": "D",
+    "correctAnswerIndex": 3
   },
   {
     "id": 24,
@@ -272,8 +272,8 @@
       "Máy trạm",
       "Máy chủ"
     ],
-    "correctAnswer": "",
-    "correctAnswerIndex": -1
+    "correctAnswer": "A",
+    "correctAnswerIndex": 0
   },
   {
     "id": 25,
@@ -284,8 +284,8 @@
       "Fabrications",
       "Modifications"
     ],
-    "correctAnswer": "",
-    "correctAnswerIndex": -1
+    "correctAnswer": "C",
+    "correctAnswerIndex": 2
   },
   {
     "id": 26,
@@ -296,8 +296,8 @@
       "Injectors",
       "Forwarders"
     ],
-    "correctAnswer": "",
-    "correctAnswerIndex": -1
+    "correctAnswer": "B",
+    "correctAnswerIndex": 1
   },
   {
     "id": 27,
@@ -308,8 +308,8 @@
       "Ngăn xếp (Stack) và Vùng nhớ cấp phát động (Heap)",
       "Hàng đợi (Queue) và Ngăn xếp (Stack)"
     ],
-    "correctAnswer": "",
-    "correctAnswerIndex": -1
+    "correctAnswer": "C",
+    "correctAnswerIndex": 2
   },
   {
     "id": 28,
@@ -320,8 +320,8 @@
       "Không cài đặt và chạy các chương trình tải từ các nguồn khôngtin cậy",
       "Không dùng tài khoản có quyền quản trị để chạy các chương trình ứngdụng"
     ],
-    "correctAnswer": "",
-    "correctAnswerIndex": -1
+    "correctAnswer": "D",
+    "correctAnswerIndex": 3
   },
   {
     "id": 29,
@@ -332,8 +332,8 @@
       "Địa chỉ máy nạn nhân làm địa nguồn của gói tin",
       "Địa chỉ router làm địa nguồn của gói tin"
     ],
-    "correctAnswer": "",
-    "correctAnswerIndex": -1
+    "correctAnswer": "C",
+    "correctAnswerIndex": 2
   },
   {
     "id": 30,
@@ -344,8 +344,8 @@
       "Các file tài liệu của bộ phần mềm Microsoft Office",
       "Các file tài liệu của bộ phần mềm Microsoft Exchange"
     ],
-    "correctAnswer": "",
-    "correctAnswerIndex": -1
+    "correctAnswer": "C",
+    "correctAnswerIndex": 2
   },
   {
     "id": 31,
@@ -356,8 +356,8 @@
       "Vi rút có khả năng tự lây lan mà không cần tương tác của ngườidùng",
       "Sâu có khả năng tự lây lan mà không cần tương tác của người dùng"
     ],
-    "correctAnswer": "",
-    "correctAnswerIndex": -1
+    "correctAnswer": "D",
+    "correctAnswerIndex": 3
   },
   {
     "id": 32,
@@ -368,8 +368,8 @@
       "Để vượt qua các hàng rào kiểm soát an ninh",
       "Để đánh cắp các dữ liệu nhạy cảm trên máy chủ"
     ],
-    "correctAnswer": "",
-    "correctAnswerIndex": -1
+    "correctAnswer": "C",
+    "correctAnswerIndex": 2
   },
   {
     "id": 33,
@@ -380,8 +380,8 @@
       "Cân bằng giữa An toàn, Hữu dụng và Rẻ tiền",
       "Cân bằng giữa An toàn, Tin cậy và Rẻ tiền"
     ],
-    "correctAnswer": "",
-    "correctAnswerIndex": -1
+    "correctAnswer": "A",
+    "correctAnswerIndex": 0
   },
   {
     "id": 34,
@@ -392,8 +392,8 @@
       "Định kỳ nâng cấp hệ thống phần mềm",
       "Định kỳ nâng cấp hệ thống phần cứng"
     ],
-    "correctAnswer": "",
-    "correctAnswerIndex": -1
+    "correctAnswer": "B",
+    "correctAnswerIndex": 1
   },
   {
     "id": 35,
@@ -404,8 +404,8 @@
       "các yêu cầu TCP hoặc các yêu cầu phát quảng bá",
       "các yêu cầu HTTP hoặc các yêu cầu phát quảng bá"
     ],
-    "correctAnswer": "",
-    "correctAnswerIndex": -1
+    "correctAnswer": "B",
+    "correctAnswerIndex": 1
   },
   {
     "id": 36,
@@ -416,8 +416,8 @@
       "CPU, Bộ nhớ, HDD và Hệ thống bus truyền dẫn",
       "CPU, hệ điều hành và các ứng dụng"
     ],
-    "correctAnswer": "",
-    "correctAnswerIndex": -1
+    "correctAnswer": "A",
+    "correctAnswerIndex": 0
   },
   {
     "id": 37,
@@ -428,8 +428,8 @@
       "Lỗi thiết kế",
       "Lỗi cấu hình"
     ],
-    "correctAnswer": "",
-    "correctAnswerIndex": -1
+    "correctAnswer": "A",
+    "correctAnswerIndex": 0
   },
   {
     "id": 38,
@@ -440,8 +440,8 @@
       "nmap",
       "Nessus vulnerability scanner"
     ],
-    "correctAnswer": "",
-    "correctAnswerIndex": -1
+    "correctAnswer": "B",
+    "correctAnswerIndex": 1
   },
   {
     "id": 39,
@@ -452,8 +452,8 @@
       "SSL/TLS",
       "Kerberos"
     ],
-    "correctAnswer": "",
-    "correctAnswerIndex": -1
+    "correctAnswer": "B",
+    "correctAnswerIndex": 1
   },
   {
     "id": 40,
@@ -464,8 +464,8 @@
       "Các hành vi tấn công, xâm nhập có quan hệ chặt chẽ với các dịch vụ đượccung cấp",
       "Các hành vi tấn công, xâm nhập gây ngắt quãng dịch vụ cung cấp chongười dùng"
     ],
-    "correctAnswer": "",
-    "correctAnswerIndex": -1
+    "correctAnswer": "B",
+    "correctAnswerIndex": 1
   },
   {
     "id": 41,
@@ -476,8 +476,8 @@
       "Chi phí đắt",
       "Khó sử dụng"
     ],
-    "correctAnswer": "",
-    "correctAnswerIndex": -1
+    "correctAnswer": "C",
+    "correctAnswerIndex": 2
   },
   {
     "id": 42,
@@ -488,8 +488,8 @@
       "DAC cấp quyền truy nhập dựa trên tính nhạy cảm của thông tin và chínhsách quản trị",
       "DAC là cơ chế điều khiển truy nhập được sử dụng rộng rãi nhất"
     ],
-    "correctAnswer": "",
-    "correctAnswerIndex": -1
+    "correctAnswer": "A",
+    "correctAnswerIndex": 0
   },
   {
     "id": 43,
@@ -500,8 +500,8 @@
       "MAC là cơ chế điều khiển truy nhập được sử dụng rộng rãi nhất",
       "MAC cho phép người tạo ra đối tượng có thể cấp quyền truy nhập chongười dùng khác"
     ],
-    "correctAnswer": "",
-    "correctAnswerIndex": -1
+    "correctAnswer": "B",
+    "correctAnswerIndex": 1
   },
   {
     "id": 44,
@@ -512,8 +512,8 @@
       "Là quá trình xác minh các thông tin nhận dạng của chủ thể yêu cầu truynhập đối tượng",
       "Là quá trình xác minh tính chân thực của thông tin nhận dạng người dùngcung cấp"
     ],
-    "correctAnswer": "",
-    "correctAnswerIndex": -1
+    "correctAnswer": "D",
+    "correctAnswerIndex": 3
   },
   {
     "id": 45,
@@ -524,8 +524,8 @@
       "Authentication và Administrator",
       "Administrator và Authorization"
     ],
-    "correctAnswer": "",
-    "correctAnswerIndex": -1
+    "correctAnswer": "B",
+    "correctAnswerIndex": 1
   },
   {
     "id": 46,
@@ -536,8 +536,8 @@
       "Tính bí mật, tính toàn vẹn và tính xác thực",
       "Tính bảo mật, tính toàn vẹn và tính sẵn dùng"
     ],
-    "correctAnswer": "",
-    "correctAnswerIndex": -1
+    "correctAnswer": "A",
+    "correctAnswerIndex": 0
   },
   {
     "id": 47,
@@ -548,8 +548,8 @@
       "Do các tấn công, xâm nhập mới không có chữ ký",
       "Do các tấn công, xâm nhập mới không gây ra bất thường"
     ],
-    "correctAnswer": "",
-    "correctAnswerIndex": -1
+    "correctAnswer": "A",
+    "correctAnswerIndex": 0
   },
   {
     "id": 48,
@@ -560,8 +560,8 @@
       "Bảo mật cao và chi phí thấp",
       "Bảo mật cao và luôn đi cùng với chủ thể"
     ],
-    "correctAnswer": "",
-    "correctAnswerIndex": -1
+    "correctAnswer": "D",
+    "correctAnswerIndex": 3
   },
   {
     "id": 49,
@@ -572,8 +572,8 @@
       "Mạng",
       "Các router"
     ],
-    "correctAnswer": "",
-    "correctAnswerIndex": -1
+    "correctAnswer": "B",
+    "correctAnswerIndex": 1
   },
   {
     "id": 50,
@@ -584,8 +584,8 @@
       "Tên truy nhập và số PIN",
       "Thẻ ATM và tên truy nhập"
     ],
-    "correctAnswer": "",
-    "correctAnswerIndex": -1
+    "correctAnswer": "A",
+    "correctAnswerIndex": 0
   },
   {
     "id": 51,
@@ -596,8 +596,8 @@
       "Sử dụng mật khẩu",
       "Sử dụng vân tay"
     ],
-    "correctAnswer": "",
-    "correctAnswerIndex": -1
+    "correctAnswer": "B",
+    "correctAnswerIndex": 1
   },
   {
     "id": 52,
@@ -608,8 +608,8 @@
       "Phát hiện xâm nhập dựa trên chữ ký thường có tỷ lệ phát hiện đúng caohơn",
       "Phát hiện xâm nhập dựa trên bất thường thường có tỷ lệ phát hiện đúngcao hơn"
     ],
-    "correctAnswer": "",
-    "correctAnswerIndex": -1
+    "correctAnswer": "C",
+    "correctAnswerIndex": 2
   },
   {
     "id": 53,
@@ -620,8 +620,8 @@
       "Server gateway",
       "Application-level gateway"
     ],
-    "correctAnswer": "",
-    "correctAnswerIndex": -1
+    "correctAnswer": "D",
+    "correctAnswerIndex": 3
   },
   {
     "id": 54,
@@ -632,8 +632,8 @@
       "Trojan horse",
       "Spoofing"
     ],
-    "correctAnswer": "",
-    "correctAnswerIndex": -1
+    "correctAnswer": "C",
+    "correctAnswerIndex": 2
   },
   {
     "id": 55,
@@ -644,8 +644,8 @@
       "1",
       "2"
     ],
-    "correctAnswer": "",
-    "correctAnswerIndex": -1
+    "correctAnswer": "D",
+    "correctAnswerIndex": 3
   },
   {
     "id": 56,
@@ -656,8 +656,8 @@
       "Có cơ chế xác thực mạnh hơn",
       "Có cơ chế xác thực đa dạng hơn"
     ],
-    "correctAnswer": "",
-    "correctAnswerIndex": -1
+    "correctAnswer": "B",
+    "correctAnswerIndex": 1
   },
   {
     "id": 57,
@@ -668,8 +668,8 @@
       "Mỗi đối tượng được gán một danh sách người dùng kèm theo quyền truynhập",
       "Các quyền truy nhập vào đối tượng cho mỗi người dùng được quản lý trongmột ma trận"
     ],
-    "correctAnswer": "",
-    "correctAnswerIndex": -1
+    "correctAnswer": "C",
+    "correctAnswerIndex": 2
   },
   {
     "id": 58,
@@ -680,8 +680,8 @@
       "Sử dụng một khóa chung cho cả quá trình mã hóa và giải mã",
       "Chỉ sử dụng kỹ thuật mã hóa khối"
     ],
-    "correctAnswer": "",
-    "correctAnswerIndex": -1
+    "correctAnswer": "A",
+    "correctAnswerIndex": 0
   },
   {
     "id": 59,
@@ -692,7 +692,7 @@
       "Tính khó của việc phân tích số nguyên rất lớn",
       "Chi phí tính toán lớn"
     ],
-    "correctAnswer": "",
-    "correctAnswerIndex": -1
+    "correctAnswer": "C",
+    "correctAnswerIndex": 2
   }
 ]

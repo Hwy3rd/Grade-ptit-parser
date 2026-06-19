@@ -9,11 +9,14 @@ if (!fs.existsSync(outputDir)) {
 }
 
 try {
-  const files = fs.readdirSync(inputDir).filter(f => f.endsWith('.json'));
+  // Đọc các file .txt trong folder input
+  const files = fs.readdirSync(inputDir).filter(f => f.endsWith('.txt'));
   
   files.forEach(file => {
     const inputFile = path.join(inputDir, file);
-    const outputFile = path.join(outputDir, file);
+    // Lưu file JSON output cùng tên nhưng đổi đuôi .txt sang .json
+    const outputFilename = file.replace(/\.txt$/, '.json');
+    const outputFile = path.join(outputDir, outputFilename);
     
     const data = fs.readFileSync(inputFile, 'utf8');
     const lines = data.split(/\r?\n/).map(line => line.trim()).filter(line => line.length > 0);
@@ -21,8 +24,10 @@ try {
     const questionLines = [];
     const answerSheetLines = [];
 
+    // Tách dòng câu hỏi và dòng bảng đáp án
     for (const line of lines) {
-      if (/^\d+\.[A-D](\s+\d+\.[A-D])*$/.test(line)) {
+      // Nhận diện dòng bảng đáp án linh hoạt hơn: chứa nhiều cụm ví dụ "1D", "1.D", "2A", "2.A"...
+      if (/^\d+\.?[A-D](\s+\d+\.?[A-D])*$/.test(line)) {
         answerSheetLines.push(line);
       } else {
         questionLines.push(line);
@@ -34,7 +39,8 @@ try {
     const answerSheetStr = answerSheetLines.join(' ');
     const answerPairs = answerSheetStr.split(/\s+/);
     for (const pair of answerPairs) {
-      const match = pair.match(/^(\d+)\.([A-D])$/);
+      // Hỗ trợ cả định dạng "1D" và "1.D"
+      const match = pair.match(/^(\d+)\.?([A-D])$/);
       if (match) {
         const qNum = parseInt(match[1], 10);
         const ansLetter = match[2];
@@ -55,7 +61,10 @@ try {
         const answers = [];
         for (let j = 1; j <= 4; j++) {
           if (i + j < questionLines.length) {
-            answers.push(questionLines[i + j]);
+            let ansText = questionLines[i + j];
+            // Loại bỏ tiền tố "a. ", "b. ", "c. ", "d. " nếu có ở đáp án để hiển thị sạch sẽ
+            ansText = ansText.replace(/^[a-d]\.\s*/i, '');
+            answers.push(ansText);
           }
         }
 
