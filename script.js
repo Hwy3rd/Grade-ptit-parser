@@ -36,6 +36,16 @@ const wrongQuestionsSection = document.getElementById('wrong-questions-section')
 const wrongQuestionsList = document.getElementById('wrong-questions-list');
 const restartBtn = document.getElementById('restart-btn');
 
+// Modal Elements
+const editAnswerModal = document.getElementById('edit-answer-modal');
+const editModalQuestionText = document.getElementById('edit-modal-question-text');
+const newCorrectLetterSelect = document.getElementById('new-correct-letter');
+const quickEditTxtFormat = document.getElementById('quick-edit-txt-format');
+const btnCopyTxtFormat = document.getElementById('btn-copy-txt-format');
+const modalCancelBtn = document.getElementById('modal-cancel-btn');
+const modalDownloadBtn = document.getElementById('modal-download-btn');
+let editingQuestionId = null;
+
 // --- Khởi tạo và Lắng nghe sự kiện ---
 document.addEventListener('DOMContentLoaded', () => {
   // Lắng nghe tải file lên
@@ -60,6 +70,29 @@ document.addEventListener('DOMContentLoaded', () => {
       finishQuiz();
     }
   });
+
+  // Modal Cancel
+  modalCancelBtn.addEventListener('click', () => {
+    editAnswerModal.classList.add('hidden');
+    editingQuestionId = null;
+  });
+
+  // Modal Letter Change
+  newCorrectLetterSelect.addEventListener('change', () => {
+    if (editingQuestionId !== null) {
+      quickEditTxtFormat.value = `${editingQuestionId}${newCorrectLetterSelect.value}`;
+    }
+  });
+
+  // Modal Copy
+  btnCopyTxtFormat.addEventListener('click', () => {
+    quickEditTxtFormat.select();
+    document.execCommand('copy');
+    alert('Đã copy định dạng đáp án thô vào clipboard!');
+  });
+
+  // Modal Download
+  modalDownloadBtn.addEventListener('click', downloadUpdatedJson);
 
   // Làm lại
   restartBtn.addEventListener('click', resetApp);
@@ -393,8 +426,18 @@ function finishQuiz() {
       reviewCard.className = 'review-card';
 
       const revTitle = document.createElement('div');
-      revTitle.className = 'review-question';
-      revTitle.textContent = `[Câu ${question.id}] - ${question.question}`;
+      revTitle.className = 'review-question review-header-flex';
+      
+      const textSpan = document.createElement('span');
+      textSpan.textContent = `[Câu ${question.id}] - ${question.question}`;
+      revTitle.appendChild(textSpan);
+
+      const editBtn = document.createElement('button');
+      editBtn.className = 'btn-edit-quick';
+      editBtn.textContent = '✏️ Sửa đáp án';
+      editBtn.addEventListener('click', () => openEditModal(question));
+      revTitle.appendChild(editBtn);
+
       reviewCard.appendChild(revTitle);
 
       const revAnswers = document.createElement('div');
@@ -435,9 +478,70 @@ function finishQuiz() {
   }
 }
 
+// --- Mở Modal Sửa Đáp Án Nhanh ---
+function openEditModal(question) {
+  editingQuestionId = question.id;
+  editModalQuestionText.textContent = question.question;
+  newCorrectLetterSelect.value = question.correctAnswer;
+  
+  // Hiển thị định dạng thô dạng "12D" để tiện chỉnh sửa
+  quickEditTxtFormat.value = `${question.id}${question.correctAnswer}`;
+  
+  editAnswerModal.classList.remove('hidden');
+}
+
+// --- Tải về file JSON mới sau khi sửa đáp án ---
+function downloadUpdatedJson() {
+  if (!editingQuestionId) return;
+  
+  const val = quickEditTxtFormat.value.trim();
+  const match = val.match(/^\d+([A-D])$/i);
+  if (!match) {
+    alert('Định dạng không hợp lệ! Vui lòng nhập đúng định dạng, ví dụ: 12D');
+    return;
+  }
+  
+  const newLetter = match[1].toUpperCase();
+  const letterToIndex = { 'A': 0, 'B': 1, 'C': 2, 'D': 3 };
+  const newIndex = letterToIndex[newLetter];
+
+  // Cập nhật đáp án đúng trong mảng dữ liệu hiện tại
+  const originalQ = questionsData.find(q => q.id === editingQuestionId);
+  if (originalQ) {
+    const currentQ = currentQuestions.find(q => q.id === editingQuestionId);
+    if (currentQ) {
+      const correctText = currentQ.answers[newIndex];
+      const origIndex = originalQ.answers.indexOf(correctText);
+      if (origIndex !== -1) {
+        originalQ.correctAnswerIndex = origIndex;
+        originalQ.correctAnswer = ['A', 'B', 'C', 'D'][origIndex];
+      }
+    }
+  }
+
+  // Tạo file blob và kích hoạt download
+  const jsonString = JSON.stringify(questionsData, null, 2);
+  const blob = new Blob([jsonString], { type: 'application/json' });
+  const url = URL.createObjectURL(blob);
+  
+  const a = document.createElement('a');
+  const currentFilename = uploadedQuestions ? 'custom_questions.json' : questionSourceSelect.value;
+  a.href = url;
+  a.download = currentFilename;
+  document.body.appendChild(a);
+  a.click();
+  document.body.removeChild(a);
+  URL.revokeObjectURL(url);
+
+  editAnswerModal.classList.add('hidden');
+  alert(`Đã cập nhật câu ${editingQuestionId} thành đáp án đúng là ${newLetter}. File JSON mới đã được tải xuống! Hãy chép đè vào thư mục questions/ để cập nhật vĩnh viễn.`);
+  
+  // Tải lại kết quả hiển thị trên trang hiện tại
+  finishQuiz();
+}
+
 // --- Quay lại màn hình thiết lập ---
 function resetApp() {
   resultScreen.classList.remove('active');
   configScreen.classList.add('active');
-  // Giữ lại file custom nếu có
 }
