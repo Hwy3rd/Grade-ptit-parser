@@ -1,0 +1,602 @@
+[
+  {
+    "id": 1,
+    "question": "Câu 1. Một trong các điểm yếu của các hệ mã hóa khóa đối xứng là:",
+    "answers": [
+      "Chi phí tính toán lớn",
+      "Khó khăn trong quản lý và phân phối khóa",
+      "Độ an toàn thấp",
+      "Khó khăn trong cài đặt và triển khai hệ thống"
+    ],
+    "correctAnswer": "B",
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 2,
+    "question": "Câu 2. Trong quá trình xử lý thông điệp đầu vào tạo chuỗi băm, số lượng vòng xử lý của hàm băm SHA1 là:",
+    "answers": [
+      "80",
+      "90",
+      "60",
+      "70"
+    ],
+    "correctAnswer": "A",
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 3,
+    "question": "Câu 3. Chữ ký số (sử dụng riêng) thường được sử dụng để đảm bảo thuộc tính nào sau đây của thông điệp truyền đưa:",
+    "answers": [
+      "Tính bí mật",
+      "Tính không chối bỏ",
+      "Tính sẵn dùng",
+      "Tính toàn vẹn"
+    ],
+    "correctAnswer": "B",
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 4,
+    "question": "Câu 4. Phát hiện tấn công, xâm nhập dựa trên bất thường có tiềm năng phát hiện các loại tấn công, xâm nhập mới là do:",
+    "answers": [
+      "Không yêu cầu biết trước thông tin về chúng",
+      "Đã có chữ ký của các tấn công, xâm nhập mới",
+      "Các tấn công, xâm nhập mới thường dễ nhận biết",
+      "Không yêu cầu xây dựng cơ sở dữ liệu các chữ ký"
+    ],
+    "correctAnswer": "A",
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 5,
+    "question": "Câu 5. Giao thức SSL sử dụng giao thức con SSL Handshake để khởi tạo phiên làm việc. SSL Handshake thực hiện việc xác thực thực thể dựa trên:",
+    "answers": [
+      "Chứng chỉ số khóa công khai",
+      "Mã hóa khóa bí mật",
+      "Mã hóa khóa công khai",
+      "Chữ ký số"
+    ],
+    "correctAnswer": "A",
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 6,
+    "question": "Câu 6. Trojan horses là dạng phần mềm độc hại thường giành quyền truy nhập vào các file của người dùng khai thác cơ chế điều khiển truy nhập...",
+    "answers": [
+      "МАС",
+      "Role-Based",
+      "Rule-Based",
+      "DAC"
+    ],
+    "correctAnswer": "D",
+    "correctAnswerIndex": 3
+  },
+  {
+    "id": 7,
+    "question": "Câu 7. Câu lệnh SQL nào tin tặc thường sử dụng trong tấn công chèn mã SQL để đánh cắp các thông tin trong cơ sở dữ liệu?",
+    "answers": [
+      "UNION INSERT",
+      "UNION SELECT",
+      "SELECT UNION",
+      "INSERT SELECT"
+    ],
+    "correctAnswer": "B",
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 8,
+    "question": "Câu 8. Giao thức SSL sử dụng giao thức con SSL Handshake để khởi tạo phiên làm việc. SSL Handshake thực hiện việc trao đổi các khóa phiên dùng cho phiên làm việc dựa trên:",
+    "answers": [
+      "Chữ ký số",
+      "Mã hóa khóa bí mật",
+      "Mã hóa khóa công khai",
+      "Chứng chỉ số"
+    ],
+    "correctAnswer": "C",
+    "correctAnswerIndex": 2
+  },
+  {
+    "id": 9,
+    "question": "Câu 9. Độ an toàn của hệ mật mã RSA dựa trên...",
+    "answers": [
+      "Độ phức tạp cao của giải thuật RSA",
+      "Chi phí tính toán lớn",
+      "Tính khó của việc phân tích số nguyên rất lớn",
+      "Khóa có kích thước lớn"
+    ],
+    "correctAnswer": "C",
+    "correctAnswerIndex": 2
+  },
+  {
+    "id": 10,
+    "question": "Câu 10. Đây là một phương pháp mã hóa",
+    "answers": [
+      "OR",
+      "AND",
+      "NOT",
+      "XOR"
+    ],
+    "correctAnswer": "D",
+    "correctAnswerIndex": 3
+  },
+  {
+    "id": 11,
+    "question": "Câu 11. Ưu điểm của điều khiển truy nhập dựa trên các đặc điểm sinh trắc học là:",
+    "answers": [
+      "Bảo mật cao và độ ổn định cao",
+      "Bảo mật cao và chi phí thấp",
+      "Bảo mật cao và luôn đi cùng với chủ thể",
+      "Bảo mật cao và được hỗ trợ rộng rãi"
+    ],
+    "correctAnswer": "C",
+    "correctAnswerIndex": 2
+  },
+  {
+    "id": 12,
+    "question": "Câu 12. Phát biểu nào sau đây về chữ ký số là chính xác:",
+    "answers": [
+      "Chữ ký số là một chuỗi dữ liệu được tạo ra bằng cách mã hóa thông điệp sử dụng khóa bí mật",
+      "Chữ ký số là một chuỗi dữ liệu liên kết với một thông điệp và thực thể tạo ra thông điệp",
+      "Chữ ký số được sử dụng để đảm bảo tính bí mật và toàn vẹn thông điệp",
+      "Chữ ký số được sử dụng để đảm bảo tính bí mật, toàn vẹn và xác thực thông điệp"
+    ],
+    "correctAnswer": "B",
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 13,
+    "question": "Câu 13. Một trong các cách virus thường sử dụng để lây nhiễm vào các chương trình khác là:",
+    "answers": [
+      "Ẩn mã của virus",
+      "Thay thế các chương trình",
+      "Xáo trộn mã của virus",
+      "Sửa đổi các chương trình"
+    ],
+    "correctAnswer": "D",
+    "correctAnswerIndex": 3
+  },
+  {
+    "id": 14,
+    "question": "Câu 14. Khi sinh cặp khóa RSA, các số nguyên tố p và q nên được chọn với kích thước…",
+    "answers": [
+      "p càng lớn càng tốt",
+      "Bằng khoảng một nửa kích thước của modulo n",
+      "Không có yêu cầu về kích thước của p và q",
+      "q càng lớn càng tốt"
+    ],
+    "correctAnswer": "B",
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 15,
+    "question": "Câu 15. Nguy cơ cao nhất mà một cuộc tấn công chèn mã SQL có thể gây ra cho một hệ thống là:",
+    "answers": [
+      "Đánh cắp các thông tin trong cơ sở dữ liệu",
+      "Chèn, xóa hoặc sửa đổi dữ liệu",
+      "Vượt qua các khâu xác thực người dùng",
+      "Chiếm quyền điều khiển hệ thống"
+    ],
+    "correctAnswer": "D",
+    "correctAnswerIndex": 3
+  },
+  {
+    "id": 16,
+    "question": "Câu 16. Số vòng lặp chuyển đổi cần thực hiện để chuyển bản rõ thành bản mã của giải thuật mã hóa AES với khóa 192 bít là:",
+    "answers": [
+      "10",
+      "12",
+      "16",
+      "14"
+    ],
+    "correctAnswer": "B",
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 17,
+    "question": "Câu 17. Phát hiện tấn công, xâm nhập dựa trên bất thường dựa trên giá thiết:",
+    "answers": [
+      "Các hành vi tấn công, xâm nhập thường có quan hệ chặt chẽ với các hành vi bất thường",
+      "Các hành vi tấn công, xâm nhập gây ngắt quãng dịch vụ cung cấp cho người dùng",
+      "Các hành vi tấn công, xâm nhập có quan hệ chặt chẽ với các dịch vụ được cung cấp",
+      "Các hành vi tấn công, xâm nhập gây tổn hại nghiêm trọng cho hệ thống"
+    ],
+    "correctAnswer": "A",
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 18,
+    "question": "Câu 18. Giải thuật mã hóa AES được thiết kế dựa trên…",
+    "answers": [
+      "mạng hoán vị-vernam",
+      "mạng xor-thay thế",
+      "mạng hoán vị-thay thế",
+      "mạng hoán vị-xor"
+    ],
+    "correctAnswer": "C",
+    "correctAnswerIndex": 2
+  },
+  {
+    "id": 19,
+    "question": "Câu 19. Tìm phát biểu đúng về mã hóa khóa đối xứng (Symmetric key cryptography):",
+    "answers": [
+      "Sử dụng một khóa chung cho cả quá trình mã hóa và giải mã",
+      "Sử dụng một khóa quá trình mã hóa và một khóa khác cho giải mã",
+      "An toàn hơn mã hóa khóa công khai",
+      "Chỉ sử dụng kỹ thuật mã hóa khối"
+    ],
+    "correctAnswer": "A",
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 20,
+    "question": "Câu 20. Các dạng phần mềm độc hại (malware) có khả năng tự nhân bản gồm:",
+    "answers": [
+      "Virus, zombie, spyware",
+      "Virus, trojan, zombie",
+      "Virus, worm, trojan",
+      "Virus, worm, zombie"
+    ],
+    "correctAnswer": "D",
+    "correctAnswerIndex": 3
+  },
+  {
+    "id": 21,
+    "question": "Câu 21. Trong hệ chữ ký số RSA, việc tạo chữ ký số cho một thông điệp cần sử dụng một khóa. Khóa đó là:",
+    "answers": [
+      "Khóa riêng của người nhận",
+      "Khóa công khai của người nhận",
+      "Khóa công khai của người gửi",
+      "Khóa riêng của người gửi"
+    ],
+    "correctAnswer": "D",
+    "correctAnswerIndex": 3
+  },
+  {
+    "id": 22,
+    "question": "Câu 22. Các hộp thay thế s-box trong giải thuật DES có số bít đầu vào và đầu ra tương ứng là:",
+    "answers": [
+      "Vào 4 bít và ra 4 bít",
+      "Vào 6 bít và ra 6 bít",
+      "Vào 8 bít và ra 6 bít",
+      "Vào 6 bít và ra 4 bít"
+    ],
+    "correctAnswer": "D",
+    "correctAnswerIndex": 3
+  },
+  {
+    "id": 23,
+    "question": "Câu 23. Tính bảo mật của kỹ thuật điều khiển truy nhập sử dụng mật khẩu dựa trên:",
+    "answers": [
+      "Tần suất sử dụng mật khẩu",
+      "Kích thước của mật khẩu",
+      "Độ khó đoán và tuổi thọ của mật khẩu",
+      "Số loại ký tự dùng trong mật khẩu"
+    ],
+    "correctAnswer": "C",
+    "correctAnswerIndex": 2
+  },
+  {
+    "id": 24,
+    "question": "Câu 24. Một trong các biện pháp có thể sử dụng để phòng chống tấn công người đứng giữa là:",
+    "answers": [
+      "Sử dụng các hệ thống IPS/IDS",
+      "Sử dụng chứng chỉ số để xác thực thông tin nhận dạng các bên",
+      "Sử dụng mã hóa để đảm bảo tính bí mật các thông điệp truyền",
+      "Sử dụng tường lửa để ngăn chặn"
+    ],
+    "correctAnswer": "B",
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 25,
+    "question": "Câu 25. Mục đích chính của tấn công giả mạo địa chỉ IP là:",
+    "answers": [
+      "Để vượt qua các hệ thống IPS và IDS",
+      "Để vượt qua các hàng rào kiểm soát an ninh",
+      "Để đánh cắp các dữ liệu nhạy cảm trên máy trạm",
+      "Để đánh cắp các dữ liệu nhạy cảm trên máy chủ"
+    ],
+    "correctAnswer": "B",
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 26,
+    "question": "Câu 26. Kích thước khối dữ liệu xử lý của giải thuật mã hóa AES là:",
+    "answers": [
+      "160 bit",
+      "64 bit",
+      "192 bít",
+      "128 bit"
+    ],
+    "correctAnswer": "D",
+    "correctAnswerIndex": 3
+  },
+  {
+    "id": 27,
+    "question": "Câu 27. Một trong các ứng dụng phổ biến của các hàm băm một chiều là để...",
+    "answers": [
+      "Mã hóa thẻ tín dụng",
+      "Mã hóa địa chỉ",
+      "Mã hóa mật khẩu",
+      "Mã hóa tên tài khoản"
+    ],
+    "correctAnswer": "C",
+    "correctAnswerIndex": 2
+  },
+  {
+    "id": 28,
+    "question": "Câu 28. PGP đảm bảo tính xác thực thông điệp bằng cách:",
+    "answers": [
+      "Mã hóa/giải mã thông điệp",
+      "Sử dụng hàm băm có khóa MAC",
+      "Sử dụng hàm băm không khóa MDC",
+      "Tạo và kiểm tra chữ ký số"
+    ],
+    "correctAnswer": "D",
+    "correctAnswerIndex": 3
+  },
+  {
+    "id": 29,
+    "question": "Câu 29. Tấn công từ chối dịch vụ (Dos - Denial of Service Attacks) là dạng tấn công có khả năng...",
+    "answers": [
+      "Gây hư hỏng phần cứng máy chủ",
+      "Cản trở người dùng hợp pháp truy nhập các tài nguyên hệ thống",
+      "Đánh cắp dữ liệu trong hệ thống",
+      "Cản trở người dùng hợp pháp truy nhập các file dữ liệu của hệ thống"
+    ],
+    "correctAnswer": "B",
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 30,
+    "question": "Câu 30. Phát biểu nào sau đây về chữ ký số là chính xác:",
+    "answers": [
+      "Chữ ký số là một chuỗi dữ liệu được tạo ra bằng cách mã hóa thông điệp sử dụng khóa bí mật",
+      "Chữ ký số là một chuỗi dữ liệu liên kết với một thông điệp và thực thể tạo ra thông điệp",
+      "Chữ ký số được sử dụng để đảm bảo tính bí mật, toàn vẹn và xác thực thông điệp",
+      "Chữ ký số được sử dụng để đảm bảo tính bí mật và toàn vẹn thông điệp"
+    ],
+    "correctAnswer": "B",
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 31,
+    "question": "Câu 31. Hai thuộc tính cơ bản quan trọng nhất của một hàm băm là:",
+    "answers": [
+      "Nén và một chiều",
+      "Dễ tính toán và có đầu ra cố định",
+      "Một chiều và đầu ra cố định",
+      "Nén và dễ tính toán"
+    ],
+    "correctAnswer": "A",
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 32,
+    "question": "Câu 32. Một trong các mối đe dọa an toàn thông tin thường gặp là:",
+    "answers": [
+      "Phần mềm nghe lén",
+      "Phần mềm quảng cáo",
+      "Phần mềm phá mã",
+      "Phần mềm độc hại"
+    ],
+    "correctAnswer": "D",
+    "correctAnswerIndex": 3
+  },
+  {
+    "id": 33,
+    "question": "Câu 33. Phishing là một dạng của loại tấn công sử dụng...",
+    "answers": [
+      "Kỹ thuật chèn mã",
+      "Kỹ thuật giả mạo địa chỉ IP",
+      "Kỹ thuật gây tràn bộ đệm",
+      "Kỹ thuật xã hội"
+    ],
+    "correctAnswer": "D",
+    "correctAnswerIndex": 3
+  },
+  {
+    "id": 34,
+    "question": "Câu 34. Sử dụng kết hợp chứng chỉ số khóa công khai và chữ ký số có thể đảm bảo:",
+    "answers": [
+      "Xác thực thực thể và toàn vẹn thông tin truyền",
+      "Xác thực thực thể và bí mật thông tin truyền",
+      "Bí mật và xác thực nguồn gốc thông tin truyền",
+      "Bí mật và toàn vẹn thông tin truyền"
+    ],
+    "correctAnswer": "A",
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 35,
+    "question": "Câu 35. Nguyên tắc bảo mật tài nguyên của mô hình Bell-La Padula là:",
+    "answers": [
+      "Đọc lên và ghi lên",
+      "Đọc xuống và ghi xuống",
+      "Đọc xuống và ghi lên",
+      "Đọc lên và ghi xuống"
+    ],
+    "correctAnswer": "C",
+    "correctAnswerIndex": 2
+  },
+  {
+    "id": 36,
+    "question": "Câu 36. PGP đảm bảo tính bí mật thông điệp bằng cách sử dụng:",
+    "answers": [
+      "Mã hóa khóa bất đối xứng sử dụng khóa công khai",
+      "Mã hóa khóa đối xứng sử dụng khóa phiên",
+      "Mã hóa khóa đối xứng sử dụng khóa công khai",
+      "Mã hóa khóa bất đối xứng sử dụng khóa phiên"
+    ],
+    "correctAnswer": "B",
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 37,
+    "question": "Câu 37. Số lượng vòng lặp chính thực hiện xáo trộn dữ liệu theo hàm Feistel (F) trong giải thuật DES là:",
+    "answers": [
+      "14",
+      "16",
+      "18",
+      "20"
+    ],
+    "correctAnswer": "B",
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 38,
+    "question": "Câu 38. Một trong các điểm yếu của các hệ mã hóa khóa công khai là:",
+    "answers": [
+      "Khó cài đặt trên thực tế",
+      "Khó khăn trong quản lý và phân phối khóa",
+      "Tốc độ chậm",
+      "Độ an toàn thấp"
+    ],
+    "correctAnswer": "C",
+    "correctAnswerIndex": 2
+  },
+  {
+    "id": 39,
+    "question": "Câu 39. Các thuộc tính cơ bản của chứng chỉ số khóa công khai (Public key digital certificate) gồm:",
+    "answers": [
+      "Số nhận dạng, khóa riêng của chủ thể, chữ ký của nhà cung cấp CA",
+      "Khóa công khai của chủ thể, thông tin địa chỉ chủ thể, thuật toán chữ ký sử dụng",
+      "Số nhận dạng, khóa riêng của chủ thể, thông tin định danh chủ thể",
+      "Khóa công khai của chủ thể, thông tin định danh chủ thể, chữ ký của nhà cung cấp (CA)"
+    ],
+    "correctAnswer": "D",
+    "correctAnswerIndex": 3
+  },
+  {
+    "id": 40,
+    "question": "Câu 40. Một trong các điểm yếu làm giảm hiệu quả của phát hiện tấn công, xâm nhập dựa trên bất thường là:",
+    "answers": [
+      "Không có khả năng ngăn chặn tấn công, đột nhập",
+      "Không có khả năng phát hiện các cuộc tấn công Dos",
+      "Tỷ lệ cảnh báo sai cao",
+      "Không có khả năng phát hiện tấn công, xâm nhập mới"
+    ],
+    "correctAnswer": "C",
+    "correctAnswerIndex": 2
+  },
+  {
+    "id": 41,
+    "question": "Câu 41. Tìm phát biểu đúng về mã hóa khóa bất đối xứng (Asymmetric key cryptography):",
+    "answers": [
+      "An toàn hơn mã hóa khóa bí mật",
+      "Sử dụng một khóa quá trình mã hóa và một khóa khác cho giải mã",
+      "Chỉ sử dụng kỹ thuật mã hóa khối",
+      "Sử dụng một khóa chung cho cả quá trình mã hóa và giải mã"
+    ],
+    "correctAnswer": "B",
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 42,
+    "question": "Câu 42. Macro viruses là loại viruses thường lây nhiễm vào…",
+    "answers": [
+      "Các file tài liệu của bộ phần mềm Open Office",
+      "Các file tài liệu của bộ phần mềm Microsoft Exchange",
+      "Các file tài liệu của bộ phần mềm Microsoft SQL",
+      "Các file tài liệu của bộ phần mềm Microsoft Office"
+    ],
+    "correctAnswer": "D",
+    "correctAnswerIndex": 3
+  },
+  {
+    "id": 43,
+    "question": "Câu 43. PGP đảm bảo tính bí mật thông điệp bằng cách sử dụng:",
+    "answers": [
+      "Mã hóa khóa bất đối xứng sử dụng khóa phiên",
+      "Mã hóa khóa đối xứng sử dụng khóa phiên",
+      "Mã hóa khóa bất đối xứng sử dụng khóa công khai",
+      "Mã hóa khóa đối xứng sử dụng khóa công khai"
+    ],
+    "correctAnswer": "B",
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 44,
+    "question": "Câu 44. Mật khẩu an toàn trong thời điểm hiện tại là mật khẩu có:",
+    "answers": [
+      "Chứa các ký tự từ nhiều dạng ký tự",
+      "Khả năng chống tấn công phát lại và chứa các ký tự từ nhiều dạng ký tự",
+      "Độ dài từ 8 ký tự trở lên, gồm chữ cái hoa, thường, chữ số và ký tự đặc biệt",
+      "Độ dài lớn hơn hoặc bằng 8 ký tự"
+    ],
+    "correctAnswer": "C",
+    "correctAnswerIndex": 2
+  },
+  {
+    "id": 45,
+    "question": "Câu 45. Tấn công kiểu Social Engineering là dạng tấn công khai thác yếu tố nào sau đây trong hệ thống?",
+    "answers": [
+      "Máy trạm",
+      "Người dùng",
+      "Máy chủ",
+      "Hệ điều hành & ứng dụng"
+    ],
+    "correctAnswer": "B",
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 46,
+    "question": "Câu 46. Số lượng thao tác trong mỗi vòng xử lý của hàm băm MD5 là:",
+    "answers": [
+      "14",
+      "16",
+      "18",
+      "12"
+    ],
+    "correctAnswer": "B",
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 47,
+    "question": "Câu 47. Một trong các ứng dụng phổ biến của các hàm băm là để tạo chuỗi...",
+    "answers": [
+      "CheckError",
+      "CheckTotal",
+      "CheckNum",
+      "Checksum"
+    ],
+    "correctAnswer": "D",
+    "correctAnswerIndex": 3
+  },
+  {
+    "id": 48,
+    "question": "Câu 48. Điểm khác nhau chính giữa hai loại hàm băm MDC và MAC là:",
+    "answers": [
+      "MDC là loại hàm băm không khóa, còn MAC là loại hàm băm có khóa",
+      "MDC có khả năng chống đụng độ cao hơn MAC",
+      "MDC an toàn hơn MAC",
+      "MAC an toàn hơn MDC"
+    ],
+    "correctAnswer": "A",
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 49,
+    "question": "Câu 49. Một hệ mã hóa (cryptosystem) được cấu thành từ hai thành phần chính gồm:",
+    "answers": [
+      "Phương pháp mã hóa và chia khối",
+      "Giải thuật mã hóa và ký số",
+      "Phương pháp mã hóa và không gian khóa",
+      "Giải thuật mã hóa và giải mã"
+    ],
+    "correctAnswer": "C",
+    "correctAnswerIndex": 2
+  },
+  {
+    "id": 50,
+    "question": "Câu 50. Trong tấn công DDoS phản chiếu hay gián tiếp, có sự tham gia của một số lượng lớn máy chủ trên mạng Internet không bị tin tặc chiếm quyền điều khiển. Các máy chủ này được gọi là...",
+    "answers": [
+      "Reflectors",
+      "Requesters",
+      "Forwarders",
+      "Injectors"
+    ],
+    "correctAnswer": "A",
+    "correctAnswerIndex": 0
+  }
+]

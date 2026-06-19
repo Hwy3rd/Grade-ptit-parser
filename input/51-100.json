@@ -1,0 +1,255 @@
+Câu 1. Một trong các điểm yếu của các hệ mã hóa khóa đối xứng là:
+Chi phí tính toán lớn
+Khó khăn trong quản lý và phân phối khóa
+Độ an toàn thấp
+Khó khăn trong cài đặt và triển khai hệ thống
+Câu 2. Trong quá trình xử lý thông điệp đầu vào tạo chuỗi băm, số lượng vòng xử lý của hàm băm SHA1 là:
+80
+90
+60
+70
+Câu 3. Chữ ký số (sử dụng riêng) thường được sử dụng để đảm bảo thuộc tính nào sau đây của thông điệp truyền đưa:
+Tính bí mật
+Tính không chối bỏ
+Tính sẵn dùng
+Tính toàn vẹn
+Câu 4. Phát hiện tấn công, xâm nhập dựa trên bất thường có tiềm năng phát hiện các loại tấn công, xâm nhập mới là do:
+Không yêu cầu biết trước thông tin về chúng
+Đã có chữ ký của các tấn công, xâm nhập mới
+Các tấn công, xâm nhập mới thường dễ nhận biết
+Không yêu cầu xây dựng cơ sở dữ liệu các chữ ký
+Câu 5. Giao thức SSL sử dụng giao thức con SSL Handshake để khởi tạo phiên làm việc. SSL Handshake thực hiện việc xác thực thực thể dựa trên:
+Chứng chỉ số khóa công khai
+Mã hóa khóa bí mật
+Mã hóa khóa công khai
+Chữ ký số
+Câu 6. Trojan horses là dạng phần mềm độc hại thường giành quyền truy nhập vào các file của người dùng khai thác cơ chế điều khiển truy nhập...
+МАС
+Role-Based
+Rule-Based
+DAC
+Câu 7. Câu lệnh SQL nào tin tặc thường sử dụng trong tấn công chèn mã SQL để đánh cắp các thông tin trong cơ sở dữ liệu?
+UNION INSERT
+UNION SELECT
+SELECT UNION
+INSERT SELECT
+Câu 8. Giao thức SSL sử dụng giao thức con SSL Handshake để khởi tạo phiên làm việc. SSL Handshake thực hiện việc trao đổi các khóa phiên dùng cho phiên làm việc dựa trên:
+Chữ ký số
+Mã hóa khóa bí mật
+Mã hóa khóa công khai
+Chứng chỉ số
+Câu 9. Độ an toàn của hệ mật mã RSA dựa trên...
+Độ phức tạp cao của giải thuật RSA
+Chi phí tính toán lớn
+Tính khó của việc phân tích số nguyên rất lớn
+Khóa có kích thước lớn
+Câu 10. Đây là một phương pháp mã hóa
+OR
+AND
+NOT
+XOR
+Câu 11. Ưu điểm của điều khiển truy nhập dựa trên các đặc điểm sinh trắc học là:
+Bảo mật cao và độ ổn định cao
+Bảo mật cao và chi phí thấp
+Bảo mật cao và luôn đi cùng với chủ thể
+Bảo mật cao và được hỗ trợ rộng rãi
+Câu 12. Phát biểu nào sau đây về chữ ký số là chính xác:
+Chữ ký số là một chuỗi dữ liệu được tạo ra bằng cách mã hóa thông điệp sử dụng khóa bí mật
+Chữ ký số là một chuỗi dữ liệu liên kết với một thông điệp và thực thể tạo ra thông điệp
+Chữ ký số được sử dụng để đảm bảo tính bí mật và toàn vẹn thông điệp
+Chữ ký số được sử dụng để đảm bảo tính bí mật, toàn vẹn và xác thực thông điệp
+Câu 13. Một trong các cách virus thường sử dụng để lây nhiễm vào các chương trình khác là:
+Ẩn mã của virus
+Thay thế các chương trình
+Xáo trộn mã của virus
+Sửa đổi các chương trình
+Câu 14. Khi sinh cặp khóa RSA, các số nguyên tố p và q nên được chọn với kích thước…
+p càng lớn càng tốt
+Bằng khoảng một nửa kích thước của modulo n
+Không có yêu cầu về kích thước của p và q
+q càng lớn càng tốt
+Câu 15. Nguy cơ cao nhất mà một cuộc tấn công chèn mã SQL có thể gây ra cho một hệ thống là:
+Đánh cắp các thông tin trong cơ sở dữ liệu
+Chèn, xóa hoặc sửa đổi dữ liệu
+Vượt qua các khâu xác thực người dùng
+Chiếm quyền điều khiển hệ thống
+Câu 16. Số vòng lặp chuyển đổi cần thực hiện để chuyển bản rõ thành bản mã của giải thuật mã hóa AES với khóa 192 bít là:
+10
+12
+16
+14
+Câu 17. Phát hiện tấn công, xâm nhập dựa trên bất thường dựa trên giá thiết:
+Các hành vi tấn công, xâm nhập thường có quan hệ chặt chẽ với các hành vi bất thường
+Các hành vi tấn công, xâm nhập gây ngắt quãng dịch vụ cung cấp cho người dùng
+Các hành vi tấn công, xâm nhập có quan hệ chặt chẽ với các dịch vụ được cung cấp
+Các hành vi tấn công, xâm nhập gây tổn hại nghiêm trọng cho hệ thống
+Câu 18. Giải thuật mã hóa AES được thiết kế dựa trên…
+mạng hoán vị-vernam
+mạng xor-thay thế
+mạng hoán vị-thay thế
+mạng hoán vị-xor
+Câu 19. Tìm phát biểu đúng về mã hóa khóa đối xứng (Symmetric key cryptography):
+Sử dụng một khóa chung cho cả quá trình mã hóa và giải mã
+Sử dụng một khóa quá trình mã hóa và một khóa khác cho giải mã
+An toàn hơn mã hóa khóa công khai
+Chỉ sử dụng kỹ thuật mã hóa khối
+Câu 20. Các dạng phần mềm độc hại (malware) có khả năng tự nhân bản gồm:
+Virus, zombie, spyware
+Virus, trojan, zombie
+Virus, worm, trojan
+Virus, worm, zombie
+Câu 21. Trong hệ chữ ký số RSA, việc tạo chữ ký số cho một thông điệp cần sử dụng một khóa. Khóa đó là:
+Khóa riêng của người nhận
+Khóa công khai của người nhận
+Khóa công khai của người gửi
+Khóa riêng của người gửi
+Câu 22. Các hộp thay thế s-box trong giải thuật DES có số bít đầu vào và đầu ra tương ứng là:
+Vào 4 bít và ra 4 bít
+Vào 6 bít và ra 6 bít
+Vào 8 bít và ra 6 bít
+Vào 6 bít và ra 4 bít
+Câu 23. Tính bảo mật của kỹ thuật điều khiển truy nhập sử dụng mật khẩu dựa trên:
+Tần suất sử dụng mật khẩu
+Kích thước của mật khẩu
+Độ khó đoán và tuổi thọ của mật khẩu
+Số loại ký tự dùng trong mật khẩu
+Câu 24. Một trong các biện pháp có thể sử dụng để phòng chống tấn công người đứng giữa là:
+Sử dụng các hệ thống IPS/IDS
+Sử dụng chứng chỉ số để xác thực thông tin nhận dạng các bên
+Sử dụng mã hóa để đảm bảo tính bí mật các thông điệp truyền
+Sử dụng tường lửa để ngăn chặn
+Câu 25. Mục đích chính của tấn công giả mạo địa chỉ IP là:
+Để vượt qua các hệ thống IPS và IDS
+Để vượt qua các hàng rào kiểm soát an ninh
+Để đánh cắp các dữ liệu nhạy cảm trên máy trạm
+Để đánh cắp các dữ liệu nhạy cảm trên máy chủ
+Câu 26. Kích thước khối dữ liệu xử lý của giải thuật mã hóa AES là:
+160 bit
+64 bit
+192 bít
+128 bit
+Câu 27. Một trong các ứng dụng phổ biến của các hàm băm một chiều là để...
+Mã hóa thẻ tín dụng
+Mã hóa địa chỉ
+Mã hóa mật khẩu
+Mã hóa tên tài khoản
+Câu 28. PGP đảm bảo tính xác thực thông điệp bằng cách:
+Mã hóa/giải mã thông điệp
+Sử dụng hàm băm có khóa MAC
+Sử dụng hàm băm không khóa MDC
+Tạo và kiểm tra chữ ký số
+Câu 29. Tấn công từ chối dịch vụ (Dos - Denial of Service Attacks) là dạng tấn công có khả năng...
+Gây hư hỏng phần cứng máy chủ
+Cản trở người dùng hợp pháp truy nhập các tài nguyên hệ thống
+Đánh cắp dữ liệu trong hệ thống
+Cản trở người dùng hợp pháp truy nhập các file dữ liệu của hệ thống
+Câu 30. Phát biểu nào sau đây về chữ ký số là chính xác:
+Chữ ký số là một chuỗi dữ liệu được tạo ra bằng cách mã hóa thông điệp sử dụng khóa bí mật
+Chữ ký số là một chuỗi dữ liệu liên kết với một thông điệp và thực thể tạo ra thông điệp
+Chữ ký số được sử dụng để đảm bảo tính bí mật, toàn vẹn và xác thực thông điệp
+Chữ ký số được sử dụng để đảm bảo tính bí mật và toàn vẹn thông điệp
+Câu 31. Hai thuộc tính cơ bản quan trọng nhất của một hàm băm là:
+Nén và một chiều
+Dễ tính toán và có đầu ra cố định
+Một chiều và đầu ra cố định
+Nén và dễ tính toán
+Câu 32. Một trong các mối đe dọa an toàn thông tin thường gặp là:
+Phần mềm nghe lén
+Phần mềm quảng cáo
+Phần mềm phá mã
+Phần mềm độc hại
+Câu 33. Phishing là một dạng của loại tấn công sử dụng...
+Kỹ thuật chèn mã
+Kỹ thuật giả mạo địa chỉ IP
+Kỹ thuật gây tràn bộ đệm
+Kỹ thuật xã hội
+Câu 34. Sử dụng kết hợp chứng chỉ số khóa công khai và chữ ký số có thể đảm bảo:
+Xác thực thực thể và toàn vẹn thông tin truyền
+Xác thực thực thể và bí mật thông tin truyền
+Bí mật và xác thực nguồn gốc thông tin truyền
+Bí mật và toàn vẹn thông tin truyền
+Câu 35. Nguyên tắc bảo mật tài nguyên của mô hình Bell-La Padula là:
+Đọc lên và ghi lên
+Đọc xuống và ghi xuống
+Đọc xuống và ghi lên
+Đọc lên và ghi xuống
+Câu 36. PGP đảm bảo tính bí mật thông điệp bằng cách sử dụng:
+Mã hóa khóa bất đối xứng sử dụng khóa công khai
+Mã hóa khóa đối xứng sử dụng khóa phiên
+Mã hóa khóa đối xứng sử dụng khóa công khai
+Mã hóa khóa bất đối xứng sử dụng khóa phiên
+Câu 37. Số lượng vòng lặp chính thực hiện xáo trộn dữ liệu theo hàm Feistel (F) trong giải thuật DES là:
+14
+16
+18
+20
+Câu 38. Một trong các điểm yếu của các hệ mã hóa khóa công khai là:
+Khó cài đặt trên thực tế
+Khó khăn trong quản lý và phân phối khóa
+Tốc độ chậm
+Độ an toàn thấp
+Câu 39. Các thuộc tính cơ bản của chứng chỉ số khóa công khai (Public key digital certificate) gồm:
+Số nhận dạng, khóa riêng của chủ thể, chữ ký của nhà cung cấp CA
+Khóa công khai của chủ thể, thông tin địa chỉ chủ thể, thuật toán chữ ký sử dụng
+Số nhận dạng, khóa riêng của chủ thể, thông tin định danh chủ thể
+Khóa công khai của chủ thể, thông tin định danh chủ thể, chữ ký của nhà cung cấp (CA)
+Câu 40. Một trong các điểm yếu làm giảm hiệu quả của phát hiện tấn công, xâm nhập dựa trên bất thường là:
+Không có khả năng ngăn chặn tấn công, đột nhập
+Không có khả năng phát hiện các cuộc tấn công Dos
+Tỷ lệ cảnh báo sai cao
+Không có khả năng phát hiện tấn công, xâm nhập mới
+Câu 41. Tìm phát biểu đúng về mã hóa khóa bất đối xứng (Asymmetric key cryptography):
+An toàn hơn mã hóa khóa bí mật
+Sử dụng một khóa quá trình mã hóa và một khóa khác cho giải mã
+Chỉ sử dụng kỹ thuật mã hóa khối
+Sử dụng một khóa chung cho cả quá trình mã hóa và giải mã
+Câu 42. Macro viruses là loại viruses thường lây nhiễm vào…
+Các file tài liệu của bộ phần mềm Open Office
+Các file tài liệu của bộ phần mềm Microsoft Exchange
+Các file tài liệu của bộ phần mềm Microsoft SQL
+Các file tài liệu của bộ phần mềm Microsoft Office
+Câu 43. PGP đảm bảo tính bí mật thông điệp bằng cách sử dụng:
+Mã hóa khóa bất đối xứng sử dụng khóa phiên
+Mã hóa khóa đối xứng sử dụng khóa phiên
+Mã hóa khóa bất đối xứng sử dụng khóa công khai
+Mã hóa khóa đối xứng sử dụng khóa công khai
+Câu 44. Mật khẩu an toàn trong thời điểm hiện tại là mật khẩu có:
+Chứa các ký tự từ nhiều dạng ký tự
+Khả năng chống tấn công phát lại và chứa các ký tự từ nhiều dạng ký tự
+Độ dài từ 8 ký tự trở lên, gồm chữ cái hoa, thường, chữ số và ký tự đặc biệt
+Độ dài lớn hơn hoặc bằng 8 ký tự
+Câu 45. Tấn công kiểu Social Engineering là dạng tấn công khai thác yếu tố nào sau đây trong hệ thống?
+Máy trạm
+Người dùng
+Máy chủ
+Hệ điều hành & ứng dụng
+Câu 46. Số lượng thao tác trong mỗi vòng xử lý của hàm băm MD5 là:
+14
+16
+18
+12
+Câu 47. Một trong các ứng dụng phổ biến của các hàm băm là để tạo chuỗi...
+CheckError
+CheckTotal
+CheckNum
+Checksum
+Câu 48. Điểm khác nhau chính giữa hai loại hàm băm MDC và MAC là:
+MDC là loại hàm băm không khóa, còn MAC là loại hàm băm có khóa
+MDC có khả năng chống đụng độ cao hơn MAC
+MDC an toàn hơn MAC
+MAC an toàn hơn MDC
+Câu 49. Một hệ mã hóa (cryptosystem) được cấu thành từ hai thành phần chính gồm:
+Phương pháp mã hóa và chia khối
+Giải thuật mã hóa và ký số
+Phương pháp mã hóa và không gian khóa
+Giải thuật mã hóa và giải mã
+Câu 50. Trong tấn công DDoS phản chiếu hay gián tiếp, có sự tham gia của một số lượng lớn máy chủ trên mạng Internet không bị tin tặc chiếm quyền điều khiển. Các máy chủ này được gọi là...
+Reflectors
+Requesters
+Forwarders
+Injectors
+1.B 2.A 3.B 4.A 5.A 6.D 7.B 8.C 9.C 10.D
+11.C 12.B 13.D 14.B 15.D 16.B 17.A 18.C 19.A 20.D
+21.D 22.D 23.C 24.B 25.B 26.D 27.C 28.D 29.B 30.B
+31.A 32.D 33.D 34.A 35.C 36.B 37.B 38.C 39.D 40.C
+41.B 42.D 43.B 44.C 45.B 46.B 47.D 48.A 49.C 50.A

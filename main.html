@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Luyện Thi Trắc Nghiệm</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="app-container">
+    <!-- Header -->
+    <header class="app-header">
+      <div class="header-content">
+        <h1 id="app-title">📝 QuizMaster Pro</h1>
+        <p class="subtitle">Hệ thống ôn luyện trắc nghiệm tối giản & hiệu quả</p>
+      </div>
+    </header>
+
+    <!-- Main Content Area -->
+    <main class="main-content">
+      <!-- 1. Configuration Screen -->
+      <section id="config-screen" class="card active">
+        <h2 class="section-title">Cấu hình phòng thi</h2>
+        
+        <div class="form-group">
+          <label for="question-source">Chọn bộ câu hỏi:</label>
+          <div class="select-wrapper">
+            <select id="question-source">
+              <option value="1-50.json">Bộ đề 1 - 50</option>
+              <option value="51-100.json" selected>Bộ đề 51 - 100</option>
+              <option value="101-150.json">Bộ đề 101 - 150</option>
+              <option value="151-209.json">Bộ đề 151 - 209</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="form-group upload-zone">
+          <label for="file-upload" class="file-label">
+            <span class="upload-icon">📂</span>
+            <span class="upload-text">Hoặc tải file câu hỏi tự chọn (.json)</span>
+          </label>
+          <input type="file" id="file-upload" accept=".json">
+          <div id="file-name-display" class="file-name-display"></div>
+        </div>
+
+        <div class="form-group">
+          <label>Chế độ hiển thị:</label>
+          <div class="radio-group">
+            <label class="radio-card">
+              <input type="radio" name="display-mode" value="single" checked>
+              <div class="radio-content">
+                <span class="mode-icon">📄</span>
+                <span class="mode-title">Câu đơn</span>
+                <span class="mode-desc">Trả lời từng câu một, kiểm tra đáp án ngay lập tức.</span>
+              </div>
+            </label>
+            <label class="radio-card">
+              <input type="radio" name="display-mode" value="list">
+              <div class="radio-content">
+                <span class="mode-icon">📋</span>
+                <span class="mode-title">Dạng danh sách</span>
+                <span class="mode-desc">Hiển thị tất cả câu hỏi dạng danh sách, chấm điểm khi nộp bài.</span>
+              </div>
+            </label>
+          </div>
+        </div>
+
+        <button id="start-btn" class="btn btn-primary btn-block">Bắt đầu luyện tập</button>
+      </section>
+
+      <!-- 2. Quiz Screen -->
+      <section id="quiz-screen" class="card">
+        <div class="quiz-header">
+          <div class="quiz-info">
+            <span id="quiz-progress-text">Câu hỏi 1 / 50</span>
+            <span id="quiz-timer">00:00</span>
+          </div>
+          <div class="progress-bar">
+            <div id="progress-fill" style="width: 0%"></div>
+          </div>
+        </div>
+
+        <!-- Questions Container (For List or Single Question) -->
+        <div id="questions-container"></div>
+
+        <!-- Navigation Buttons -->
+        <div class="quiz-actions">
+          <button id="finish-early-btn" class="btn btn-secondary">Kết thúc sớm</button>
+          <button id="next-question-btn" class="btn btn-primary hidden">Tiếp tục</button>
+          <button id="submit-list-btn" class="btn btn-primary hidden">Nộp bài</button>
+        </div>
+      </section>
+
+      <!-- 3. Result Screen -->
+      <section id="result-screen" class="card">
+        <h2 class="section-title text-center">Kết Quả Luyện Tập</h2>
+        
+        <div class="score-board">
+          <div class="score-circle">
+            <span id="score-percentage">0%</span>
+            <span class="score-detail" id="score-fraction">0 / 0</span>
+          </div>
+          <div class="score-summary">
+            <p>Đúng: <span id="correct-count" class="text-success">0</span></p>
+            <p>Sai: <span id="wrong-count" class="text-danger">0</span></p>
+            <p>Chưa làm: <span id="unanswered-count">0</span></p>
+          </div>
+        </div>
+
+        <div id="wrong-questions-section" class="hidden">
+          <h3 class="subsection-title">Danh sách các câu trả lời sai:</h3>
+          <div id="wrong-questions-list"></div>
+        </div>
+
+        <button id="restart-btn" class="btn btn-primary btn-block">Làm đề khác</button>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="app-footer">
+      <p>© 2026 QuizMaster Pro. Thiết kế vì sự tiện dụng tối đa.</p>
+    </footer>
+  </div>
+  
+  <script src="script.js"></script>
+</body>
+</html>

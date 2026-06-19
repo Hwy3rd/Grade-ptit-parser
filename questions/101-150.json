@@ -1,0 +1,602 @@
+[
+  {
+    "id": 1,
+    "question": "Câu 1. Một ưu điểm của tường lửa có trạng thái so với tường lửa không trạng thái là:",
+    "answers": [
+      "Lọc nội dung gói tốt hơn",
+      "Nhận dạng được các dạng tấn công và các phần mềm độc hại",
+      "Chạy nhanh hơn",
+      "Phân biệt được các gói tin thuộc về các kết nối mạng khác nhau"
+    ],
+    "correctAnswer": "",
+    "correctAnswerIndex": -1
+  },
+  {
+    "id": 2,
+    "question": "Câu 2. Các phương pháp xử lý, phân tích dữ liệu và mô hình hoá trong phát hiện tấn công, xâm nhập dựa trên bất thường, gồm:",
+    "answers": [
+      "Thống kê, học máy, khai phá dữ liệu",
+      "Học máy, khai phá dữ liệu, agents",
+      "Thống kê, học máy, đồ thị",
+      "Thống kê, đối sánh chuỗi, đồ thị"
+    ],
+    "correctAnswer": "",
+    "correctAnswerIndex": -1
+  },
+  {
+    "id": 3,
+    "question": "Câu 3. Phát biểu nào sau đây đúng với cơ chế điều khiển truy nhập dựa trên vai trò - RBAC:",
+    "answers": [
+      "RBAC cho phép người tạo ra đối tượng có thể cấp quyền truy nhập cho người dùng khác",
+      "RBAC là cơ chế điều khiển truy nhập được sử dụng rộng rãi nhất",
+      "RBAC cấp quyền truy nhập dựa trên vai trò của người dùng trong tổ chức",
+      "RBAC cấp quyền truy nhập dựa trên tính nhạy cảm của thông tin và chính sách quản trị"
+    ],
+    "correctAnswer": "",
+    "correctAnswerIndex": -1
+  },
+  {
+    "id": 4,
+    "question": "Câu 4. Phát biểu nào sau đây đúng với cơ chế điều khiển truy nhập DAC:",
+    "answers": [
+      "DAC cho phép người tạo ra đối tượng có thể cấp quyền truy nhập cho người dùng khác",
+      "DAC cấp quyền truy nhập dựa trên tính nhạy cảm của thông tin và chính sách quản trị",
+      "DAC là cơ chế điều khiển truy nhập được sử dụng rộng rãi nhất",
+      "DAC quản lý quyền truy nhập chặt chẽ hơn các cơ chế khác"
+    ],
+    "correctAnswer": "",
+    "correctAnswerIndex": -1
+  },
+  {
+    "id": 5,
+    "question": "Câu 5. Đâu là một công cụ có khả năng rà quét các lỗ hổng chèn mã SQL cho các trang web?",
+    "answers": [
+      "nmap",
+      "Microsoft Baseline Security Analyzer",
+      "Nessus vulnerability scanner",
+      "Acunetix Web Vulnerability Scanner"
+    ],
+    "correctAnswer": "",
+    "correctAnswerIndex": -1
+  },
+  {
+    "id": 6,
+    "question": "Câu 6. Danh sách điều khiển truy nhập ACL thực hiện việc quản lý quyền truy nhập đến các đối tượng cho người dùng bằng cách:",
+    "answers": [
+      "Các quyền truy nhập vào đối tượng cho mỗi người dùng được quản lý trong một ma trận",
+      "Các quyền truy nhập vào đối tượng cho mỗi người dùng được quản lý riêng rẽ",
+      "Mỗi người dùng được gán một danh sách các đối tượng kèm theo quyền truy nhập",
+      "Mỗi đối tượng được gán một danh sách người dùng kèm theo quyền truy nhập"
+    ],
+    "correctAnswer": "",
+    "correctAnswerIndex": -1
+  },
+  {
+    "id": 7,
+    "question": "Câu 7. Tường lửa không thể chống lại...",
+    "answers": [
+      "Các hiểm họa từ bên trong",
+      "Các hiểm họa từ bên ngoài",
+      "Tấn công giả mạo địa chỉ",
+      "Tấn công từ mạng Internet"
+    ],
+    "correctAnswer": "",
+    "correctAnswerIndex": -1
+  },
+  {
+    "id": 8,
+    "question": "Câu 8. Sự khác biệt chính giữa hệ thống ngăn chặn xâm nhập (IPS) và hệ thống phát hiện xâm nhập (IDS) là:",
+    "answers": [
+      "IPS phát hiện xâm nhập hiệu quả hơn",
+      "IPS có khả năng chủ động ngăn chặn xâm nhập",
+      "IDS phát hiện xâm nhập hiệu quả hơn",
+      "IDS có khả năng chủ động ngăn chặn xâm nhập"
+    ],
+    "correctAnswer": "",
+    "correctAnswerIndex": -1
+  },
+  {
+    "id": 9,
+    "question": "Câu 9. Tường lửa lọc gói có thể lọc các thông tin nào trong gói tin?",
+    "answers": [
+      "Chỉ các thông tin trong header của gói tin",
+      "Chỉ các thông tin trong payload của gói tin",
+      "Chỉ lọc địa chỉ IP trong gói tin",
+      "Cả thông tin trong header và payload của gói tin"
+    ],
+    "correctAnswer": "",
+    "correctAnswerIndex": -1
+  },
+  {
+    "id": 10,
+    "question": "Câu 10. Không nên sử dụng nhiều hơn 1 phần mềm quét virus chạy ở chế độ quét theo thời gian thực trên một máy tính vì:",
+    "answers": [
+      "Các phần mềm quét virus xung đột với nhau",
+      "Các phần mềm quét virus không thể hoạt động",
+      "Các phần mềm quét virus chiếm nhiều tài nguyên",
+      "Các phần mềm quét virus tấn công lẫn nhau"
+    ],
+    "correctAnswer": "",
+    "correctAnswerIndex": -1
+  },
+  {
+    "id": 11,
+    "question": "Câu 11. Phát biểu nào sau đây đúng với cơ chế điều khiển truy nhập bắt buộc MAC:",
+    "answers": [
+      "MAC cho phép người tạo ra đối tượng có thể cấp quyền truy nhập cho người dùng khác",
+      "MAC quản lý quyền truy nhập chặt chẽ hơn các cơ chế khác",
+      "MAC cấp quyền truy nhập dựa trên tính nhạy cảm của thông tin và chính sách quản trị",
+      "MAC là cơ chế điều khiển truy nhập được sử dụng rộng rãi nhất"
+    ],
+    "correctAnswer": "",
+    "correctAnswerIndex": -1
+  },
+  {
+    "id": 12,
+    "question": "Câu 12. Đâu là một loại tường lửa?",
+    "answers": [
+      "Server gateway",
+      "Application server",
+      "Application-level gateway",
+      "Gateway server"
+    ],
+    "correctAnswer": "",
+    "correctAnswerIndex": -1
+  },
+  {
+    "id": 13,
+    "question": "Câu 13. Ví điện tử Paypal là một dạng...",
+    "answers": [
+      "Khóa mã (encrypted key)",
+      "The ATM",
+      "Thẻ bài (token)",
+      "Thẻ thông minh (smart card)"
+    ],
+    "correctAnswer": "",
+    "correctAnswerIndex": -1
+  },
+  {
+    "id": 14,
+    "question": "Câu 14. Dạng xác thực sử dụng các thông tin nào dưới đây đảm bảo độ an toàn cao hơn?",
+    "answers": [
+      "Thẻ ATM và tên truy nhập",
+      "Tên truy nhập và số PIN",
+      "Thẻ ATM và số PIN",
+      "Tên truy nhập và mật khẩu"
+    ],
+    "correctAnswer": "",
+    "correctAnswerIndex": -1
+  },
+  {
+    "id": 15,
+    "question": "Câu 15. Một trong các dạng khóa mã (encrypted keys) được sử dụng rộng rãi trong điều khiển truy nhập là:",
+    "answers": [
+      "E-token",
+      "Chứng chỉ số khóa công khai",
+      "The ATM",
+      "Mobile-token"
+    ],
+    "correctAnswer": "",
+    "correctAnswerIndex": -1
+  },
+  {
+    "id": 16,
+    "question": "Câu 16. Tại sao một hệ thống phát hiện xâm nhập dựa trên chữ ký không thể phát hiện các tấn công, xâm nhập mới?",
+    "answers": [
+      "Do chữ ký của chúng chưa tồn tại trong hệ thống",
+      "Do các tấn công, xâm nhập mới không có chữ ký",
+      "Do các tấn công, xâm nhập mới không gây ra bất thường",
+      "Do các tấn công, xâm nhập mới chỉ gây thiệt hại nhỏ"
+    ],
+    "correctAnswer": "",
+    "correctAnswerIndex": -1
+  },
+  {
+    "id": 17,
+    "question": "Câu 17. Ưu điểm của thẻ bài (token) so với thẻ thông minh (smart card) trong điều khiển truy nhập là:",
+    "answers": [
+      "Có cơ chế xác thực mạnh hơn",
+      "Có cơ chế xác thực đa dạng hơn",
+      "Được sử dụng rộng rãi hơn",
+      "Có chi phí rẻ hơn"
+    ],
+    "correctAnswer": "",
+    "correctAnswerIndex": -1
+  },
+  {
+    "id": 18,
+    "question": "Câu 18. Phương pháp xác thực nào dưới đây có thể cung cấp khả năng xác thực có độ an toàn cao nhất?",
+    "answers": [
+      "Sử dụng Smartcard",
+      "Sử dụng vân tay",
+      "Sử dụng chứng chỉ số",
+      "Sử dụng mật khẩu"
+    ],
+    "correctAnswer": "",
+    "correctAnswerIndex": -1
+  },
+  {
+    "id": 19,
+    "question": "Câu 19. Đâu là các tính năng của kiểm soát truy nhập sử dụng tường lửa?",
+    "answers": [
+      "Kiểm soát dịch vụ và các phần mềm",
+      "Kiểm soát người dùng và tin tặc",
+      "Kiểm soát dịch vụ và hướng",
+      "Kiểm soát virus và các malware khác"
+    ],
+    "correctAnswer": "",
+    "correctAnswerIndex": -1
+  },
+  {
+    "id": 20,
+    "question": "Câu 20. Ba cơ chế điều khiển truy nhập thông dụng gồm:",
+    "answers": [
+      "DAC, MAC và RRAC",
+      "DAC, BAC và RBAC",
+      "DAC, MAC và BAC",
+      "DAC, MAC và RBAC"
+    ],
+    "correctAnswer": "",
+    "correctAnswerIndex": -1
+  },
+  {
+    "id": 21,
+    "question": "Câu 21. Mục đích chính của điều khiển truy nhập là để đảm bảo các thuộc tính an ninh của thông tin, hệ thống và các tài nguyên, gồm:",
+    "answers": [
+      "Tính bảo mật, tính toàn vẹn và tính xác thực",
+      "Tính bí mật, tính toàn vẹn và tính xác thực",
+      "Tính bảo mật, tính toàn vẹn và tính sẵn dùng",
+      "Tính bí mật, tính toàn vẹn và tính sẵn dùng"
+    ],
+    "correctAnswer": "",
+    "correctAnswerIndex": -1
+  },
+  {
+    "id": 22,
+    "question": "Câu 22. Số lượng nhân tố (factor) xác thực sử dụng trong điều khiển truy nhập dựa trên thẻ thông minh là:",
+    "answers": [
+      "1",
+      "3",
+      "2",
+      "4"
+    ],
+    "correctAnswer": "",
+    "correctAnswerIndex": -1
+  },
+  {
+    "id": 23,
+    "question": "Câu 23. Một nhiệm vụ chính của các hệ thống IDS/IPS là:",
+    "answers": [
+      "Truy tìm và tấn công ngược lại hệ thống của tin tặc",
+      "Giám sát lưu lượng mạng hoặc các hành vi trên một hệ thống để nhận dạng các dấu hiệu của tấn công, xâm nhập",
+      "Giám sát lưu lượng mạng nhận dạng các dấu hiệu của tấn công, xâm nhập",
+      "Giám sát các hành vi trên một hệ thống để nhận dạng các dấu hiệu của tấn công, xâm nhập"
+    ],
+    "correctAnswer": "",
+    "correctAnswerIndex": -1
+  },
+  {
+    "id": 24,
+    "question": "Câu 24. Hai dịch vụ quan trọng nhất của một hệ thống điều khiển truy nhập là:",
+    "answers": [
+      "Authentication và Authorization",
+      "Authenticator và Administrator",
+      "Administrator và Authorization",
+      "Authentication và Administrator"
+    ],
+    "correctAnswer": "",
+    "correctAnswerIndex": -1
+  },
+  {
+    "id": 25,
+    "question": "Câu 25. Tìm phát biểu đúng về phát hiện xâm nhập dựa trên chữ ký và phát hiện xâm nhập dựa trên bất thường:",
+    "answers": [
+      "Phát hiện xâm nhập dựa trên chữ ký thường có tỷ lệ phát hiện đúng cao hơn",
+      "Tính bảo mật, tính toàn vẹn và tính xác thực",
+      "Tính bảo mật, tính toàn vẹn và tính sẵn dùng",
+      "Tính bí mật, tính toàn vẹn và tính sẵn dùng"
+    ],
+    "correctAnswer": "",
+    "correctAnswerIndex": -1
+  },
+  {
+    "id": 26,
+    "question": "Câu 26. Tìm phát biểu đúng về dịch vụ xác thực trong điều khiển truy nhập:",
+    "answers": [
+      "Là quá trình xác minh tính chân thực của thông tin nhận dạng người dùng cung cấp",
+      "Là quá trình xác minh nhận dạng của chủ thể",
+      "Là quá trình xác minh các thông tin nhận dạng của chủ thể yêu cầu truy nhập đối tượng",
+      "Là quá trình xác minh nhận dạng của người dùng"
+    ],
+    "correctAnswer": "",
+    "correctAnswerIndex": -1
+  },
+  {
+    "id": 27,
+    "question": "Câu 27. Loại tấn công nào sau đây chiếm quyền truy nhập đến tài nguyên lợi dụng cơ chế điều khiển truy nhập DAC?",
+    "answers": [
+      "Spoofing",
+      "Trojan horse",
+      "Man in the middle",
+      "Phishing"
+    ],
+    "correctAnswer": "",
+    "correctAnswerIndex": -1
+  },
+  {
+    "id": 28,
+    "question": "Câu 28. Đâu là tên viết đúng của Hệ thống phát hiện đột nhập/xâm nhập?",
+    "answers": [
+      "Intrusion Detector System",
+      "Intrusion Detecting System",
+      "Intrusion Detection System",
+      "Instruction Detection System"
+    ],
+    "correctAnswer": "",
+    "correctAnswerIndex": -1
+  },
+  {
+    "id": 29,
+    "question": "Câu 29. Một trong các nhược điểm chính của điều khiển truy nhập dựa trên các đặc điểm sinh trắc học là:",
+    "answers": [
+      "Không được hỗ trợ rộng rãi",
+      "Chi phí đắt",
+      "Khó sử dụng",
+      "Công nghệ phức tạp"
+    ],
+    "correctAnswer": "",
+    "correctAnswerIndex": -1
+  },
+  {
+    "id": 30,
+    "question": "Câu 30. Ưu điểm của mật khẩu một lần (OTP-One Time Password) so với mật khẩu truyền thống là:",
+    "answers": [
+      "Chống được tấn công từ điển",
+      "Chống được tấn công vét cạn",
+      "Chống được tấn công phá mã",
+      "Chống được tấn công phát lại"
+    ],
+    "correctAnswer": "",
+    "correctAnswerIndex": -1
+  },
+  {
+    "id": 31,
+    "question": "Câu 31. Kỹ thuật tấn công SYN Floods khai thác điểm yếu trong khâu nào trong bộ giao thức TCP/IP?",
+    "answers": [
+      "Bắt tay 3 bước",
+      "Bắt tay 2 bước",
+      "Xác thực người dùng",
+      "Truyền dữ liệu"
+    ],
+    "correctAnswer": "",
+    "correctAnswerIndex": -1
+  },
+  {
+    "id": 32,
+    "question": "Câu 32. Tấn công từ chối dịch vụ (Dos - Denial of Service Attacks) là dạng tấn công có khả năng…",
+    "answers": [
+      "a. Cản trở người dùng hợp pháp truy nhập các file dữ liệu của hệthống",
+      "b. Cản trở người dùng hợp pháp truy nhập các tài nguyên hệ thống",
+      "c. Đánh cắp dữ liệu trong hệ thống",
+      "d. Gây hư hỏng phần cứng máy chủ"
+    ],
+    "correctAnswer": "",
+    "correctAnswerIndex": -1
+  },
+  {
+    "id": 33,
+    "question": "Câu 33. Một trong các mối đe dọa an toàn thông tin thường gặp là:",
+    "answers": [
+      "a.Phần mềm độc hại",
+      "b. Phần mềm quảng cáo",
+      "c. Phần mềm nghe lén",
+      "d Phần mềm phá mã"
+    ],
+    "correctAnswer": "",
+    "correctAnswerIndex": -1
+  },
+  {
+    "id": 34,
+    "question": "Câu 34. Các dạng phần mềm độc hại (malware) có khả năng tự nhân bản gồm:",
+    "answers": [
+      "a. Virus, zombie, spyware",
+      "b. Virus, trojan, zombie",
+      "c. virus, worm, zombie",
+      "d. Virus, worm, trojan"
+    ],
+    "correctAnswer": "",
+    "correctAnswerIndex": -1
+  },
+  {
+    "id": 35,
+    "question": "Câu 35. Pharming là kiểu tấn công vào...",
+    "answers": [
+      "a. Máy khách/trình duyệt web",
+      "b. Máy chủ và máy khách web",
+      "c. Máy chủ web.",
+      "d.  Máy chủ cơ sở dữ liệu của trang web"
+    ],
+    "correctAnswer": "",
+    "correctAnswerIndex": -1
+  },
+  {
+    "id": 36,
+    "question": "Câu 36. Các máy tính ma/máy tính bị chiếm quyền điều khiển thường được tin tặc sử dụng để...",
+    "answers": [
+      "a. Gửi các yêu cầu tấn công chèn mã",
+      "b. Đánh cấp dữ liệu từ máy chủ cơ sở dữ liệu",
+      "c. Thực hiện tấn công tràn bộ đệm",
+      "d. Gửi thư rác, thư quảng cáo"
+    ],
+    "correctAnswer": "",
+    "correctAnswerIndex": -1
+  },
+  {
+    "id": 37,
+    "question": "Câu 37. Đâu là một kỹ thuật tấn công DoS?",
+    "answers": [
+      "a. DNS spoofing",
+      "b. UDP Ping",
+      "c. Smurf",
+      "d. DNS Cache Poisoning"
+    ],
+    "correctAnswer": "",
+    "correctAnswerIndex": -1
+  },
+  {
+    "id": 38,
+    "question": "Câu 38. Đâu là một biện pháp phòng chống tấn công SYN Floods?",
+    "answers": [
+      "a. SYN Firewall",
+      "b. SYN IDS",
+      "c. SYN Proxy",
+      "d. SYN Cache"
+    ],
+    "correctAnswer": "",
+    "correctAnswerIndex": -1
+  },
+  {
+    "id": 39,
+    "question": "Câu 39. Kỹ thuật tấn công Smurf sử dụng giao thức ICMP và cơ chế gửi…",
+    "answers": [
+      "a. Multicast",
+      "b. Anycast",
+      "c. Broadcast",
+      "d. Unicast"
+    ],
+    "correctAnswer": "",
+    "correctAnswerIndex": -1
+  },
+  {
+    "id": 40,
+    "question": "Câu 40. Tấn công nghe lén là kiểu tấn công:",
+    "answers": [
+      "a. Chủ động và bị động",
+      "b. Thụ động",
+      "c. Chủ động",
+      "d. Chiếm quyền điều khiến"
+    ],
+    "correctAnswer": "",
+    "correctAnswerIndex": -1
+  },
+  {
+    "id": 41,
+    "question": "Câu 41. Trong dạng tấn công vào mật khẩu dựa trên từ điển, tin tặc đánh cấp mật khẩu của người dùng bằng cách:",
+    "answers": [
+      "a. vét cạn các mật khẩu có thể có",
+      "b. Tìm mật khẩu trong từ điển các mật khẩu",
+      "c. Lắng nghe trên đường truyền để đánh cấp mật khẩu",
+      "d. Thử các từ có tần suất sử dụng cao làm mật khẩu trong từ điển"
+    ],
+    "correctAnswer": "",
+    "correctAnswerIndex": -1
+  },
+  {
+    "id": 42,
+    "question": "Câu 42. Dạng tấn công chặn bắt thông tin truyền trên mạng để sửa đổi hoặc lạm dụng là:",
+    "answers": [
+      "a. Fabrications",
+      "b. Modifications",
+      "c. Interruptions",
+      "d. Interceptions"
+    ],
+    "correctAnswer": "",
+    "correctAnswerIndex": -1
+  },
+  {
+    "id": 43,
+    "question": "Câu 43. Mật khẩu an toàn trong thời điểm hiện tại là mật khẩu có :",
+    "answers": [
+      "a. Khả năng chống tấn công phát lại và chứa các ký tự từ nhiều dạng kýtự",
+      "b. Chứa các ký tự từ nhiều dạng ký tự",
+      "c.  Độ dài lớn hơn hoặc bằng 8 ký tự",
+      "d. Độ dài từ 8 ký tự trở lên , gồm chữ cái hoa , thường , chữ số và kýtự đặc biệt"
+    ],
+    "correctAnswer": "",
+    "correctAnswerIndex": -1
+  },
+  {
+    "id": 44,
+    "question": "Câu 44. Tấn công bằng mã độc có thể gồm:",
+    "answers": [
+      "a. Chèn mã XSS, CSRF",
+      "b. Chèn mã SQL",
+      "c. Tràn bộ đệm",
+      "d.SQLi , XSS , CSRF và Buffer overflow"
+    ],
+    "correctAnswer": "",
+    "correctAnswerIndex": -1
+  },
+  {
+    "id": 45,
+    "question": "Câu 45. Tấn công kiểu Social Engineering có thể cho phép tin tặc :",
+    "answers": [
+      "a Phá hỏng máy chủ",
+      "b. Đánh cắp toàn bộ cơ sở dữ liệu trên máy chủ",
+      "c. Đánh cắp thông tin nhạy cảm của người dùng",
+      "d.  Đánh cắp thông tin nhạy cảm trong cơ sở dữ liệu trên máy chủ"
+    ],
+    "correctAnswer": "",
+    "correctAnswerIndex": -1
+  },
+  {
+    "id": 46,
+    "question": "Câu 46. Khác biệt cơ bản giữa tấn công DoS và DDoS là:",
+    "answers": [
+      "a.  Phạm vi tấn công",
+      "b. Tần suất tấn công",
+      "c. Mức độ gây hại",
+      "d.  Kỹ thuật tấn công"
+    ],
+    "correctAnswer": "",
+    "correctAnswerIndex": -1
+  },
+  {
+    "id": 47,
+    "question": "Câu 47. Một trong các cách virus thường sử dụng để lây nhiễm vào các chương trình khác là:",
+    "answers": [
+      "a. Thay thế các chương trình",
+      "b. Xáo trộn mã của virus",
+      "c. Sửa đổi các chương trình",
+      "d.  Ăn mã của virus"
+    ],
+    "correctAnswer": "",
+    "correctAnswerIndex": -1
+  },
+  {
+    "id": 48,
+    "question": "Câu 48. Trojan horses là dạng phần mềm độc hại thường giành quyền truy nhập vào các file của người dùng khai thác Cơ chỉ điều khiển truy nhập.",
+    "answers": [
+      "a. Rule - Based",
+      "b. DAC",
+      "c. MAC",
+      "d. Role - Based"
+    ],
+    "correctAnswer": "",
+    "correctAnswerIndex": -1
+  },
+  {
+    "id": 49,
+    "question": "Câu 49. Tại sao việc sử dụng thủ tục cơ sở dữ liệu (Stored procedure ) là một trong các biện pháp hiệu quả để ngăn chặn triệt để tấn công chèn mã SQL ?",
+    "answers": [
+      "a. Thủ tục cơ sở dữ liệu có khả năng cẩm chèn mã",
+      "b. Thủ tục cơ sở dữ liệu độc lập với các ứng dụng",
+      "c. Thủ tục cơ sở dữ liệu cho phép tách mã lệnh SQL khỏi dữ liệu ngườidùng",
+      "d. Thủ tục cơ sở dữ liệu lưu trong cơ sở dữ liệu và chạy nhanh hơn câulệnh trực tiếp"
+    ],
+    "correctAnswer": "",
+    "correctAnswerIndex": -1
+  },
+  {
+    "id": 50,
+    "question": "Câu 50. Có thể phòng chống tấn công Smurf bằng cách cấu hình các máy và router không trả lời.",
+    "answers": [
+      "a. các yêu cầu UPD hoặc các yêu cầu phát quảng bá",
+      "b. các yêu cầu TCP hoặc các yêu cầu phát quảng bá",
+      "c. các yêu cầu HTTP hoặc các yêu cầu phát quảng bá",
+      "d. các yêu cầu ICMP hoặc các yêu cầu phát quảng bá"
+    ],
+    "correctAnswer": "",
+    "correctAnswerIndex": -1
+  }
+]

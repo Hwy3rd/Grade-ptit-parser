@@ -1,0 +1,299 @@
+Câu 1. Đây là một công cụ kiểm tra lỗ hổng tấn công chèn mã SQL trên các website:
+a. SQLmap
+b. SQLite 
+c. SQLCheck
+d. SQL Server 
+Câu 2. Một trong các biện pháp hiệu quả để phòng chống macro viruses là:
+a. Sử dụng IPS/IDS.
+b. Sử dụng tường lửa
+c.Cấm tự động thực hiện macro trong Microsoft Office
+d.Cấm tự động thực hiện macro trong Microsoft Exchange
+Câu 3. Đâu là một kỹ thuật tấn công DoS?
+a. SYN requests
+b. IP spoofing
+c.DNS spoofing
+d.Ping of death
+Câu 4. Đâu là một trong các biện pháp chống tấn công khai thác lỗi tràn bộ đệm?
+a. Sử dụng công nghệ xác minh mạnh
+b. Sử dụng cơ chế cấm thực hiện mã trong dữ liệu
+c.Sử dụng tường lửa
+d.Sử dụng các kỹ thuật mật mã 
+Câu 5. Tấn công chặn bắt thường liên quan đến việc nghe lén trên đường truyền và chuyển hướng thông tin để sử dụng trái phép?
+Fabrications
+Interceptions  
+Interruptions  
+Modifications
+Câu 6. Tấn công gây ngắt quãng làm ngắt, hoặc chậm kênh truyền thông, hoặc làm quá tải hệ thống, ngăn cản việc truy nhập dịch vụ của người dùng hợp pháp:  
+Fabrications  
+Interceptions
+Interruptions
+Modifications
+Câu 7. Trong các vùng hạ tầng CNTT, vùng nào có các lỗ hổng trong quản lý phần mềm ứng dụng của máy chủ?
+vùng máy trạm
+vùng mạng LAN-to-WAN
+vùng truy nhập từ xa
+vùng hệ thống và ứng dụng
+Câu 8. Trong các vùng hạ tầng CNTT, vùng nào có nhiều mối đe dọa nguy cơ nhất?
+vùng người dùng
+vùng máy trạm
+vùng mạng LAN
+vùng mạng LAN-to-WAN
+Câu 9. Trong các vùng hạ tầng CNTT, vùng nào dễ bị tấn công DoS, DDoS nhất?
+vùng người dùng
+vùng mạng LAN
+vùng mạng WAN
+vùng mạng LAN-to-WAN
+Câu 10. An toàn thông tin được chia làm những thành phần nào?
+an toàn máy tính và dữ liệu, an toàn mạng, quản lý an toàn thông tin
+an toàn mạng, quản lý an toàn thông tin, chính sách an toàn thông tin
+an toàn mạng, an toàn máy tính và dữ liệu, chính sách an toàn thông tin
+an toàn máy tính và dữ liệu, quản lý an toàn thông tin, chính sách an toàn thông tin
+Câu 11. Nếu dữ liệu bị sửa đổi thì đã vi phạm yêu cầu gì?
+toàn vẹn, sẵn dùng
+bí mật, sẵn dùng
+toàn vẹn, bí mật
+an toàn. bí mật
+Câu 12. An toàn thông tin gồm các lĩnh vực nào?
+an toàn cntt, đảm bảo thông tin
+đảm bảo thông tin, an toàn mạng
+Câu 13. Trong tấn công khai thác lỗi tràn bộ đệm tin tắc thường sử dụng một số lệnh NOP (No Operation) ở phần đầu của mã tấn công. Mục đích của việc này là gì:
+tăng khả năng gây tràn bộ đệm
+Tăng khả năng gây lỗi chương trình
+Tăng khả năng phá hoại của mã tấn công
+Tăng khả năng mã tấn công được thực hiện
+Câu 14. Sâu SQL Slammer được phát hiện vào năm nào?
+2002
+1997
+2007
+2003
+Câu 15. Dạng tấn công chèn mã được tin tặc sử dụng phổ biến trên các trang web nhắm đến các cơ sở dữ liệu là:
+Tấn công chèn mã SQL
+Tấn công chèn mã XSS
+Tấn công chèn mã CSRF
+Tấn công chèn mã HTML
+Câu 16.  Các lỗ hổng bảo mật thường tồn tại nhiều nhất trong thành phần nào của hệ thống:
+Các thành phần phần cứng
+Các ứng dụng
+Hệ điều hành
+Các dịch vụ mạng
+Câu 17. Lỗi tràn bộ đệm là lỗi trong khâu:
+        Quản trị phần mềm
+        Lập trình phần mềm
+        Thiết kế phần mềm
+        Kiểm thử phần mềm
+Câu 18. Đâu là một trong các biện pháp phòng chống tấn công khai thác lỗi tràn bộ đệm? 
+        Sử dụng các thư viện lập trình an toàn //or sử dụng cơ chế cấm thựchiện mã trong dữ liệu (DEP)
+        Sử dụng tường lửa
+        Sử dụng các kỹ thuật mật mã
+        Sử dụng công nghệ xác thực mạnh
+Câu 19. Một điểm yếu điển hình trong hệ thống điều khiển truy cập là việc sử dụng mật khẩu dễ đoán hoặc mật khẩu được lưu ở dạng rõ. Đây là điểm yếu thuộc khâu:
+        Quản trị
+        Xác thực
+        Trao quyền
+        Xác thực và Trao quyền
+Câu 20. Lỗ hổng bảo mật (Security vulnerability) là một điểm yếu tồn tại trong một hệ thống cho phép tin tặc:
+        Khai thác nhằm đánh cắp các thông tin trong hệ thống
+        Khai thác nhằm chiếm quyền điều khiển hệ thống
+        Khai thác, tấn công phá hoại và gây tê liệt hệ thống
+        Khai thác gây tổn hại đến các thuộc tính an ninh của hệ thống đó
+Câu 21. Trong tấn công khai thác lỗi tràn bộ đệm, tin tặc thường sử dụng shellcode. Shellcode đó là dạng:
+        Mã Java
+        Mã Hợp ngữ
+        Mã C/C++
+        Mã máy
+Câu 22. Tấn công kiểu Social Engineering có thể cho phép tin tặc:
+        Đánh cắp thông tin nhạy cảm trong cơ sở dữ liệu trên máychủ
+        Đánh cắp toàn bộ cơ sở dữ liệu trên máy chủ
+        Đánh cắp thông tin nhạy cảm của người dùng
+        Phá hỏng máy chủ
+Câu 23. Một trong các mối đe dọa an toàn thông tin thường gặp là:
+        Phần mềm nghe lén
+        Phần mềm phá mã
+        Phần mềm quảng cáo
+        Phần mềm độc hại
+Câu 24. Tấn công kiểu Social Engineering là dạng tấn công khai thác yếu tố nào sau đây trong hệ thống?
+        Người dùng
+        Hệ điều hành & ứng dụng
+        Máy trạm
+        Máy chủ
+Câu 25. Dạng tấn công giả mạo thông tin thường để đánh lừa người dùng thông thường là:
+        Interruptions
+        Interceptions
+        Fabrications
+        Modifications
+Câu 26. Trong tấn công DDoS phản chiếu hay gián tiếp, có sự tham gia của một số lượng lớn máy chủ trên mạng Internet không bị tin tặc chiếm quyền điều khiển. Các máy chủ này được gọi là…
+        Requesters
+        Reflectors
+        Injectors
+        Forwarders
+Câu 27. Các vùng bộ nhớ thường bị tràn gồm:
+        Ngăn xếp (Stack) và Bộ nhớ đệm (Cache)
+        Hàng đợi (Queue) và Vùng nhớ cấp phát động (Heap)
+        Ngăn xếp (Stack) và Vùng nhớ cấp phát động (Heap)
+        Hàng đợi (Queue) và Ngăn xếp (Stack)
+Câu 28.  Để đảm bảo an toàn cho hệ thống điều khiển truy cập, một trong các biện pháp phòng chống hiệu quả là:
+        Không mở các email của người lạ hoặc email quảng cáo
+        Không cho phép chạy các chương trình điều khiển từ xa
+        Không cài đặt và chạy các chương trình tải từ các nguồn khôngtin cậy
+        Không dùng tài khoản có quyền quản trị để chạy các chương trình ứngdụng
+Câu 29.  Để thực hiện tấn công Smurf, tin tặc phải giả mạo địa chỉ gói tin ICMP trong yêu cầu tấn công. Tin tặc sử dụng…
+        Địa chỉ máy nạn nhân làm địa đích của gói tin
+        Địa chỉ router làm địa đích của gói tin
+        Địa chỉ máy nạn nhân làm địa nguồn của gói tin
+        Địa chỉ router làm địa nguồn của gói tin
+Câu 30. Macro viruses là loại viruses thường lây nhiễm vào…
+        Các file tài liệu của bộ phần mềm Open Office
+        Các file tài liệu của bộ phần mềm Microsoft SQL
+        Các file tài liệu của bộ phần mềm Microsoft Office
+        Các file tài liệu của bộ phần mềm Microsoft Exchange
+Câu 31. Khác biệt cơ bản của vi rút và sâu là:
+        Vi rút có khả năng phá hoại lớn hơn
+        Sâu có khả năng phá hoại lớn hơn
+        Vi rút có khả năng tự lây lan mà không cần tương tác của ngườidùng
+        Sâu có khả năng tự lây lan mà không cần tương tác của người dùng
+Câu 32. Mục đích chính của tấn công giả mạo địa chỉ IP là:
+        Để đánh cắp các dữ liệu nhạy cảm trên máy trạm
+        Để vượt qua các hệ thống IPS và IDS
+        Để vượt qua các hàng rào kiểm soát an ninh
+        Để đánh cắp các dữ liệu nhạy cảm trên máy chủ
+Câu 33. Việc quản lý, khắc phục các lỗ hổng bảo mật và tăng cường khả năng đề kháng cho hệ thống cần được thực hiện theo nguyên tắc chung là:
+        Cân bằng giữa An toàn, Hữu dụng và Tin cậy
+        Cân bằng giữa An toàn, Rẻ tiền và Chất lượng
+        Cân bằng giữa An toàn, Hữu dụng và Rẻ tiền
+        Cân bằng giữa An toàn, Tin cậy và Rẻ tiền
+Câu 34. Một trong các biện pháp cụ thể cho quản lý, khắc phục các lỗ hổng bảo mật và tăng cường khả năng đề kháng cho hệ thống là:
+        Định kỳ cập nhật thông tin về các lỗ hổng từ các trang web chínhthức
+        Định kỳ cập nhật các bản vá và nâng cấp hệ điều hành
+        Định kỳ nâng cấp hệ thống phần mềm
+        Định kỳ nâng cấp hệ thống phần cứng
+Câu 35. Có thể phòng chống tấn công Smurf bằng cách cấu hình các máy và router không trả lời…
+        các yêu cầu UPD hoặc các yêu cầu phát quảng bá
+        các yêu cầu ICMP hoặc các yêu cầu phát quảng bá
+        các yêu cầu TCP hoặc các yêu cầu phát quảng bá
+        các yêu cầu HTTP hoặc các yêu cầu phát quảng bá
+Câu 36. Các thành phần chính của hệ thống máy tính gồm:
+        Hệ thống phần cứng và Hệ thống phần mềm
+        CPU, Bộ nhớ, HDD, hệ điều hành và các ứng dụng
+        CPU, Bộ nhớ, HDD và Hệ thống bus truyền dẫn
+        CPU, hệ điều hành và các ứng dụng
+Câu 37. Đâu là dạng lỗ hổng bảo mật thường gặp trong hệ điều hành và các phần mềm ứng dụng
+Lỗi tràn bộ đệm
+Lỗi quản trị
+Lỗi thiết kế
+Lỗi cấu hình
+Câu 38.  Đâu là một công cụ có khả năng rà quét các lỗ hổng chèn mã SQL cho các trang web?
+Microsoft Baseline Security Analyzer
+Acunetix Web Vulnerability Scanner
+nmap
+Nessus vulnerability scanner
+Câu 39. Điều khiển truy nhập dựa trên luật (Rule-based access control) được sử dụng phổ biến trong:
+VPN
+Firewall
+SSL/TLS
+Kerberos
+Câu 40. Phát hiện tấn công, xâm nhập dựa trên bất thường dựa trên giả thiết:
+Các hành vi tấn công, xâm nhập gây tổn hại nghiêm trọng cho hệthống 
+Các hành vi tấn công, xâm nhập thường có quan hệ chặt chẽ với các hànhvi bất thường
+Các hành vi tấn công, xâm nhập có quan hệ chặt chẽ với các dịch vụ đượccung cấp 
+Các hành vi tấn công, xâm nhập gây ngắt quãng dịch vụ cung cấp chongười dùng
+Câu 41. Một trong các nhược điểm chính của điều khiển truy nhập dựa trên các đặc điểm sinh trắc học là:
+Không được hỗ trợ rộng rãi
+Công nghệ phức tạp
+Chi phí đắt
+Khó sử dụng
+Câu 42. Phát biểu nào sau đây đúng với cơ chế điều khiển truy nhập DAC:
+DAC cho phép người tạo ra đối tượng có thể cấp quyền truy nhập chongười dùng khác
+DAC quản lý quyền truy nhập chặt chẽ hơn các cơ chế khác
+DAC cấp quyền truy nhập dựa trên tính nhạy cảm của thông tin và chínhsách quản trị
+DAC là cơ chế điều khiển truy nhập được sử dụng rộng rãi nhất
+Câu 43. Phát biểu nào sau đây đúng với cơ chế điều khiển truy nhập bắt buộc MAC:
+MAC quản lý quyền truy nhập chặt chẽ hơn các cơ chế khác
+MAC cấp quyền truy nhập dựa trên tính nhạy cảm của thông tin và chínhsách quản trị
+MAC là cơ chế điều khiển truy nhập được sử dụng rộng rãi nhất
+MAC cho phép người tạo ra đối tượng có thể cấp quyền truy nhập chongười dùng khác
+Câu 44. Tìm phát biểu đúng về dịch vụ xác thực trong điều khiển truy nhập:
+Là quá trình xác minh nhận dạng của chủ thể
+Là quá trình xác minh nhận dạng của người dùng
+Là quá trình xác minh các thông tin nhận dạng của chủ thể yêu cầu truynhập đối tượng
+Là quá trình xác minh tính chân thực của thông tin nhận dạng người dùngcung cấp
+Câu 45. Hai dịch vụ quan trọng nhất của một hệ thống điều khiển truy nhập là:
+Authenticator và Administrator
+Authentication và Authorization
+Authentication và Administrator
+Administrator và Authorization
+Câu 46. Mục đích chính của điều khiển truy nhập là để đảm bảo các thuộc tính an ninh của thông tin, hệ thống và các tài nguyên, gồm:
+Tính bí mật, tính toàn vẹn và tính sẵn dùng
+Tính bảo mật, tính toàn vẹn và tính xác thực
+Tính bí mật, tính toàn vẹn và tính xác thực
+Tính bảo mật, tính toàn vẹn và tính sẵn dùng
+Câu 47. Tại sao một hệ thống phát hiện xâm nhập dựa trên chữ ký không thể phát hiện các tấn công, xâm nhập mới?
+Do chữ ký của chúng chưa tồn tại trong hệ thống
+Do các tấn công, xâm nhập mới chỉ gây thiệt hại nhỏ
+Do các tấn công, xâm nhập mới không có chữ ký
+Do các tấn công, xâm nhập mới không gây ra bất thường
+Câu 48. Ưu điểm của điều khiển truy nhập dựa trên các đặc điểm sinh trắc học là:
+Bảo mật cao và được hỗ trợ rộng rãi
+Bảo mật cao và độ ổn định cao
+Bảo mật cao và chi phí thấp
+Bảo mật cao và luôn đi cùng với chủ thể
+Câu 49. Các hệ thống phát hiện xâm nhập có thể thu thập dữ liệu đầu vào từ…
+Các host
+Mạng và các host
+Mạng
+Các router
+Câu 50. Dạng xác thực sử dụng các thông tin nào dưới đây đảm bảo độ an toàn cao hơn?
+Thẻ ATM và số PIN
+Tên truy nhập và mật khẩu
+Tên truy nhập và số PIN
+Thẻ ATM và tên truy nhập
+Câu 51. Phương pháp xác thực nào dưới đây có thể cung cấp khả năng xác thực có độ an toàn cao nhất?
+Sử dụng Smartcard
+Sử dụng chứng chỉ số
+Sử dụng mật khẩu
+Sử dụng vân tay
+Câu 52. Tìm phát biểu đúng về phát hiện xâm nhập dựa trên chữ ký và phát hiện xâm nhập dựa trên bất thường:
+Phát hiện xâm nhập dựa trên bất thường không thể phát hiện các tấncông, xâm nhập mới
+Phát hiện xâm nhập dựa trên chữ ký có thể phát hiện các tấn công, xâmnhập mới
+Phát hiện xâm nhập dựa trên chữ ký thường có tỷ lệ phát hiện đúng caohơn
+Phát hiện xâm nhập dựa trên bất thường thường có tỷ lệ phát hiện đúngcao hơn
+Câu 53. Đâu là một loại tường lửa?
+Gateway server
+Application server
+Server gateway
+Application-level gateway
+Câu 54. Loại tấn công nào sau đây chiếm quyền truy nhập đến tài nguyên lợi dụng cơ chế điều khiển truy nhập DAC?
+Man in the middle
+Phishing
+Trojan horse
+Spoofing
+Câu 55. Số lượng nhân tố (factor) xác thực sử dụng trong điều khiển truy nhập dựa trên thẻ thông minh là:
+3
+4
+1
+2
+Câu 56. Ưu điểm của thẻ bài (token) so với thẻ thông minh (smart card) trong điều khiển truy nhập là:
+Được sử dụng rộng rãi hơn
+Có chi phí rẻ hơn
+Có cơ chế xác thực mạnh hơn
+Có cơ chế xác thực đa dạng hơn
+Câu 57. Danh sách điều khiển truy nhập ACL thực hiện việc quản lý quyền truy nhập đến các đối tượng cho người dùng bằng cách:
+Các quyền truy nhập vào đối tượng cho mỗi người dùng được quản lý riêngrẽ
+Mỗi người dùng được gán một danh sách các đối tượng kèm theo quyền truynhập
+Mỗi đối tượng được gán một danh sách người dùng kèm theo quyền truynhập
+Các quyền truy nhập vào đối tượng cho mỗi người dùng được quản lý trongmột ma trận
+Câu 58. Tìm phát biểu đúng về mã hóa khóa bất đối xứng (Asymmetric key cryptography):
+Sử dụng một khóa quá trình mã hóa và một khóa khác cho giải mã
+An toàn hơn mã hóa khóa bí mật
+Sử dụng một khóa chung cho cả quá trình mã hóa và giải mã
+Chỉ sử dụng kỹ thuật mã hóa khối
+Câu 59. Độ an toàn của hệ mật mã RSA dựa trên...
+Khóa có kích thước lớn
+Độ phức tạp cao của giải thuật RSA
+Tính khó của việc phân tích số nguyên rất lớn
+Chi phí tính toán lớn
+1A 2C 3D 4B 5B 6C 7D 8D 9D 10A
+11C 12A 13D 14D 15A 16B 17B 18A 19B 20D
+21D 22C 23D 24A 25C 26B 27C 28D 29C 30C
+31D 32C 33A 34B 35B 36A 37A 38B 39B 40B
+41C 42A 43B 44D 45B 46A 47A 48D 49B 50A
+51B 52C 53D 54C 55D 56B 57C 58A 59C
