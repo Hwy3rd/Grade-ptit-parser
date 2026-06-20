@@ -1,0 +1,255 @@
+Câu 1. Thuật giải SHA-1 dùng để :
+Tạo khoá đối xứng
+Tạo chữ ký số
+Tạo một giá trị băm có độ dài cố định 160 bit
+Tạo một giá trị băm có độ dài cố định 256 bit
+Câu 2. Thuật giải MD5 dùng để :
+Bảo mật một thông điệp
+Xác thực một thông điệp
+Phân phối khoá mật mã
+Kiểm tra tính toàn vẹn dữ liệu
+Câu 3. Trong DES mỗi hàm chọn Si được dùng để :
+Biến đổi khối dữ liệu mã 48 bit thành 32 bit
+Biến đổi khối dữ liệu mã 6 bít thành 4 bít
+Biến đổi khối dữ liệu mã 16 bít thành 4 bít
+Biến đổi khối dữ liệu mã 32 bít thành 4 bít
+Câu 4. Trong hệ mã công khai RSA , để tạo một chữ ký điện tử của văn bản M ta dùng:
+S = E( ek ,M)
+S = D( dk ,M)
+S = D(ek,M)
+S = E ( dk ,M)
+Câu 5. Trong hệ mã công khai RSA , để chứng thực chữ ký điện tử S của văn bản M ta dùng:
+M = E( ek , S)
+M = D( dk ,S)
+M = D(ek , S)
+M = E (dk ,S)
+Câu 6. Điều nào sau đây là điểm yếu của IP ?
+Mã nguồn độc hại
+Giả mạo IP
+Tấn công dạng “Man in the middle”
+Tấn công chuyển tiếp
+Câu 7. Qui trình xác định topology của mạng được gọi là gì ?
+In dấu chân
+Quét mạng
+Thiết bị làm nhiễu
+Liệt kê
+Câu 8. Qui trình xác định vị trí và các thông tin mạng được gọi là gì ?
+In dấu chân
+Quét
+Thiết bị làm nhiễu
+Liệt kê
+Câu 9. Qui trình chiếm quyền truy cập đến tài nguyên mạng (đặc biệt như là các tập tin user và nhóm) được gọi là gì ?
+In dấu chân
+Quét
+Thiết bị làm nhiễu
+Liệt kê
+Câu 10. Qui trình phá vỡ một phiên làm việc IM được gọi là gì ?
+Thiết bị làm nhiễu
+Truyền rộng rãi
+Phản ứng với rắc rối
+Khảo sát định vị
+Câu 11. Bạn mới nhận cuộc gọi từ một user IM trong văn phòng mà user này đang ghé thăm một website quảng cáo. User này đang phàn nàn rằng hệ thống của anh ta không phản ứng và hàng triệu trang web đang mở trên màn hình của anh ta. Loại tấn công này là gì ?
+DoS
+Mã nguồn độc hại
+Giả mạo IP
+Khảo sát định vị
+Câu 12. Có thể sử dụng mật mã để nhận biết tài liệu đã bị thay đổi hay không?
+Có
+Không
+.
+.
+Câu 13. Nguyên tắc đảm bảo an toàn thông tin, hệ thống và mạng là:
+Sử dụng các phần cứng hệ thống và mạng đắt tiền
+Sử dụng tường lửa và các phần mềm quét virus
+Sử dụng các hệ thống ngăn chặn và phát hiện tấn công, đột nhập
+Sử dụng nhiều lớp bảo vệ có chiều sâu
+Câu 14. Đâu là một phương pháp mã hóa:
+Thay thế
+Đổi chỗ/ hoán vị
+Vernam
+Tất cả các phương án trên
+Câu 15. Giao thức bảo mật SSL đảm bảo tính bí mật, toàn vẹn và xác thực thông điệp bằng các kỹ thuật nào sau đây:
+Mã hóa khóa bí mật và hàm băm có khóa MAC
+Mã hóa khóa bí mật và chữ ký số
+Mã hóa khóa bí mật và mã hóa khóa công khai
+Mã hóa khóa bí mật và hàm băm không khóa MDC
+Câu 16. Các hệ mã hóa khóa công khai sử dụn một cặp khóa: public key và private key. Các yêu cầu đối với public key và private key là:
+Cả public key và private key đều cần giữ bí mật
+Có thể công khai public key và cần giữ bí mật private key
+Có thể công khai private key và cần giữ bí mật public key
+Có thể công khai public key nhưng phải đảm bảo tính xác thực và cần giữ bí mật private key
+Câu 17. Sâu SQL Slammer là sâu tấn công các hệ thống mạng lợi dụng lỗ hổng tràn bộ đệm ở:
+Máy chủ CSDL Microsoft SQL Server 2008
+Hệ điều hành Microsoft Windows 2003
+Máy chủ CSDL Microsoft SQL Server 2005
+Máy chủ CSDL Microsoft SQL Server 2000
+Câu 18. Kích thức khóa có thể của hệ mã hóa AES là:
+128, 160 và 192 bit
+64, 128 và 192 bit
+128, 256 và 512 bit
+128, 256 và 384 bit
+Câu 19. Các lỗ hổng tồn tại phổ biến trong hệ điều hành và các phần mềm ứng dụng là:
+Lỗi tràn bộ đệm và lỗi không kiểm tra đầu vào
+Lỗi tràn bộ đệm và cấu hình
+Lỗi cài đặt và quản trị
+Lỗi cài đặt và cấu hình
+Câu 20. Phát biểu nào sau đây mô tả đúng nhất về kỹ thuật tấn công Smurf:
+Giả mạo địa chỉ IP nguồn trong gói tin ICMP là địa chỉ máy đích và chúng gửi đến tất cả các máy trong mạng
+Giả mạo địa chỉ IP nguồn trong gói tin ICMP là địa chỉ máy đích và chúng gửi đến địa chỉ quảng bá của mạng
+Giả mạo địa chỉ IP nguồn trong gói tin ICMP là địa chỉ quảng bá và chúng gửi đến máy đích
+Tạo và gửi rất nhiều gòi tin ICMP giả mạo có kích thước lớn đến máy đích
+Câu 21. An toàn hệ thống thông tin là việc làm đảm bảo các thuộc tính an ninh, an toàn nào của hệ thống thông tin:
+Bí mật, xác thực và điều khiển
+Bí mật, toàn vẹn và không chối bỏ
+Bí mật, xác thực và không chối bỏ
+Bí mật, toàn vẹn và sẵn dùng
+Câu 22. Trong quá trình thiết lập một phiên kết nối TCP (TCP three-way handshake) thứ tự các gói tin được gửi đi như thế nào?
+SYN, URG, ACK
+SYN, ACK, SYN-ACK
+SYN, SYN-ACK, ACK
+FIN, FIN-ACK, ACK
+Câu 23. Khi một website tồn tại lỗ hổng SQL Injection, nguy cơ cao nhất có thể xảy ra là:
+Chiếm quyền điều khiển hệ thống
+Chèn, xóa hoặc sửa đổi dữ liệu
+Đánh cắp các thông tin trong CSDL
+Tấn công thay đổi hình ảnh giao diện
+Câu 24. Đặc trưng cơ bản khác biệ của worm với virus là:
+Có khả năng phá hoại lớn hơn so với virus
+Có khả năng tự lay lan mà không cần vật chủ hoặc tác nhân
+Có khả năng lây lan nhanh chóng bằng nhiều phương pháp khác nhau
+Có khả năng chiếm quyền điều khiển hệ thống
+Câu 25. Sự khác biệt giữa hệ chữ ký số RSA và DSA là:
+RSA an toàn hơn DSA
+DSA an toàn hơn RSA
+DSA có chi phí tính toán thấp hơn RSA
+Giải thuật DSA đơn giản hơn giải thuật RSA
+Câu 26. Kích thước khóa hiệu dụng của hệ mã hóa DES là:
+64 bit
+48 bit
+56 bit
+128 bit
+Câu 27. Phần xử lý chính của SHA1 làm việc trên một chuỗi được gọi là state. Kích thước của state là:
+160 bit
+170 bit
+150 bit
+180 bit
+Câu 28. Sự khác biệt cơ bản giữa tấn công DoS và tấn công DDoS là:
+DoS chỉ gây ngập lụt đường truyền
+DDoS chỉ làm cạn kiệt tài nguyên máy chủ
+Số hosts tham gia tấn công
+Cơ chế tấn công DDoS phức tạp hơn
+Câu 29. Số lượng vòng lặp chuyển đổi cần thực hiện để chuyển bản rõ thành bản mã trong hệ mã hóa AES khóa 128 bit là:
+14
+10
+16
+12
+Câu 30. Loại tấn công nào sau đây cung cấp cho tin tặc những thông tin hữu ích về các dịch vụ đang chạy trên hệ thống?
+Vulnerability Scan
+Session Hijacking
+Port Scan
+IP sweep
+Câu 31. Bước MixColumns (trộn cột) trong vòng lặp chuyển đổi trong hệ mã hóa AES thực hiện việc:
+Trộn hai cột kề nhau của ma trận state
+Mỗi cột của ma trận state được nhân với một đa thức
+Trộn các cột tương ứng của ma trận state với khóa
+Trộn các dòng tương ứng của ma trận state với khóa
+Câu 32. Tấn công dựa trên từ điển là:
+Sử dụng từ điển để tấn công đánh cắp mật khẩu của người dùng
+Tấn công vào thói quen sử dụng các từ đơn giản có trong từ điển làm mật khẩu
+Nghe trộm để đánh cắp mật khẩu
+Thử tất cả các khả năng kiểu vét cạn để tìm mật khẩu của người dùng
+Câu 33. Các phần mềm độc hại nào sau đây có khả năng tự nhân bản:
+Virus, worm, adware
+Virus, backdoor, worm
+Virus, worm, zombie
+Virus, trojan horse, worm
+Câu 34. SET là giao thức bảo mật dùng trong các giao dịch điện tử. Với SET, những bên nào tham gia giao dịch phải có chứng chỉ số:
+Tất cả các bên
+Khách hàng
+Cổng giao dịch
+Người bán
+Câu 35. Phát biểu nào sau đây đúng với cơ chế điều khiển truy cập MAC:
+MAC cấp quyền truy cập dựa trên tính nhạy cảm của những thông tin và chính sách quản trị
+MAC là cơ chế điều khiển truy cập được sử dụng rộng rãi nhất
+MAC cho phép người tạo ra đối tượng có thể cấp quyền truy cập cho người dùng khác
+MAC quản lý truyền quy cập chặt chẽ hơn các cơ chế khác
+Câu 36. Phát biểu nào sau đây đúng với kỹ thuật mã hóa khóa bí mật
+Mã hóa khóa bí mật an toàn hơn mã hóa khóa công khai
+Mã hóa khóa bí mật chỉ hoạt động theo chế độ mã hóa khối
+Mã hóa khóa bí mật sử dụng một mã (key) cho cả quá trình mã hóa và giải mã
+Mã hóa khóa bí mật có thuật toán đơn giản hơn mã hóa khóa công khai
+Câu 37. Phát biểu nào sau đây đúng với cơ chế điều khiển truy cập RBAC:
+RBAC cho phép người tạo ra đối tượng có thể cấp quyền truy cập cho người dùng khác
+RBAC cấp quyền truy cập dựa trên tính nhạy cảm của thông tin và chính sách quản trị
+RBAC cấp quyền truy cập dựa trên vai trò của người dùng trong tổ chức
+RBAC là cơ chế điều khiển truy cập được sử dụng rộng rãi nhất
+Câu 38. An toàn thông tin (Information Security) là:
+Việc đảm bảo an toàn cho hệ thống máy tính
+Việc phòng chống tấn công, đột nhập vào hệ thống máy tính và mạng
+Việc bảo vệ chống truy nhập, sử dụng, tiết lộ, sử đổi, hoặc phá hủy thông tin một cách trái phép
+Việc đảm bảo an toàn cho hệ thống mạng
+Câu 39. Nguyên nhân chính của lỗ hổng an ninh cho phép tấn công thực hiện mã từ xa là:
+Lỗi thiết kế phần mềm
+Lỗi quản trị hệ thống
+Lỗi lập trình phần mềm
+Lỗi tích hợp hệ thống
+Câu 40. Danh sách điều khiển truy nhập ACL thực hiện việc cấp quyền truy cập đến các đối tượng cho người dùng bằng cách:
+Các quyền truy cập vào đối tượng cho mỗi người dùng được quản lý riêng rẽ
+Mỗi người dùng được gán một danh sách các đối tượng kèm theo quyền truy cập
+Các quyền truy cập vào đối tượng cho mỗi người dùng được quản lý trong một ma trận
+Mỗi đối tượng được gán một danh sách người dùng kèm theo quyền truy cập
+Câu 41. Phát biểu nào sau đây đúng với cơ chế điều khiển truy cập DAC:
+DAC cho phép người tạo ra đối tượng có thể cấp quyền quy cập ch o người dùng khác
+DAC cấp quyền truy cập dựa trên tính nhạy cảm của thông tin và chính sách quản trị
+DAC quản lý quyền truy cập chặt chẽ hơn các cơ chế khác
+DAC là cơ chế điều khiển truy cập được sử dụng rộng rãi nhất
+Câu 42. Loại tấn công nào sau đây chiếm quyền truy cập đến tài nguyên lợi dụng cơ chế điều khiển truy cập DAC?
+Phishing
+DAC cấp quyền truy cập dựa trên tính nhạy cảm của thông tin và Trojan horse
+Spoofing
+Man in the middle
+Câu 43. Phương pháp xác thực nào dưới đây cung cấp khả năng xác thực có độ an toàn cao nhất?
+Sử dụng mật khẩu
+Sử dụng Smartcard
+Sử dụng chứng chỉ số
+Sử dụng vân tay
+Câu 44. Macro virus là virus lây nhiễm trong:
+Các file tài liệu dạng PDF
+Các file tài liệu của bộ chương trình Open Office
+Các file ảnh dạng JPG
+Các file tài liệu của bộ chương trình MS Office
+Câu 45. Phát biểu nào sau đây đúng với tường lửa
+Tường lửa không thể ngăn chặn các tấn công hướng dữ liệu
+Tường lửa có thể ngăn chặn mọi loại tấn công, đột nhập
+Tường lửa có thể ngăn chặn mọi virus và phần mềm độc hại
+Tường lửa có thể ngăn chặn các loại thư rác
+Câu 46. Trong quá trình xử lý dữ liệu tạo chuỗi băm, số lượng vòng xử lý của SHA1 là:
+60
+70
+80
+90
+Câu 47. Một trong các biện pháp hiệu quả phòng chống tấn công SQL Injection là:
+Luôn kiểm tra và cập nhật các bản vá an ninh cho hệ điều hành và các phần mềm ứng dụng
+Kiểm tra tất cả các dữ liệu đầu vào, đặc biệt dữ liệu nhập từ người dùng và từ các nguồn không tin cậy
+Cấu hình máy chủ CSDL không cho thực thi lệnh từ xa
+Không cho phép người dùng nhập mã vào các form.
+Câu 48. Trong hệ thống Kerberos gồm 3 thực thể: client A, máy chủ Kerberos T, máy chủ ứng dụng B, mục đích của hệ thống là để:
+T hỗ trợ A xác thực thông tin nhận dạng với B, kèm theo thiết lập khóa
+T xác thực B
+T xác thực A và B
+T xác thực A
+Câu 49. SSL sử dụng giao thực SSL Handshake để khởi tạo phiên làm việc. SSL Handshake thực hiện việc xác thực thực thể dựa trên:
+Chữ ký số
+Chứng chỉ số
+Mã hóa khóa công khai
+Mã hóa khóa bí mật
+Câu 50. Điểm khác nhau chính giữa hai loại hàm băm MDC và MAC là:
+MDC an toàn hơn MAC
+MAC an toàn hơn MDC
+MDC có khả năng chống đụng độ cao hơn MAC
+MDC là loại hàm băm không khóa, còn MAC là loại hàm băm có khóa
+1C 2D 3B 4B 5A 6B 7B 8A 9D 10A
+11B 12A 13D 14D 15A 16D 17D 18C 19A 20B
+21D 22C 23C 24B 25C 26C 27A 28C 29B 30C
+31B 32B 33C 34A 35A 36C 37C 38C 39C 40D
+41A 42B 43C 44D 45A 46C 47B 48A 49B 50D

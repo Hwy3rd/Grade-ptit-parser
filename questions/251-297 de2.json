@@ -1,0 +1,566 @@
+[
+  {
+    "id": 1,
+    "question": "Câu 1. Để thực hiện tấn công bằng Trojan, kẻ tấn công chỉ cần",
+    "answers": [
+      "Tạo 1 file chạy (*.exe, *.com) vận hành trên máy nạn nhân là đủ",
+      "Cho máy nạn nhân lây nhiễm một loại virus bất kỳ nào đó.",
+      "Thực hiện đồng thời 2 file, một file vận hành trên máy nạn nhân, file còn lại họat động điều khiển trên máy kẻ tấn công.",
+      "Không có điều nào đúng."
+    ],
+    "correctAnswer": "C",
+    "correctAnswerIndex": 2
+  },
+  {
+    "id": 2,
+    "question": "Câu 2. Giao thức bảo mật IPSec họat động ở tầng",
+    "answers": [
+      "Chỉ ở tầng transport ở mô hình OSI",
+      "Từ tầng 4 tới tầng 7 ở mô hình OSI",
+      "Network Layer ở mô hình OSI",
+      "Tất cả đều sai"
+    ],
+    "correctAnswer": "C",
+    "correctAnswerIndex": 2
+  },
+  {
+    "id": 3,
+    "question": "Câu 3. Cho biết phát biểu sau đây phát biểu nào là đúng nhất về registry",
+    "answers": [
+      "Regỉstry là một cơ sở dữ liệu dùng để lưu trữ thông tin về những sự thay đổi, những lựa chọn, những thiết lập từ người sử dụng Windows.",
+      "Regỉstry là một phần mềm tiện ích hỗ trợ cho người dùng thay đổii cấu hình Window khi cần thiết",
+      "Regỉstry là một thành phần của hệ điều hành Window",
+      "Tất cả đều đúng"
+    ],
+    "correctAnswer": "D",
+    "correctAnswerIndex": 3
+  },
+  {
+    "id": 4,
+    "question": "Câu 4. Có bao nhiêu kiểu dữ liệu trong Registry",
+    "answers": [
+      "5",
+      "4",
+      "6",
+      "7"
+    ],
+    "correctAnswer": "D",
+    "correctAnswerIndex": 3
+  },
+  {
+    "id": 5,
+    "question": "Câu 5. Các kiểu dữ liệu dùng trong registry là",
+    "answers": [
+      "interger, real,text,string",
+      "HKEY_CLASSES_ROOT, -USER, HKEY_LOCAL_MACHINE, HKEY_USERS, HKEY_CURRENT_CONFIG, HKEY_DYN_DATA",
+      "HKEY_CLASSES_ROOT, -USER, HKEY_LOCAL_MACHINE, REG_BINARY",
+      "REG_BINARY, REG_DWORD, REG_EXPAND_SZ, REG_MULTI_SZ, REG_SZ"
+    ],
+    "correctAnswer": "D",
+    "correctAnswerIndex": 3
+  },
+  {
+    "id": 6,
+    "question": "Câu 6. Để ẩn tất cả các ổ đĩa trong registry (A,B,C,D ) thì biến REG_DWORD trong Userkey và Systemkey có giá trị là bao nhiêu",
+    "answers": [
+      "65656000",
+      "67188270",
+      "67108863",
+      "Tất cả đều sai"
+    ],
+    "correctAnswer": "C",
+    "correctAnswerIndex": 2
+  },
+  {
+    "id": 7,
+    "question": "Câu 7. Để sử dụng xác thực Keberos V5 ở tất cả máy trạm Window98, người ta thực hiện :",
+    "answers": [
+      "Update window 98 lên XP hoặc Window 2000",
+      "Cài đặt tiện ích Distributed Security Client trên tất cả các máy chạy Window 98",
+      "Chỉ cần cài đặt Active Directory trên Server hệ thống",
+      "Không thể thực hiện được"
+    ],
+    "correctAnswer": "B",
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 8,
+    "question": "Câu 8. Khi cài đặt Window 2000 Server trên hệ thống NTFS, nhưng không thấy có hiển thị mục Security ở Security tables vì ?",
+    "answers": [
+      "Update Window 2000 mà không remote trước khi cài đặt",
+      "Cài đ��t Window 2000 nhiều lần trên Server",
+      "Bản Window 2000 không có bản quyền",
+      "Tất cả đều đúng"
+    ],
+    "correctAnswer": "B",
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 9,
+    "question": "Câu 9. Dịch vụ Active Directory thực hiện các chức năng sau",
+    "answers": [
+      "Tổ chức và xây dựng các domain; xác thực và cấp quyền cho các đối tượng",
+      "Duy các hoạt động của các dịch vụ bảo mật cho Window Server và xác thực, cấp quyền cho các đối tượng",
+      "Chỉ thực hiện việc xác thực và cấp các quyền cho users và groups",
+      "Quản lý tài nguyên và người dùng; xác thực và cấp các quyền cho users và groups; giám sát họat động của các user"
+    ],
+    "correctAnswer": "D",
+    "correctAnswerIndex": 3
+  },
+  {
+    "id": 10,
+    "question": "Câu 10. Thuật tóan thực hiện trong cơ chế bảo mật IP (IPSec) ở Window sử dụng là",
+    "answers": [
+      "MD5 và SHA1",
+      "MD5 và SHA1",
+      "Kerberos và DES",
+      "DES hoặc 3DES (triple DES)"
+    ],
+    "correctAnswer": "D",
+    "correctAnswerIndex": 3
+  },
+  {
+    "id": 11,
+    "question": "Câu 11. Trong Window 98,XP Registry được lưu trữ ở đâu ?",
+    "answers": [
+      "Được lưu trong file Classes.dat trong thư mục Windows",
+      "Được lưu trong thư mục 'Windows System32 Config'",
+      "Trong 2 file: user.dat và system.dat trong thư mục Windows",
+      "Tất cả đều sai"
+    ],
+    "correctAnswer": "D",
+    "correctAnswerIndex": 3
+  },
+  {
+    "id": 12,
+    "question": "Câu 12. Để thực hiện sửa đổi cấu hình trên registry ta thực hiện như sau:",
+    "answers": [
+      "Gõ regedit vào cửa sổ Run",
+      "Bấm Ctrl+ Esc+ r rồi bấm Enter",
+      "a và b đúng",
+      "Tất cả đều sai"
+    ],
+    "correctAnswer": "A",
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 13,
+    "question": "Câu 13. Quy trình crack một sản phẩm phần mềm đơn giản gồm mấy bước",
+    "answers": [
+      "3",
+      "4",
+      "5",
+      "3 hoặc 4"
+    ],
+    "correctAnswer": "A",
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 14,
+    "question": "Câu 14. Hai giao thức sử dụng trong IPSec (IPSec Protocol) gồm",
+    "answers": [
+      "IP Authentication Header, TCP/IP",
+      "TCP/IP, IP Encapsulating Security Payload",
+      "IP Authentication Header, IP Encapsulating Security Payload",
+      "Tất cả đều đúng"
+    ],
+    "correctAnswer": "C",
+    "correctAnswerIndex": 2
+  },
+  {
+    "id": 15,
+    "question": "Câu 15. Các điểm khác nhau cơ bản giữa dịch vụ X.509 và Kerberos là",
+    "answers": [
+      "Dựa trên mã hóa đối xứng",
+      "Được sử dụng trong dịch vụ mail",
+      "Xác thực nhiều chiều",
+      "Tất cả đều đúng"
+    ],
+    "correctAnswer": "C",
+    "correctAnswerIndex": 2
+  },
+  {
+    "id": 16,
+    "question": "Câu 16. Các chức năng cơ bản của kỹ thuật tấn công Sniffer",
+    "answers": [
+      "Tự động chụp các tên người sử dụng (Username) và mật khẩu không được mã hoá, Chuyển đổi dữ liệu trên đường truyền, phân tích những lỗi đang mắc phải trên hệ thống lưu lượng của mạng.",
+      "Bắt gói tin trên đường truyền, phân tích lỗi và giải mã gói tin",
+      "Bắt gói tin trên đường truyền, mã hóa vag giải mã dữ liệu",
+      "Tất cả đều đúng"
+    ],
+    "correctAnswer": "A",
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 17,
+    "question": "Câu 17. Các bước tấn công của Web Server theo trình tự sau :",
+    "answers": [
+      "Thăm dò, Scan, Giành quyền truy cập, Duy trì truy cập, Xóa vết",
+      "Scan, Thăm dò, Giành quyền truy cập, Duy trì truy cập, Xóa vết",
+      "Thăm dò, Scan, Duy trì truy cập, Giành quyền truy cập, Xóa vết",
+      "Giành quyền truy cập, Duy trì truy cập, Scan, Thăm dò"
+    ],
+    "correctAnswer": "A",
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 18,
+    "question": "Câu 18. Hiện tượng này do loại chương trình nguy hiểm nào gây ra : Làm mất một số file, làm phân mãnh ổ đĩa, gây tác hại vào những ngày, tháng đặc biệt v.v",
+    "answers": [
+      "Virrus, Zombie",
+      "Worm, Virus",
+      "Logicbomb, Virus",
+      "Trapdoors, Trojan"
+    ],
+    "correctAnswer": "C",
+    "correctAnswerIndex": 2
+  },
+  {
+    "id": 19,
+    "question": "Câu 19. Để đánh giá điểm mạnh của hệ thống IDS người ta dựa vào các yếu tố sau :",
+    "answers": [
+      "Khởi sự, Cách thực hiện, biểu hiện mà nó ghi nhận",
+      "Khởi sự, giám sát v�� trí, những đặc trưng ghép nối hoặc tích hợp",
+      "Cách thực hiện, biểu hiện mà nó ghi nhận, những đặc trưng ghép nối hoặc tích hợp",
+      "Tất cả đều đúng"
+    ],
+    "correctAnswer": "D",
+    "correctAnswerIndex": 3
+  },
+  {
+    "id": 20,
+    "question": "Câu 20. Hai cơ chế chính của hệ thống IDS Trigger để phát hiện khi có một kẻ xâm nhập tấn công mạng là:",
+    "answers": [
+      "Phát hiện biểu hiện không bình thường, phát hiện sử dụng không đúng",
+      "Phát hiện hiện tượng trùng lặp, phát hiện không bình thường",
+      "Phát hiện thay đổi, phát hiện sử dụng bất bình thường",
+      "Tất cả đều đúng"
+    ],
+    "correctAnswer": "A",
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 21,
+    "question": "Câu 21. Mục tiêu là phân tích mật mã là gì?",
+    "answers": [
+      "Để xác định thế mạnh của các thuật toán một",
+      "Để tăng cường chức năng thay thế trong một thuật toán mật mã",
+      "Để giảm chức năng transposition trong một thuật toán mật mã",
+      "Để xác định hoán vị sử dụng"
+    ],
+    "correctAnswer": "A",
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 22,
+    "question": "Câu 22. Điều gì sẽ xãy ra khi một thông báo đã được sửa đổi?",
+    "answers": [
+      "Khoá công cộng đã được thay đổi",
+      "Chìa khóa cá nhân đã được thay đổi",
+      "Thông điệp số đã được thay đổi",
+      "Tin nhắn đã được mã hóa đúng cách"
+    ],
+    "correctAnswer": "C",
+    "correctAnswerIndex": 2
+  },
+  {
+    "id": 23,
+    "question": "Câu 23. Mã hóa nào sau đây là một tiêu chuẩn dùng để phát triển cho việc tạo ra thông điệp an toàn?",
+    "answers": [
+      "Data Encryption Standard",
+      "Digital Signature Standard",
+      "Secure Hash Algorithm",
+      "Chữ kí dữ liệu tiêu chuẩn"
+    ],
+    "correctAnswer": "B",
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 24,
+    "question": "Câu 24. Nếu kẻ tấn công lấy trộm một mật khẩu có chứa một chiều mật khẩu đã mật mã, loại tấn công, cô sẽ thực hiện để tìm mật khẩu đã mật mã?",
+    "answers": [
+      "Tấn công Man-in-the-middle",
+      "Tấn công Birthday",
+      "Tấn công Denial of Service",
+      "Tấn công Dictionary"
+    ],
+    "correctAnswer": "D",
+    "correctAnswerIndex": 3
+  },
+  {
+    "id": 25,
+    "question": "Câu 25. Lợi thế của RSA là gì so với DSS?",
+    "answers": [
+      "Nó có thể cung cấp cho chữ ký số và mã hóa các chức năng",
+      "Nó sử dụng nguồn tài nguyên ít hơn và mã hóa nhanh hơn bởi vì nó sử dụng các phím đối xứng",
+      "Nó là một thuật toán mật mã khối so với một thuật toán mật mã dòng",
+      "Nó sử dụng một lần mã hóa pad"
+    ],
+    "correctAnswer": "A",
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 26,
+    "question": "Câu 26. Những gì được sử dụng để tạo ra một chữ ký điện tử?",
+    "answers": [
+      "Khóa riêng của người nhận",
+      "Khóa công khai của người gửi",
+      "Khóa riêng của người gửi",
+      "Khóa công khai của người nhận"
+    ],
+    "correctAnswer": "C",
+    "correctAnswerIndex": 2
+  },
+  {
+    "id": 27,
+    "question": "Câu 27. Phương thức nào sau đây là tốt nhất mô tả một chữ ký điện tử?",
+    "answers": [
+      "Một phương thức chuyển giao một chữ ký viết tay vào một tài liệu điện tử",
+      "Một phương pháp mã hóa thông tin bí mật",
+      "Một phương pháp để cung cấp một chữ ký điện tử và mã hóa",
+      "Một phương pháp để cho những người nhận của tin nhắn chứng minh nguồn gốc và sự toàn vẹn của một tin nhắn"
+    ],
+    "correctAnswer": "D",
+    "correctAnswerIndex": 3
+  },
+  {
+    "id": 28,
+    "question": "Câu 28. Sử dụng nhiêu bit với DES để có hiệu quả?",
+    "answers": [
+      "56",
+      "64",
+      "32",
+      "16"
+    ],
+    "correctAnswer": "A",
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 29,
+    "question": "Câu 29. Các yếu tố ảnh hưởng đến quá trình mã hóa",
+    "answers": [
+      "Thuật toán mã hóa, giải mã, và tính an toàn của kênh truyền",
+      "Thời gian thực hiện mã hóa và giải mã",
+      "Thực hiện mã hóa khối, mở rộng số bít xử lý",
+      "Tất cả đều sai"
+    ],
+    "correctAnswer": "A",
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 30,
+    "question": "Câu 30. Đối với Firewall lọc gói, hình thức tấn công nào sau đây được thực hiện",
+    "answers": [
+      "Nhái địa chỉ IP, tấn công giữa, tấn công biên",
+      "Nhái địa chỉ IP, tấn công đường đi nguồn, tấn công từng mẫu nhỏ",
+      "Nhái địa chỉ IP, tấn công vượt firewall,tấn công từng mẫu nhỏ",
+      "Nhái địa chỉ IP, tấn công vượt firewall, tấn công đường đi nguồn"
+    ],
+    "correctAnswer": "B",
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 31,
+    "question": "Câu 31. Ai là người tham gia vào việc phát triển đầu tiên hệ thống mã hóa khóa công?",
+    "answers": [
+      "Adi Shamir",
+      "Ross Anderson",
+      "Bruce Schneier",
+      "Martin Hellman"
+    ],
+    "correctAnswer": "D",
+    "correctAnswerIndex": 3
+  },
+  {
+    "id": 32,
+    "question": "Câu 32. DES là viết tắt của từ nào ?",
+    "answers": [
+      "Data encryption system",
+      "Data encryption standard",
+      "Data encoding standard",
+      "Data encryption signature"
+    ],
+    "correctAnswer": "B",
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 33,
+    "question": "Câu 33. Các phát biểu sau đây, phát biểu nào tốt nhất mô tả một hacker mũ trắng?",
+    "answers": [
+      "Chuyên gia bảo mật",
+      "Cựu Hacker mũ đen",
+      "Cựu Hacker mũ xám",
+      "Hacker hiểm độc"
+    ],
+    "correctAnswer": "A",
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 34,
+    "question": "Câu 34. Giai đoạn đầu của hacking là gì?",
+    "answers": [
+      "Duy trì truy cập",
+      "Gaining truy cập",
+      "Trinh sát",
+      "Dò tìm (Scanning)"
+    ],
+    "correctAnswer": "C",
+    "correctAnswerIndex": 2
+  },
+  {
+    "id": 35,
+    "question": "Câu 35. Khi một hacker cố gắng tấn công một máy chủ qua Internet nó được gọi là loại tấn công?",
+    "answers": [
+      "Tấn công từ xa",
+      "Tấn công truy cập vật lý",
+      "Truy cập địa phương",
+      "Tấn công tấn công nội"
+    ],
+    "correctAnswer": "A",
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 36,
+    "question": "Câu 36. Công cụ nào sau đây đúng là một công cụ để thực hiện footprinting không bị phát hiện?",
+    "answers": [
+      "Whois search",
+      "Traceroute",
+      "Ping sweep",
+      "Host scanning"
+    ],
+    "correctAnswer": "A",
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 37,
+    "question": "Câu 37. Bước tiếp theo sẽ được thực hiện sau khi footprinting là gì?",
+    "answers": [
+      "Scanning",
+      "Enumeration",
+      "System hacking",
+      "Active information gathering"
+    ],
+    "correctAnswer": "A",
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 38,
+    "question": "Câu 38. Footprinting là gì?",
+    "answers": [
+      "đo dấu vết của một hacker có đạo đức",
+      "tích luỹ dữ liệu bằng cách thu thập thông tin về một mục tiêu",
+      "quét một mạng lưới mục tiêu để phát hiện hệ điều hành các loại",
+      "sơ đồ bố trí vật lý của một mạng của mục tiêu"
+    ],
+    "correctAnswer": "B",
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 39,
+    "question": "Câu 39. Lý do tốt nhất để thực hiện một chính sách bảo mật là gì?",
+    "answers": [
+      "Tăng an ninh.",
+      "Nó làm cho khó hơn việc thi hành bảo mật",
+      "Hạn chế quyền hạn của nhân viên",
+      "Làm giảm an ninh."
+    ],
+    "correctAnswer": "A",
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 40,
+    "question": "Câu 40. FTP sử dụng cổng gì ?",
+    "answers": [
+      "21",
+      "25",
+      "23",
+      "80"
+    ],
+    "correctAnswer": "A",
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 41,
+    "question": "Câu 41. Cổng nào được HTTPS sử dụng?",
+    "answers": [
+      "443",
+      "80",
+      "53",
+      "21"
+    ],
+    "correctAnswer": "A",
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 42,
+    "question": "Câu 42. Trojan Horse là gì?",
+    "answers": [
+      "một chương trình độc hại mà lấy cắp tên người dùng và mật khẩu của bạn",
+      "gây hại như mã giả mạo hoặc thay thế mã hợp pháp",
+      "Một người sử dụng trái phép những người thu truy cập vào cơ sở dữ liệu người dùng của bạn và cho biết thêm mình như một người sử dụng",
+      "Một máy chủ đó là phải hy sinh cho tất cả các hacking nỗ lực để đăng nhập và giám sát các hoạt động hacking"
+    ],
+    "correctAnswer": "B",
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 43,
+    "question": "Câu 43. John muốn cài đặt một ứng dụng mới vào máy chủ của Windows 2000. Ông muốn đảm bảo rằng các ứng dụng bất kỳ ông sử dụng chưa được cài Trojan. Ông có thể làm gì để giúp đảm bảo điều này?",
+    "answers": [
+      "So sánh chữ ký MD5 của tập tin với một trong những công bố trên các phương tiện truyền thông phân tán",
+      "Xin các ứng dụng thông qua SSL",
+      "So sánh chữ ký virus của file với một trong những công bố trên các phương tiện truyền thông",
+      "Cài đặt các ứng dụng từ đĩa CD-ROM"
+    ],
+    "correctAnswer": "A",
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 44,
+    "question": "Câu 44. Hầu hết các lỗi SQL Injection đều là do (chọn 2 phương án)",
+    "answers": [
+      "câu lệnh SQL sai",
+      "trình duyệt Web không hỗ trợ",
+      "User làm cho câu lệnh SQL sai",
+      "Sử dụng Hệ quản trị CSDL không có bản quyền"
+    ],
+    "correctAnswer": "A,C",
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 45,
+    "question": "Câu 45. Chính sách bảo mật là",
+    "answers": [
+      "Cơ chế mặc định của hệ điều hành",
+      "phương thức xác định các hành vi “phù hợp” của các đối tượng tương tác với hệ thống",
+      "các tập luật được xây dựng nhằm bảo vệ các tấn công bất hợp pháp từ bên ngoài",
+      "Tất cả đều đúng"
+    ],
+    "correctAnswer": "B",
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 46,
+    "question": "Câu 46. Các loại mục tiêu của chiến tranh thông tin",
+    "answers": [
+      "Website, E-commerce server",
+      "Internet Relay Chat (IRC), Domain Name System (DNS)",
+      "ISP, Email server",
+      "Tất cả đều đúng"
+    ],
+    "correctAnswer": "D",
+    "correctAnswerIndex": 3
+  },
+  {
+    "id": 47,
+    "question": "Câu 47. Khi thực hiện triển khai HIDS khó khăn gặp là",
+    "answers": [
+      "Chi phí lắp đặt cao, khó bảo quản và duy trì",
+      "Giới hạn tầm nhìn mạng, phải xử lí với nhiều hệ điều hành khác trên mạng.",
+      "Thường xuyên phải cập nhật bảng vá lỗi",
+      "Thường xuyên cài đặt lại phải khi hệ thống mạng thay đổi hệ điều hành"
+    ],
+    "correctAnswer": "B",
+    "correctAnswerIndex": 1
+  }
+]

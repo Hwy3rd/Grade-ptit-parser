@@ -1,0 +1,255 @@
+Câu 1. Những chữ đầu của nhóm từ ACL là tên viết tắt của:
+Arbitrary Code Language
+Access Control Library
+Access Control List
+Allowed Computer List
+Câu 2. Nên cài mức truy cập mặc định là mức nào sau đây?
+Full access
+No access
+Read access
+Write access
+Câu 3. Sau khi một user được định danh và xác thực hệ thống, để cho phép user sử dụng tài nguyên bạn phải thực hiện điều gì?
+Phải được ủy quyền
+Được truyền lại
+Được mã hóa
+Được enable
+Câu 4. Quyền truy cập nào cho phép ta lưu giữ một tập tin?
+Đọc
+Sao chép
+Hiệu chỉnh
+Ghi
+Câu 5. Quyền truy cập nào cho phép ta hiệu chỉnh thuộc tính của một tập tin?
+Hiệu chỉnh (Modify)
+Sao chép (Copy)
+Thay đổi (Change)
+Biên tập ( Edit)
+Câu 6. Các quyền truy cập tối đa nên dành cho user là gì ?
+Ít nhất là quyền đọc và ghi
+Không có quyền truy cập
+Đủ để thực hiện công việc theo chức trách
+Toàn quyền
+Câu 7. Chính sách tài khoản nào nên được thiết lập để ngăn chặn các cuộc tấn công ác ý vào tài khoản của user?
+Disable tài khoản không dùng đến
+Hạn chế thời gian
+Ngày hết hạn tài khoản
+Giới hạn số lần logon
+Câu 8. Sau khi một user đã được định danh (identifed), điều gì cần phải làm trước khi họ log vào một mạng máy tính ?
+Xác thực với mật khẩu
+Họ phải nhập user ID đã được mã hóa
+Được phép truy cập với mức ưu tiên được thiết lập
+Người quản trị phải enable để gõ vào
+Câu 9. Chiều dài tối thiểu của mật khẩu cần phải là :
+12 đến 15 ký tự
+3 đến 5 ký tự
+8 ký tự
+1 đến 3 ký tự
+Câu 10. Điều gì cần được thực hiện đối với tập tin mật khẩu để ngăn chặn một người dùng trái phép crack vào các nội dung ?
+Hủy bỏ tất cả các quyền truy cập
+Mã hóa tập tin mật khẩu
+Di chuyển ngoại tuyến đến một đĩa mềm
+Sao chép đến một tập tin bù nhìn với một tên khác
+Câu 11. Một IP flood theo các host phát tán trực tiếp đến một Web server là một ví dụ của loại tấn công gì ?
+Trojan Hors
+Sâu
+Tấn công IP
+DoS phân tán (DDoS)
+Câu 12. Để ngăn tấn công DoS, một quản trị mạng chặn nguồn IP với tường lửa, nhưng tấn công vẫn tiếp diễn. Điều gì có khả năng xảy ra nhất ?
+Sâu DoS đã lây nhiễm cục bộ
+Tấn công đang đến từ nhiều host (DDoS)
+Một tường lửa không thể ngăn chặn tấn công DoS
+Phần mềm Antivirus cần được cài đặt trên máy chủ đích
+Câu 13. Cách bảo vệ nào sau đây là tốt nhất để chống lại tấn công DoS kiểu làm tràn băng thông và bộ đệm của hệ thống
+Subnet mask
+Cài đặt phần mềm bảo vệ Antivirus
+Disable web server
+Chặn giao thức ICMP
+Câu 14. Các loại khoá mật mã nào sau đây dễ bị crack nhất ?
+128 bit
+40 bit
+256 bit
+56 bit
+Câu 15. Cách nào sau đây là tốt nhất để chống lại điểm yếu bảo mật trong phần mềm HĐH ?
+Cài đặt bản service pack mới nhất
+Cài đặt lại HĐH thông dụng
+Sao lưu hệ thống thường xuyên
+Shut down hệ thống khi không sử dụng
+Câu 16. Các mật khẩu nào sau đây là khó phá nhất đối với một hacker ?
+password83
+reception
+!$aLtNb83
+LaT3r
+Câu 17. Một người dùng đã mua một máy tính xách tay đã nhiễm virus.Trên máy không chứa phần mềm Antivirus và chưa được kết nối với mạng.Cách tốt nhất để sửa chữa máy tính xách tay là gì ?
+Nối mạng máy tính xách tay và download phần mềm antivirus từ máy chủ
+Khởi động máy tính xách tay với đĩa antivirus
+Nối mạng máy tính xách tay và download phần mềm antivirus từ Internet
+Kết nối máy tính xách tay đến một máy tính cá nhân khác và diệt virus từ đó
+Câu 18. Các tập tin nào sau đây có khả năng chứa virus nhất ?
+database.dat
+bigpic.jpeg
+note.txt
+picture.gif.exe
+Câu 19. Loại mã nguồn độc hại nào có thể được cài đặt song không gây tác hại cho đến khi một hoạt động nào đó được kích hoạt ?
+Sâu
+Ngựa trojan
+Logic bomb
+Stealth virus
+Câu 20. Trong suốt quá trình kiểm định một bản ghi hệ thống máy chủ, các mục nào sau đây có thể được xem như là một khả năng đe dọa bảo mật ?
+Năm lần nổ lực login thất bại trên tài khoản “jsmith”
+Hai lần login thành công với tài khoản Administrator
+Năm trăm ngàn công việc in được gởi đến một máy in
+Ba tập tin mới được lưu trong tài khoản thư mục bởi người sử dụng là “finance”
+Câu 21. Phương pháp thông tin truy cập từ xa nào được xem như kết nối điển hình đến Internet mọi lúc, nó làm gia tăng rủi ro bảo mật do luôn mở đối với mọi cuộc tấn công ?
+Cable modem & DSL
+Dial-up
+Wireless
+SSH
+Câu 22. Tính năng bảo mật nào có thể được sử dụng đối với một máy trạm quay số truy cập từ xa sử dụng một username và mật khẩu ?
+Mã hóa số điện thoại
+Kiểm tra chuỗi modem
+Hiển thị gọi
+Gọi lại ( Call back)
+Câu 23. Tiện ích nào sau đây là một phương thức bảo mật truy cập từ xa tốt hơn telnet ?
+SSL
+SSH
+IPSec
+VPN
+Câu 24. Các giao thức đường hầm nào sau đây chỉ làm việc trên các mạng IP ?
+SLIP
+IPX
+L2TP
+PPTP
+Câu 25. Mục đích của một máy chủ RADIUS là
+Packet Sniffing
+Mã hóa
+Xác thực
+Thỏa thuận tốc độ kết nối
+Câu 26. Các giao thức xác thực nào sau đây được sử dụng trong các mạng không dây ?
+802.1X
+802.11b
+802.11a
+803.1
+Câu 27. Các giao thức nào sau đây làm việc trên lớp IP để bảo vệ thông tin IP trên mạng?
+IPX
+IPSec
+SSH
+TACACS+
+Câu 28. LAC ( L2TP Access Control) và LNS ( L2TP Network Server)) là các thành phần của giao thức đường hầm nào ?
+IPSec
+PPP
+PPTP
+L2TP
+Câu 29. Giao thức được sử dụng rộng rãi nhất để truy cập kiểu quay số đến một máy chủ từ xa là
+SLIP
+PPP
+RAS
+Telnet
+Câu 30. Kỹ thuật nào được sử dụng để bảo đảm thông tin liên lạc qua một mạng không được bảo mật ?
+Telnet
+SLIP
+VPN
+PPP
+Câu 31. Các thiết bị nào sau đây có thể sử dụng được trên mạng không dây ?
+Máy vi tính để bàn
+Máy tính xách tay
+PDA
+Tất cả các loại trên
+Câu 32. Thiết bị nào được sử dụng để cho phép các máy trạm không dây truy cập vào một mạng LAN rộng ?
+802.11b
+Tường lửa
+Điểm truy cập không dây (Wiless Access Point)
+VPN
+Câu 33. Các chuẩn giao thức mạng không dây nào sau đây phân phối nội dung Wireless Markup Language (WML) đến các ứng dụng Web trên các thiết bị cầm tay (PDA)?
+WAP
+WEP
+802.11g
+SSL
+Câu 34. Các chuẩn giao thức mạng không dây IEEE nào sau đây là phổ biến nhất ?
+803.11b
+802.11g
+802.11a
+802.11b
+Câu 35. Mức mã hóa WEP nào nên được thiết lập trên một mạng 802.11b ?
+128 bit
+40 bit
+28 bit
+16 bit
+Câu 36. Cơ cấu bảo mật mạng không dây nào sau đây là ít an toàn nhất ?
+VPN
+Mã hóa WEP 40 bit
+Bảo mật định danh mạng
+Mã hóa WEP 128 bit
+Câu 37. Bộ lọc địa chỉ MAC được định nghĩa như :
+Được phép truy cập đến một địa chỉ MAC nhất định.
+Ngăn chặn truy cập từ một địa chỉ MAC nhất định.
+Mã hóa địa chỉ MAC của thiết bị không dây.
+Tường lửa cá nhân
+Câu 38. Phương pháp điều khiển truy cập có hiệu quả và an toàn nhất đối với mạng không dây là:
+Mã hóa WEP 40 bit
+VPN
+Mã hóa WEP kết hợp với lọc địa chỉ MAC
+Nhận dạng bảo mật mạng
+Câu 39. Cơ cấu bảo mật nào sau đây được sử dụng với chuẩn không dây WAP ?
+WTLS
+SSL
+HTTPS
+Mã hóa WEP
+Câu 40. Thiết bị nào sử dụng bộ lọc gói và các quy tắc truy cập để kiểm soát truy cập đến các mạng riêng từ các mạng công cộng , như là Internet ?
+Điểm truy cập không dây
+Router
+Tường lửa
+Switch
+Câu 41. Thiết bị nào cho phép ta kết nối đến một mạng LAN của công ty qua Internet thông qua một kênh được mã hóa an toàn ?
+VPN
+WEP
+Modem
+Telnet
+Câu 42. Ứng dụng mạng nào có thể được sử dụng để phân tích và kiểm tra lưu lượng mạng ?
+IDS
+FTP
+Router
+Sniffer
+Câu 43. Cần phải làm gì để bảo vệ dữ liệu trên một máy tính xách tay nếu nó bị lấy cắp ?
+Khóa đĩa mềm
+Enable khi login và tạo mật khẩu trên HĐH
+Lưu trữ đều đặn trên CD-ROM
+Mã hóa dữ liệu
+Câu 44. Ta phải làm gì để ngăn chặn một ai đó tình cờ ghi đè lên dữ liệu trên một băng từ ?
+Xóa nó bằng nam châm
+Dán nhãn cẩn thận
+Thiết lập tab “Write-protect ”
+Lưu giữ nó tại chỗ
+Câu 45. Phương tiện nào sau đây không bị ảnh hưởng bởi từ tính ?
+Đĩa mềm
+CD-ROM
+Flash card
+Băng từ
+Câu 46. Yếu tố nào cần được sử dụng kết hợp với một thẻ thông minh để xác thực ?
+PIN
+Quét võng mạc
+Mã hóa khóa
+Thẻ nhớ
+Câu 47. Loại media nào sau đây không phải là một thiết bị cơ động được ?
+Đĩa mềm
+Ổ đĩa đĩa CD
+Thẻ thông minh
+Băng từ
+Câu 48. Các thiết bị hay các ứng dụng bảo mật nào sau đây nên được sử dụng để theo dõi và cảnh báo các quản trị mạng về truy cập trái phép ?
+Chương trình Antivirus
+Switch
+Hệ thống phát hiện xâm nhập (IDS)
+Dụng cụ phân tích mạng
+Câu 49. Vùng nào của cấu trúc liên kết bảo mật mạng chứa các máy chủ Intenet, như là web, FTP, và các máy chủ email ?
+DMZ
+VLAN
+VPN
+Intranet
+Câu 50. Loại mạng nào mô tả cấu hình mạng bên trong của một công ty dùng cho mô hình kinh doanh B2B ( Business to Business) ?
+VLAN
+Intranet
+Extranet
+VPN
+1C 2B 3A 4D 5A 6C 7D 8A 9C 10B
+11D 12B 13D 14B 15A 16C 17B 18D 19C 20A
+21A 22D 23B 24D 25C 26A 27B 28D 29B 30C
+31D 32C 33A 34D 35A 36C 37A 38B 39A 40C
+41A 42D 43D 44C 45B 46A 47C 48C 49A 50C

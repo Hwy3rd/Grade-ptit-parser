@@ -1,0 +1,602 @@
+[
+  {
+    "id": 1,
+    "question": "Câu 1. Thuật giải SHA-1 dùng để :",
+    "answers": [
+      "Tạo khoá đối xứng",
+      "Tạo chữ ký số",
+      "Tạo một giá trị băm có độ dài cố định 160 bit",
+      "Tạo một giá trị băm có độ dài cố định 256 bit"
+    ],
+    "correctAnswer": "C",
+    "correctAnswerIndex": 2
+  },
+  {
+    "id": 2,
+    "question": "Câu 2. Thuật giải MD5 dùng để :",
+    "answers": [
+      "Bảo mật một thông điệp",
+      "Xác thực một thông điệp",
+      "Phân phối khoá mật mã",
+      "Kiểm tra tính toàn vẹn dữ liệu"
+    ],
+    "correctAnswer": "D",
+    "correctAnswerIndex": 3
+  },
+  {
+    "id": 3,
+    "question": "Câu 3. Trong DES mỗi hàm chọn Si được dùng để :",
+    "answers": [
+      "Biến đổi khối dữ liệu mã 48 bit thành 32 bit",
+      "Biến đổi khối dữ liệu mã 6 bít thành 4 bít",
+      "Biến đổi khối dữ liệu mã 16 bít thành 4 bít",
+      "Biến đổi khối dữ liệu mã 32 bít thành 4 bít"
+    ],
+    "correctAnswer": "B",
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 4,
+    "question": "Câu 4. Trong hệ mã công khai RSA , để tạo một chữ ký điện tử của văn bản M ta dùng:",
+    "answers": [
+      "S = E( ek ,M)",
+      "S = D( dk ,M)",
+      "S = D(ek,M)",
+      "S = E ( dk ,M)"
+    ],
+    "correctAnswer": "B",
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 5,
+    "question": "Câu 5. Trong hệ mã công khai RSA , để chứng thực chữ ký điện tử S của văn bản M ta dùng:",
+    "answers": [
+      "M = E( ek , S)",
+      "M = D( dk ,S)",
+      "M = D(ek , S)",
+      "M = E (dk ,S)"
+    ],
+    "correctAnswer": "A",
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 6,
+    "question": "Câu 6. Điều nào sau đây là điểm yếu của IP ?",
+    "answers": [
+      "Mã nguồn độc hại",
+      "Giả mạo IP",
+      "Tấn công dạng “Man in the middle”",
+      "Tấn công chuyển tiếp"
+    ],
+    "correctAnswer": "B",
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 7,
+    "question": "Câu 7. Qui trình xác định topology của mạng được gọi là gì ?",
+    "answers": [
+      "In dấu chân",
+      "Quét mạng",
+      "Thiết bị làm nhiễu",
+      "Liệt kê"
+    ],
+    "correctAnswer": "B",
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 8,
+    "question": "Câu 8. Qui trình xác định vị trí và các thông tin mạng được gọi là gì ?",
+    "answers": [
+      "In dấu chân",
+      "Quét",
+      "Thiết bị làm nhiễu",
+      "Liệt kê"
+    ],
+    "correctAnswer": "A",
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 9,
+    "question": "Câu 9. Qui trình chiếm quyền truy cập đến tài nguyên mạng (đặc biệt như là các tập tin user và nhóm) được gọi là gì ?",
+    "answers": [
+      "In dấu chân",
+      "Quét",
+      "Thiết bị làm nhiễu",
+      "Liệt kê"
+    ],
+    "correctAnswer": "D",
+    "correctAnswerIndex": 3
+  },
+  {
+    "id": 10,
+    "question": "Câu 10. Qui trình phá vỡ một phiên làm việc IM được gọi là gì ?",
+    "answers": [
+      "Thiết bị làm nhiễu",
+      "Truyền rộng rãi",
+      "Phản ứng với rắc rối",
+      "Khảo sát định vị"
+    ],
+    "correctAnswer": "A",
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 11,
+    "question": "Câu 11. Bạn mới nhận cuộc gọi từ một user IM trong văn phòng mà user này đang ghé thăm một website quảng cáo. User này đang phàn nàn rằng hệ thống của anh ta không phản ứng và hàng triệu trang web đang mở trên màn hình của anh ta. Loại tấn công này là gì ?",
+    "answers": [
+      "DoS",
+      "Mã nguồn độc hại",
+      "Giả mạo IP",
+      "Khảo sát định vị"
+    ],
+    "correctAnswer": "B",
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 12,
+    "question": "Câu 12. Có thể sử dụng mật mã để nhận biết tài liệu đã bị thay đổi hay không?",
+    "answers": [
+      "Có",
+      "Không",
+      ".",
+      "."
+    ],
+    "correctAnswer": "A",
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 13,
+    "question": "Câu 13. Nguyên tắc đảm bảo an toàn thông tin, hệ thống và mạng là:",
+    "answers": [
+      "Sử dụng các phần cứng hệ thống và mạng đắt tiền",
+      "Sử dụng tường lửa và các phần mềm quét virus",
+      "Sử dụng các hệ thống ngăn chặn và phát hiện tấn công, đột nhập",
+      "Sử dụng nhiều lớp bảo vệ có chiều sâu"
+    ],
+    "correctAnswer": "D",
+    "correctAnswerIndex": 3
+  },
+  {
+    "id": 14,
+    "question": "Câu 14. Đâu là một phương pháp mã hóa:",
+    "answers": [
+      "Thay thế",
+      "Đổi chỗ/ hoán vị",
+      "Vernam",
+      "Tất cả các phương án trên"
+    ],
+    "correctAnswer": "D",
+    "correctAnswerIndex": 3
+  },
+  {
+    "id": 15,
+    "question": "Câu 15. Giao thức bảo mật SSL đảm bảo tính bí mật, toàn vẹn và xác thực thông điệp bằng các kỹ thuật nào sau đây:",
+    "answers": [
+      "Mã hóa khóa bí mật và hàm băm có khóa MAC",
+      "Mã hóa khóa bí mật và chữ ký số",
+      "Mã hóa khóa bí mật và mã hóa khóa công khai",
+      "Mã hóa khóa bí mật và hàm băm không khóa MDC"
+    ],
+    "correctAnswer": "A",
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 16,
+    "question": "Câu 16. Các hệ mã hóa khóa công khai sử dụn một cặp khóa: public key và private key. Các yêu cầu đối với public key và private key là:",
+    "answers": [
+      "Cả public key và private key đều cần giữ bí mật",
+      "Có thể công khai public key và cần giữ bí mật private key",
+      "Có thể công khai private key và cần giữ bí mật public key",
+      "Có thể công khai public key nhưng phải đảm bảo tính xác thực và cần giữ bí mật private key"
+    ],
+    "correctAnswer": "D",
+    "correctAnswerIndex": 3
+  },
+  {
+    "id": 17,
+    "question": "Câu 17. Sâu SQL Slammer là sâu tấn công các hệ thống mạng lợi dụng lỗ hổng tràn bộ đệm ở:",
+    "answers": [
+      "Máy chủ CSDL Microsoft SQL Server 2008",
+      "Hệ điều hành Microsoft Windows 2003",
+      "Máy chủ CSDL Microsoft SQL Server 2005",
+      "Máy chủ CSDL Microsoft SQL Server 2000"
+    ],
+    "correctAnswer": "D",
+    "correctAnswerIndex": 3
+  },
+  {
+    "id": 18,
+    "question": "Câu 18. Kích thức khóa có thể của hệ mã hóa AES là:",
+    "answers": [
+      "128, 160 và 192 bit",
+      "64, 128 và 192 bit",
+      "128, 256 và 512 bit",
+      "128, 256 và 384 bit"
+    ],
+    "correctAnswer": "C",
+    "correctAnswerIndex": 2
+  },
+  {
+    "id": 19,
+    "question": "Câu 19. Các lỗ hổng tồn tại phổ biến trong hệ điều hành và các phần mềm ứng dụng là:",
+    "answers": [
+      "Lỗi tràn bộ đệm và lỗi không kiểm tra đầu vào",
+      "Lỗi tràn bộ đệm và cấu hình",
+      "Lỗi cài đặt và quản trị",
+      "Lỗi cài đặt và cấu hình"
+    ],
+    "correctAnswer": "A",
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 20,
+    "question": "Câu 20. Phát biểu nào sau đây mô tả đúng nhất về kỹ thuật tấn công Smurf:",
+    "answers": [
+      "Giả mạo địa chỉ IP nguồn trong gói tin ICMP là địa chỉ máy đích và chúng gửi đến tất cả các máy trong mạng",
+      "Giả mạo địa chỉ IP nguồn trong gói tin ICMP là địa chỉ máy đích và chúng gửi đến địa chỉ quảng bá của mạng",
+      "Giả mạo địa chỉ IP nguồn trong gói tin ICMP là địa chỉ quảng bá và chúng gửi đến máy đích",
+      "Tạo và gửi rất nhiều gòi tin ICMP giả mạo có kích thước lớn đến máy đích"
+    ],
+    "correctAnswer": "B",
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 21,
+    "question": "Câu 21. An toàn hệ thống thông tin là việc làm đảm bảo các thuộc tính an ninh, an toàn nào của hệ thống thông tin:",
+    "answers": [
+      "Bí mật, xác thực và điều khiển",
+      "Bí mật, toàn vẹn và không chối bỏ",
+      "Bí mật, xác thực và không chối bỏ",
+      "Bí mật, toàn vẹn và sẵn dùng"
+    ],
+    "correctAnswer": "D",
+    "correctAnswerIndex": 3
+  },
+  {
+    "id": 22,
+    "question": "Câu 22. Trong quá trình thiết lập một phiên kết nối TCP (TCP three-way handshake) thứ tự các gói tin được gửi đi như thế nào?",
+    "answers": [
+      "SYN, URG, ACK",
+      "SYN, ACK, SYN-ACK",
+      "SYN, SYN-ACK, ACK",
+      "FIN, FIN-ACK, ACK"
+    ],
+    "correctAnswer": "C",
+    "correctAnswerIndex": 2
+  },
+  {
+    "id": 23,
+    "question": "Câu 23. Khi một website tồn tại lỗ hổng SQL Injection, nguy cơ cao nhất có thể xảy ra là:",
+    "answers": [
+      "Chiếm quyền điều khiển hệ thống",
+      "Chèn, xóa hoặc sửa đổi dữ liệu",
+      "Đánh cắp các thông tin trong CSDL",
+      "Tấn công thay đổi hình ảnh giao diện"
+    ],
+    "correctAnswer": "C",
+    "correctAnswerIndex": 2
+  },
+  {
+    "id": 24,
+    "question": "Câu 24. Đặc trưng cơ bản khác biệ của worm với virus là:",
+    "answers": [
+      "Có khả năng phá hoại lớn hơn so với virus",
+      "Có khả năng tự lay lan mà không cần vật chủ hoặc tác nhân",
+      "Có khả năng lây lan nhanh chóng bằng nhiều phương pháp khác nhau",
+      "Có khả năng chiếm quyền điều khiển hệ thống"
+    ],
+    "correctAnswer": "B",
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 25,
+    "question": "Câu 25. Sự khác biệt giữa hệ chữ ký số RSA và DSA là:",
+    "answers": [
+      "RSA an toàn hơn DSA",
+      "DSA an toàn hơn RSA",
+      "DSA có chi phí tính toán thấp hơn RSA",
+      "Giải thuật DSA đơn giản hơn giải thuật RSA"
+    ],
+    "correctAnswer": "C",
+    "correctAnswerIndex": 2
+  },
+  {
+    "id": 26,
+    "question": "Câu 26. Kích thước khóa hiệu dụng của hệ mã hóa DES là:",
+    "answers": [
+      "64 bit",
+      "48 bit",
+      "56 bit",
+      "128 bit"
+    ],
+    "correctAnswer": "C",
+    "correctAnswerIndex": 2
+  },
+  {
+    "id": 27,
+    "question": "Câu 27. Phần xử lý chính của SHA1 làm việc trên một chuỗi được gọi là state. Kích thước của state là:",
+    "answers": [
+      "160 bit",
+      "170 bit",
+      "150 bit",
+      "180 bit"
+    ],
+    "correctAnswer": "A",
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 28,
+    "question": "Câu 28. Sự khác biệt cơ bản giữa tấn công DoS và tấn công DDoS là:",
+    "answers": [
+      "DoS chỉ gây ngập lụt đường truyền",
+      "DDoS chỉ làm cạn kiệt tài nguyên máy chủ",
+      "Số hosts tham gia tấn công",
+      "Cơ chế tấn công DDoS phức tạp hơn"
+    ],
+    "correctAnswer": "C",
+    "correctAnswerIndex": 2
+  },
+  {
+    "id": 29,
+    "question": "Câu 29. Số lượng vòng lặp chuyển đổi cần thực hiện để chuyển bản rõ thành bản mã trong hệ mã hóa AES khóa 128 bit là:",
+    "answers": [
+      "14",
+      "10",
+      "16",
+      "12"
+    ],
+    "correctAnswer": "B",
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 30,
+    "question": "Câu 30. Loại tấn công nào sau đây cung cấp cho tin tặc những thông tin hữu ích về các dịch vụ đang chạy trên hệ thống?",
+    "answers": [
+      "Vulnerability Scan",
+      "Session Hijacking",
+      "Port Scan",
+      "IP sweep"
+    ],
+    "correctAnswer": "C",
+    "correctAnswerIndex": 2
+  },
+  {
+    "id": 31,
+    "question": "Câu 31. Bước MixColumns (trộn cột) trong vòng lặp chuyển đổi trong hệ mã hóa AES thực hiện việc:",
+    "answers": [
+      "Trộn hai cột kề nhau của ma trận state",
+      "Mỗi cột của ma trận state được nhân với một đa thức",
+      "Trộn các cột tương ứng của ma trận state với khóa",
+      "Trộn các dòng tương ứng của ma trận state với khóa"
+    ],
+    "correctAnswer": "B",
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 32,
+    "question": "Câu 32. Tấn công dựa trên từ điển là:",
+    "answers": [
+      "Sử dụng từ điển để tấn công đánh cắp mật khẩu của người dùng",
+      "Tấn công vào thói quen sử dụng các từ đơn giản có trong từ điển làm mật khẩu",
+      "Nghe trộm để đánh cắp mật khẩu",
+      "Thử tất cả các khả năng kiểu vét cạn để tìm mật khẩu của người dùng"
+    ],
+    "correctAnswer": "B",
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 33,
+    "question": "Câu 33. Các phần mềm độc hại nào sau đây có khả năng tự nhân bản:",
+    "answers": [
+      "Virus, worm, adware",
+      "Virus, backdoor, worm",
+      "Virus, worm, zombie",
+      "Virus, trojan horse, worm"
+    ],
+    "correctAnswer": "C",
+    "correctAnswerIndex": 2
+  },
+  {
+    "id": 34,
+    "question": "Câu 34. SET là giao thức bảo mật dùng trong các giao dịch điện tử. Với SET, những bên nào tham gia giao dịch phải có chứng chỉ số:",
+    "answers": [
+      "Tất cả các bên",
+      "Khách hàng",
+      "Cổng giao dịch",
+      "Người bán"
+    ],
+    "correctAnswer": "A",
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 35,
+    "question": "Câu 35. Phát biểu nào sau đây đúng với cơ chế điều khiển truy cập MAC:",
+    "answers": [
+      "MAC cấp quyền truy cập dựa trên tính nhạy cảm của những thông tin và chính sách quản trị",
+      "MAC là cơ chế điều khiển truy cập được sử dụng rộng rãi nhất",
+      "MAC cho phép người tạo ra đối tượng có thể cấp quyền truy cập cho người dùng khác",
+      "MAC quản lý truyền quy cập chặt chẽ hơn các cơ chế khác"
+    ],
+    "correctAnswer": "A",
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 36,
+    "question": "Câu 36. Phát biểu nào sau đây đúng với kỹ thuật mã hóa khóa bí mật",
+    "answers": [
+      "Mã hóa khóa bí mật an toàn hơn mã hóa khóa công khai",
+      "Mã hóa khóa bí mật chỉ hoạt động theo chế độ mã hóa khối",
+      "Mã hóa khóa bí mật sử dụng một mã (key) cho cả quá trình mã hóa và giải mã",
+      "Mã hóa khóa bí mật có thuật toán đơn giản hơn mã hóa khóa công khai"
+    ],
+    "correctAnswer": "C",
+    "correctAnswerIndex": 2
+  },
+  {
+    "id": 37,
+    "question": "Câu 37. Phát biểu nào sau đây đúng với cơ chế điều khiển truy cập RBAC:",
+    "answers": [
+      "RBAC cho phép người tạo ra đối tượng có thể cấp quyền truy cập cho người dùng khác",
+      "RBAC cấp quyền truy cập dựa trên tính nhạy cảm của thông tin và chính sách quản trị",
+      "RBAC cấp quyền truy cập dựa trên vai trò của người dùng trong tổ chức",
+      "RBAC là cơ chế điều khiển truy cập được sử dụng rộng rãi nhất"
+    ],
+    "correctAnswer": "C",
+    "correctAnswerIndex": 2
+  },
+  {
+    "id": 38,
+    "question": "Câu 38. An toàn thông tin (Information Security) là:",
+    "answers": [
+      "Việc đảm bảo an toàn cho hệ thống máy tính",
+      "Việc phòng chống tấn công, đột nhập vào hệ thống máy tính và mạng",
+      "Việc bảo vệ chống truy nhập, sử dụng, tiết lộ, sử đổi, hoặc phá hủy thông tin một cách trái phép",
+      "Việc đảm bảo an toàn cho hệ thống mạng"
+    ],
+    "correctAnswer": "C",
+    "correctAnswerIndex": 2
+  },
+  {
+    "id": 39,
+    "question": "Câu 39. Nguyên nhân chính của lỗ hổng an ninh cho phép tấn công thực hiện mã từ xa là:",
+    "answers": [
+      "Lỗi thiết kế phần mềm",
+      "Lỗi quản trị hệ thống",
+      "Lỗi lập trình phần mềm",
+      "Lỗi tích hợp hệ thống"
+    ],
+    "correctAnswer": "C",
+    "correctAnswerIndex": 2
+  },
+  {
+    "id": 40,
+    "question": "Câu 40. Danh sách điều khiển truy nhập ACL thực hiện việc cấp quyền truy cập đến các đối tượng cho người dùng bằng cách:",
+    "answers": [
+      "Các quyền truy cập vào đối tượng cho mỗi người dùng được quản lý riêng rẽ",
+      "Mỗi người dùng được gán một danh sách các đối tượng kèm theo quyền truy cập",
+      "Các quyền truy cập vào đối tượng cho mỗi người dùng được quản lý trong một ma trận",
+      "Mỗi đối tượng được gán một danh sách người dùng kèm theo quyền truy cập"
+    ],
+    "correctAnswer": "D",
+    "correctAnswerIndex": 3
+  },
+  {
+    "id": 41,
+    "question": "Câu 41. Phát biểu nào sau đây đúng với cơ chế điều khiển truy cập DAC:",
+    "answers": [
+      "DAC cho phép người tạo ra đối tượng có thể cấp quyền quy cập ch o người dùng khác",
+      "DAC cấp quyền truy cập dựa trên tính nhạy cảm của thông tin và chính sách quản trị",
+      "DAC quản lý quyền truy cập chặt chẽ hơn các cơ chế khác",
+      "DAC là cơ chế điều khiển truy cập được sử dụng rộng rãi nhất"
+    ],
+    "correctAnswer": "A",
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 42,
+    "question": "Câu 42. Loại tấn công nào sau đây chiếm quyền truy cập đến tài nguyên lợi dụng cơ chế điều khiển truy cập DAC?",
+    "answers": [
+      "Phishing",
+      "DAC cấp quyền truy cập dựa trên tính nhạy cảm của thông tin và Trojan horse",
+      "Spoofing",
+      "Man in the middle"
+    ],
+    "correctAnswer": "B",
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 43,
+    "question": "Câu 43. Phương pháp xác thực nào dưới đây cung cấp khả năng xác thực có độ an toàn cao nhất?",
+    "answers": [
+      "Sử dụng mật khẩu",
+      "Sử dụng Smartcard",
+      "Sử dụng chứng chỉ số",
+      "Sử dụng vân tay"
+    ],
+    "correctAnswer": "C",
+    "correctAnswerIndex": 2
+  },
+  {
+    "id": 44,
+    "question": "Câu 44. Macro virus là virus lây nhiễm trong:",
+    "answers": [
+      "Các file tài liệu dạng PDF",
+      "Các file tài liệu của bộ chương trình Open Office",
+      "Các file ảnh dạng JPG",
+      "Các file tài liệu của bộ chương trình MS Office"
+    ],
+    "correctAnswer": "D",
+    "correctAnswerIndex": 3
+  },
+  {
+    "id": 45,
+    "question": "Câu 45. Phát biểu nào sau đây đúng với tường lửa",
+    "answers": [
+      "Tường lửa không thể ngăn chặn các tấn công hướng dữ liệu",
+      "Tường lửa có thể ngăn chặn mọi loại tấn công, đột nhập",
+      "Tường lửa có thể ngăn chặn mọi virus và phần mềm độc hại",
+      "Tường lửa có thể ngăn chặn các loại thư rác"
+    ],
+    "correctAnswer": "A",
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 46,
+    "question": "Câu 46. Trong quá trình xử lý dữ liệu tạo chuỗi băm, số lượng vòng xử lý của SHA1 là:",
+    "answers": [
+      "60",
+      "70",
+      "80",
+      "90"
+    ],
+    "correctAnswer": "C",
+    "correctAnswerIndex": 2
+  },
+  {
+    "id": 47,
+    "question": "Câu 47. Một trong các biện pháp hiệu quả phòng chống tấn công SQL Injection là:",
+    "answers": [
+      "Luôn kiểm tra và cập nhật các bản vá an ninh cho hệ điều hành và các phần mềm ứng dụng",
+      "Kiểm tra tất cả các dữ liệu đầu vào, đặc biệt dữ liệu nhập từ người dùng và từ các nguồn không tin cậy",
+      "Cấu hình máy chủ CSDL không cho thực thi lệnh từ xa",
+      "Không cho phép người dùng nhập mã vào các form."
+    ],
+    "correctAnswer": "B",
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 48,
+    "question": "Câu 48. Trong hệ thống Kerberos gồm 3 thực thể: client A, máy chủ Kerberos T, máy chủ ứng dụng B, mục đích của hệ thống là để:",
+    "answers": [
+      "T hỗ trợ A xác thực thông tin nhận dạng với B, kèm theo thiết lập khóa",
+      "T xác thực B",
+      "T xác thực A và B",
+      "T xác thực A"
+    ],
+    "correctAnswer": "A",
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 49,
+    "question": "Câu 49. SSL sử dụng giao thực SSL Handshake để khởi tạo phiên làm việc. SSL Handshake thực hiện việc xác thực thực thể dựa trên:",
+    "answers": [
+      "Chữ ký số",
+      "Chứng chỉ số",
+      "Mã hóa khóa công khai",
+      "Mã hóa khóa bí mật"
+    ],
+    "correctAnswer": "B",
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 50,
+    "question": "Câu 50. Điểm khác nhau chính giữa hai loại hàm băm MDC và MAC là:",
+    "answers": [
+      "MDC an toàn hơn MAC",
+      "MAC an toàn hơn MDC",
+      "MDC có khả năng chống đụng độ cao hơn MAC",
+      "MDC là loại hàm băm không khóa, còn MAC là loại hàm băm có khóa"
+    ],
+    "correctAnswer": "D",
+    "correctAnswerIndex": 3
+  }
+]

@@ -1,0 +1,602 @@
+[
+  {
+    "id": 1,
+    "question": "Câu 1. Dịch vụ mạng nào cho phép các địa chỉ mạng bên trong được “che dấu”( hidden) khỏi các mạng bên ngoài và cho phép vài host của mạng bên trong sử dụng các địa chỉ trùng với mạng bên ngoài ?",
+    "answers": [
+      "NAT",
+      "VPN",
+      "VLAN",
+      "IP spoofing"
+    ],
+    "correctAnswer": "A",
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 2,
+    "question": "Câu 2. Công nghệ nào được sử dụng để chia một mạng bên trong thành mạng logic nhỏ hơn, dễ sử dụng hơn ?",
+    "answers": [
+      "NAT",
+      "Tunneling",
+      "VPN",
+      "VLAN"
+    ],
+    "correctAnswer": "D",
+    "correctAnswerIndex": 3
+  },
+  {
+    "id": 3,
+    "question": "Câu 3. Không sử dụng một liên kết chuyên dụng , phương pháp tốt nhất để kết nối hai mạng được định vị trong các văn phòng có khoảng cách địa lý xa nhau là gì ?",
+    "answers": [
+      "VLAN",
+      "Tường lửa",
+      "DMZ",
+      "VPN"
+    ],
+    "correctAnswer": "D",
+    "correctAnswerIndex": 3
+  },
+  {
+    "id": 4,
+    "question": "Câu 4. Sau khi cố gắng login đến một trạm làm việc trong 3 lần, một user thấy đã bị khóa bên ngoài hệ thống và không thể thực hiện bất kỳ nổ lực nào hơn nữa. Vấn đề này phù hợp nhất với điều gì ?",
+    "answers": [
+      "Cổng mạng disable",
+      "Tường lửa disable khi truy cập đến host",
+      "User quên mật khẩu của họ",
+      "Hệ thống phát hiện xâm nhập disable tài khoản của user"
+    ],
+    "correctAnswer": "D",
+    "correctAnswerIndex": 3
+  },
+  {
+    "id": 5,
+    "question": "Câu 5. Đặc tính nào của các thiết bị mạng như router hay switch, cho phép điều khiển truy cập dữ liệu trên mạng ?",
+    "answers": [
+      "Giao thức DNS",
+      "Cập nhật vi chương trình ( Firmware)",
+      "Tường lửa",
+      "Danh sách điều khiển truy cập (ACL)"
+    ],
+    "correctAnswer": "D",
+    "correctAnswerIndex": 3
+  },
+  {
+    "id": 6,
+    "question": "Câu 6. Phần nào của một thiết bị phần cứng có thể được nâng cấp để cung cấp khả năng bảo mật tốt hơn và đáng tin hơn ?",
+    "answers": [
+      "Vi chương trình (firmware)",
+      "Quét cổng",
+      "Flash memory",
+      "Cấu hình tập tin"
+    ],
+    "correctAnswer": "A",
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 7,
+    "question": "Câu 7. Giao thức nào sau đây cần xóa trên thiết bị mạng quan trọng như router ?",
+    "answers": [
+      "TCP/IP",
+      "ICMP",
+      "IPX/SPX",
+      "RIP"
+    ],
+    "correctAnswer": "C",
+    "correctAnswerIndex": 2
+  },
+  {
+    "id": 8,
+    "question": "Câu 8. Các giao thức nào sau đây cần xóa trên một máy chủ email để ngăn chặn một user trái phép khai thác các điểm yếu bảo mật từ phần mềm giám sát mạng ?",
+    "answers": [
+      "IMAP",
+      "POP3",
+      "TCP/IP",
+      "SNMP"
+    ],
+    "correctAnswer": "D",
+    "correctAnswerIndex": 3
+  },
+  {
+    "id": 9,
+    "question": "Câu 9. Điều gì cần được thực hiện với một email server để ngăn chặn user bên ngoài gởi email thông qua nó ?",
+    "answers": [
+      "Cài đặt phần mềm antivirus và antispam.",
+      "Hạn chế chuyên tiếp tín hiệu SMTP.",
+      "Xoá quyền truy cập POP3 và IMAP",
+      "Enable login được mã hóa"
+    ],
+    "correctAnswer": "B",
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 10,
+    "question": "Câu 10. Điều gì có thể được thiết lập trên một server DHCP để ngăn chặn các máy trạm trái phép lấy được một địa chỉ IP từ server ?",
+    "answers": [
+      "Quét cổng",
+      "Thiết lập “Danh sách truy cập thư mục LDAP”",
+      "Phát hiện xâm nhập",
+      "DNS"
+    ],
+    "correctAnswer": "B",
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 11,
+    "question": "Câu 11. Văn bản sau khi được mã hóa, được gọi là gì ?",
+    "answers": [
+      "Chứng chỉ",
+      "Mật mã đối xứng",
+      "Khóa công khai",
+      "Văn bản mã"
+    ],
+    "correctAnswer": "D",
+    "correctAnswerIndex": 3
+  },
+  {
+    "id": 12,
+    "question": "Câu 12. Đặc tính nào sau đây không thuộc chức năng bảo mật thông tin trong các hệ thống mật mã ?",
+    "answers": [
+      "Hiệu quả",
+      "Bảo mật",
+      "Toàn vẹn",
+      "Không chối từ"
+    ],
+    "correctAnswer": "A",
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 13,
+    "question": "Câu 13. Ở hệ mật mã nào người gửi và người nhận thông điệp sử dụng cùng một khóa mã khi mã hóa và giải mã ?",
+    "answers": [
+      "Không đối xứng",
+      "Đối xứng",
+      "RSA",
+      "Diffie-Hellman"
+    ],
+    "correctAnswer": "B",
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 14,
+    "question": "Câu 14. Chuẩn nào sau đây được chính phủ Mỹ sử dụng thay thế cho DES như là một chuẩn mã hoá dữ liệu?",
+    "answers": [
+      "DSA",
+      "ECC",
+      "3DES",
+      "AES"
+    ],
+    "correctAnswer": "D",
+    "correctAnswerIndex": 3
+  },
+  {
+    "id": 15,
+    "question": "Câu 15. Ở hệ mật mã nào người gửi và người nhận thông điệp sử dụng các khóa khác nhau khi mã hóa và giải mã ?",
+    "answers": [
+      "Skipjack",
+      "Blowfish",
+      "Không đối xứng",
+      "Đối xứng"
+    ],
+    "correctAnswer": "C",
+    "correctAnswerIndex": 2
+  },
+  {
+    "id": 16,
+    "question": "Câu 16. Các giao thức mã hóa và các thuật toán nào sau đây được sử dụng như là nền tảng của hạ tầng cơ sở hạ tầng khóa công khai (PKI)?",
+    "answers": [
+      "MD4",
+      "SHA",
+      "Diffie-Hellman",
+      "Skipjack"
+    ],
+    "correctAnswer": "C",
+    "correctAnswerIndex": 2
+  },
+  {
+    "id": 17,
+    "question": "Câu 17. Khi giá trị hàm băm của hai thông điệp khác nhau có giá trị tương tự nhau, ta gọi hiện tượng này là gì ?",
+    "answers": [
+      "Tấn công vào ngày sinh",
+      "Xung đột",
+      "Chữ ký số",
+      "Khóa công khai"
+    ],
+    "correctAnswer": "B",
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 18,
+    "question": "Câu 18. Thực thể nào sau đây cho phép phát hành , quản lý, và phân phối các chứng chỉ số ?",
+    "answers": [
+      "Quyền cấp chứng chỉ (Certificate Authority)",
+      "Quyền đang ký (Registation Authority)",
+      "Chính phủ (NSA)",
+      "PKI"
+    ],
+    "correctAnswer": "A",
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 19,
+    "question": "Câu 19. Tính hợp lệ của một chứng chỉ dựa vào điều gì ?",
+    "answers": [
+      "Tính hợp lệ của Quyền cấp chứng chỉ (CA)",
+      "Tính hợp lệ của người sở hữu",
+      "Tính hợp lệ của khóa công khai",
+      "Giai đoạn chứng chỉ được sử dụng"
+    ],
+    "correctAnswer": "A",
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 20,
+    "question": "Câu 20. Trong một mô hình phân cấp ủy thác giữa các tổ chức chứng thực và các người dùng cuối, mô hình nào sau đây được coi là xu hướng chung của việc phát hành chứng chỉ?",
+    "answers": [
+      "Các chính sách thu hồi chứng chỉ",
+      "Các ngày hợp lệ",
+      "Khóa cá nhân",
+      "Chứng thực gốc ( Root Certificate)"
+    ],
+    "correctAnswer": "D",
+    "correctAnswerIndex": 3
+  },
+  {
+    "id": 21,
+    "question": "Câu 21. Khi ta lưu giữ một khóa cá nhân trên đĩa cứng cục bộ, làm thế nào để bảo đảm là nó được bảo mật ?",
+    "answers": [
+      "Cần bảo vệ bằng mật khẩu",
+      "Lưu trữ dữ liệu sao lưu vào đĩa mềm",
+      "Lưu trữ bản sao trong bì thư",
+      "Lưu trữ nó trong một thư mục tương tự như khóa công khai"
+    ],
+    "correctAnswer": "A",
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 22,
+    "question": "Câu 22. Cách nào sau đây được coi là an toàn nhất để lưu trữ một khóa cá nhân ?",
+    "answers": [
+      "Lưu nó trên ổ cứng ở dạng bản rõ",
+      "Niêm phong nó trong một bao thư và để nó trong ngăn bàn",
+      "Mã hóa nó trên một thẻ thông minh",
+      "Lưu nó trên một thiết bị USB di dộng ở dạng bản rõ"
+    ],
+    "correctAnswer": "C",
+    "correctAnswerIndex": 2
+  },
+  {
+    "id": 23,
+    "question": "Câu 23. Một quản trị mạng mới đây đã bị sa thải khỏi công ty. Cần phải làm gì với chứng chỉ hiện hành của họ ?",
+    "answers": [
+      "Làm mới lại đối với người quản trị mới",
+      "Thu hồi lại chứng chỉ",
+      "Đình chỉ tạm thời",
+      "Hết hiệu lực"
+    ],
+    "correctAnswer": "B",
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 24,
+    "question": "Câu 24. Các phương pháp sinh trắc học nào sau đây được coi là an toàn nhất ?",
+    "answers": [
+      "Phân tích chữ ký",
+      "Quét tiếng nói",
+      "Lấy dấu bàn tay / Lấy dấu ngón tay",
+      "Không quan trọng"
+    ],
+    "correctAnswer": "C",
+    "correctAnswerIndex": 2
+  },
+  {
+    "id": 25,
+    "question": "Câu 25. Khi kết thúc công việc trên máy tính xách tay và ra ngoài khoảng 1 tiếng vào buổi trưa. Ta nên làm gì trước khi ra ngoài ?",
+    "answers": [
+      "Nói với đồng nghiệp để mắt đến máy tính xách tay",
+      "Log out khỏi máy tính xách tay",
+      "Shut down và đóng máy lại",
+      "Chắc chắn rằng máy tính xách tay của ta được bảo vệ trên bàn làm việc hay được khóa trong cabin"
+    ],
+    "correctAnswer": "D",
+    "correctAnswerIndex": 3
+  },
+  {
+    "id": 26,
+    "question": "Câu 26. Một user gọi điện đến cho ta (với tư cách là người quản lý) thông báo họ bị mất mật khẩu và cần truy cập ngay lập tức. Ta nên làm gì ?",
+    "answers": [
+      "Cung cấp truy cập ngay lập tức, và sau đó kiểm tra chứng cứ của họ",
+      "Tạo một login và mật khẩu tạm thời để họ sử dụng",
+      "Xác minh định danh của họ trước khi cấp quyền truy cập",
+      "Cho họ một mật khẩu riêng tạm thời"
+    ],
+    "correctAnswer": "C",
+    "correctAnswerIndex": 2
+  },
+  {
+    "id": 27,
+    "question": "Câu 27. Trong khoảng thời gian nguồn điện bị sụt áp do quá tải bất thường, các thiết bị nào sau đây là hữu dụng nhất trong việc duy trì các mức nguồn điện thích hợp ?",
+    "answers": [
+      "Dự phòng nguồn điện của máy phát điện",
+      "UPS",
+      "Ổn áp",
+      "Thanh nguồn điện"
+    ],
+    "correctAnswer": "B",
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 28,
+    "question": "Câu 28. Quản trị văn phòng của bạn đang được huấn luyện để thực hiện sao lưu máy chủ. Phương pháp xác thực nào là lý tưởng đối với tình huống này ?",
+    "answers": [
+      "MAC",
+      "DAC",
+      "RBAC",
+      "Các mã thông báo bảo mật"
+    ],
+    "correctAnswer": "C",
+    "correctAnswerIndex": 2
+  },
+  {
+    "id": 29,
+    "question": "Câu 29. Phương pháp xác thực nào sử dụng một KDC để thực hiện xác thực ?",
+    "answers": [
+      "Chap",
+      "Kerberos",
+      "Sinh trắc học",
+      "Thẻ thông minh"
+    ],
+    "correctAnswer": "B",
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 30,
+    "question": "Câu 30. Phương pháp xác thực nào gởi trả lại một “yêu cầu” (request) cho máy trạm và” yêu cầu” đó được mã hóa và gởi trở lại máy chủ ?",
+    "answers": [
+      "Kerberos",
+      "Các mã thông báo bảo mật",
+      "DAC",
+      "CHAP"
+    ],
+    "correctAnswer": "D",
+    "correctAnswerIndex": 3
+  },
+  {
+    "id": 31,
+    "question": "Câu 31. Qui trình xác thực nào sử dụng nhiều hơn một yếu tố xác thực để logon ?",
+    "answers": [
+      "Đa yếu tố ( multi-factor)",
+      "Sinh trắc học",
+      "Thẻ thông minh",
+      "Keberos"
+    ],
+    "correctAnswer": "A",
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 32,
+    "question": "Câu 32. Các giao thức hay các dịch vụ nào sau đây nên loại bỏ trong mạng nếu có thể ?",
+    "answers": [
+      "Email",
+      "Telnet",
+      "WWW",
+      "ICMP"
+    ],
+    "correctAnswer": "B",
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 33,
+    "question": "Câu 33. Mạng nào sau đây không phải là một vùng bảo mật ?",
+    "answers": [
+      "Internet",
+      "Intranet",
+      "Extranet",
+      "NAT"
+    ],
+    "correctAnswer": "D",
+    "correctAnswerIndex": 3
+  },
+  {
+    "id": 34,
+    "question": "Câu 34. Các giao thức nào sau đây cho phép một tổ chức đưa một địa chỉ TCP/IP đơn lên Internet ?",
+    "answers": [
+      "NAT",
+      "VLAN",
+      "DMZ",
+      "Extranet"
+    ],
+    "correctAnswer": "A",
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 35,
+    "question": "Câu 35. Phương pháp quét võng mạc thích hợp nhất đối với các dịch vụ nào sau đây ?",
+    "answers": [
+      "Kiểm định",
+      "Xác thực",
+      "Kiểm soát truy cập",
+      "Bảo mật dữ liệu"
+    ],
+    "correctAnswer": "B",
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 36,
+    "question": "Câu 36. Công nghệ nào sau đây dựa vào thuộc tính vật lý của user để xác thực ?",
+    "answers": [
+      "Thẻ thông minh",
+      "Sinh trắc học",
+      "Xác thực lẫn nhau",
+      "Các mã thông báo"
+    ],
+    "correctAnswer": "B",
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 37,
+    "question": "Câu 37. Kỹ thuật cho phép tạo kết nối ảo giữa hai mạng sử dụng một giao thức bảo mật được gọi là gì ?",
+    "answers": [
+      "Tunelling",
+      "VLAN",
+      "Internet",
+      "Extranet"
+    ],
+    "correctAnswer": "A",
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 38,
+    "question": "Câu 38. Qui trình quyết định giá trị của thông tin hay thiết bị trong một tổ chức được gọi là gì?",
+    "answers": [
+      "Đánh giá tài nguyên thông tin",
+      "Đánh giá rủi ro",
+      "Nhận dạng chuỗi",
+      "Quét các điểm yếu"
+    ],
+    "correctAnswer": "A",
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 39,
+    "question": "Câu 39. Khi được hỏi về các mối đe dọa cho công ty từ phía các hacker. Loại thông tin nào sau đây sẽ giúp ích nhiều nhất ?",
+    "answers": [
+      "Xác minh tài sản sở hữu",
+      "Đánh giá rủi ro",
+      "Nhận dạng mối đe dọa",
+      "Các điểm yếu"
+    ],
+    "correctAnswer": "C",
+    "correctAnswerIndex": 2
+  },
+  {
+    "id": 40,
+    "question": "Câu 40. Khi một user báo cáo rằng hệ thống của anh ta đã phát hiện một virus mới. Điều gì sau đây cần làm như là bước đầu tiên để xử lý tình huống này ?",
+    "answers": [
+      "Kiểm tra lại tập tin diệt virus hiện hành",
+      "Định dạng lại đĩa cứng",
+      "Cài đặt lại hệ điều hành",
+      "Disable tài khoản email của anh ta"
+    ],
+    "correctAnswer": "A",
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 41,
+    "question": "Câu 41. Yếu tố nào sau đây được coi là hữu ích nhất trong việc kiểm soát truy cập khi bị tấn công từ bên ngoài ?",
+    "answers": [
+      "Đăng nhập hệ thống ( System logs)",
+      "Phần mềm antivirus",
+      "Kerberos",
+      "Sinh trắc học"
+    ],
+    "correctAnswer": "A",
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 42,
+    "question": "Câu 42. Ta muốn cài đặt một máy chủ cung cấp các dịch vụ Web đến các máy trạm thông qua Internet. Ta không muốn để lộ mạng bên trong để tránh rủi ro. Phương pháp nào để thực hiện điều này ?",
+    "answers": [
+      "Cài đặt máy chủ trong mạng Intranet",
+      "Cài đặt máy chủ trong một DMZ",
+      "Cài đặt máy chủ trong một VLAN",
+      "Cài đặt máy chủ trong mạng Extranet"
+    ],
+    "correctAnswer": "B",
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 43,
+    "question": "Câu 43. Phương pháp xác thực nào cung cấp tài liệu đáng tin cậy có hiệu lực trong suốt một phiên làm việc đơn ?",
+    "answers": [
+      "Các mã thông báo",
+      "Chứng chỉ",
+      "Thẻ thông minh",
+      "Kerberos"
+    ],
+    "correctAnswer": "D",
+    "correctAnswerIndex": 3
+  },
+  {
+    "id": 44,
+    "question": "Câu 44. Loại tấn công nào làm việc truy cập của user đến các tài nguyên mạng bị từ chối?",
+    "answers": [
+      "DoS",
+      "Sâu",
+      "Logic Bomb (bomb ngập lụt đường truyền)",
+      "Social engineering (Khai thác giao tiếp)"
+    ],
+    "correctAnswer": "A",
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 45,
+    "question": "Câu 45. Loại tấn công nào sử dụng nhiều hơn một máy tính để tấn công nạn nhân ?",
+    "answers": [
+      "DoS",
+      "DDoS",
+      "Sâu",
+      "Tấn công UDP"
+    ],
+    "correctAnswer": "B",
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 46,
+    "question": "Câu 46. Một máy chủ trên mạng có một chương trình đang chạy vượt quá thẩm quyền. Loại tấn công nào đã xảy ra ?",
+    "answers": [
+      "DoS",
+      "DDoS",
+      "Back door",
+      "Social engineering (Khai thác giao tiếp)"
+    ],
+    "correctAnswer": "C",
+    "correctAnswerIndex": 2
+  },
+  {
+    "id": 47,
+    "question": "Câu 47. Nổ lực tấn công để can thiệp vào một phiên liên lạc bằng việc thêm vào một máy tính giữa hai hệ thống được gọi là một …….?",
+    "answers": [
+      "Tấn công dạng “Man in the middle”",
+      "Tấn công cửa sau",
+      "Sâu",
+      "TCP/IP hijacking"
+    ],
+    "correctAnswer": "A",
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 48,
+    "question": "Câu 48. Ta đã phát hiện ra một chứng chỉ đã hết hiệu lực vẫn đang được sử dụng nhiều lần để giành được quyền logon. Đây là loại tấn công nào ?",
+    "answers": [
+      "Tấn công dạng “Man in the middle”",
+      "Tấn công cửa sau",
+      "Tấn công chuyển tiếp (Relay Attack)",
+      "TCP/IP hijacking"
+    ],
+    "correctAnswer": "C",
+    "correctAnswerIndex": 2
+  },
+  {
+    "id": 49,
+    "question": "Câu 49. Một kẻ tấn công cố gắng dùng địa chỉ IP để tạo một hệ thống khác trong mạng của ta nhằm giành quyền kiểm soát truy cập . Đây là loại tấn công nào ?",
+    "answers": [
+      "Tấn công dạng “Man in the middle”",
+      "Tấn công cửa sau",
+      "Sâu",
+      "TCP/IP hijacking"
+    ],
+    "correctAnswer": "D",
+    "correctAnswerIndex": 3
+  },
+  {
+    "id": 50,
+    "question": "Câu 50. Một máy chủ trên mạng không chấp nhận các kết nối TCP nữa. Máy chủ thông báo rằng nó đã vượt quá giới hạn của phiên làm việc. Loại tấn công nào có thể đang xảy ra ?",
+    "answers": [
+      "Tấn công TCP ACK (tấn công kiểu SYNACK)",
+      "Tấn công smurf",
+      "Tấn công virus",
+      "TCP/IP hijacking"
+    ],
+    "correctAnswer": "A",
+    "correctAnswerIndex": 0
+  }
+]

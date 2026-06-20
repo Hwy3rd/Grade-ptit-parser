@@ -1,0 +1,255 @@
+Câu 1. Tấn công smurf sử dụng giao thức nào để kiểm soát ?
+TCP
+IP
+UDP
+ICMP
+Câu 2. Tổ đặc trách thông báo rằng họ đã nhận một cuộc gọi khẩn cấp từ phó chủ tịch đêm qua yêu cầu logon vào ID và mật khẩu của ông ta. Đây là loại tấn công gì ?
+Giả mạo
+Tấn công chuyển tiếp
+Social engineering (Khai thác giao tiếp)
+Trojan
+Câu 3. Hệ thống của bạn đã ngừng phản ứng lại với các lệnh của bàn phím. Lưu ý rằng điều này xảy ra khi mở bảng tính và đã quay số qua internet. Loại tấn công nào có thể đã xảy ra ?
+Logic Bomb
+Sâu
+Virus
+Tấn công ACK
+Câu 4. Loại virus tự che giấu nó bằng cách ẩn trong mã nguồn của các phần mềm antivirus được gọi là gì ?
+Armored virus
+Polymorphic virus
+Sâu
+Stealth virus (Virus ẩn danh)
+Câu 5. Một virus được đính kèm chính nó vào boot sector của đĩa cứng và thông báo thông tin sai về kích thước các tập tin được gọi là gì ?
+Virus Trojan
+Stealth virus (virus ẩn danh)
+Sâu
+Polymorphic virus
+Câu 6. Một chương trình nằm trong một chương trình khác được cài vào hệ thống gọi là một …….
+Trojan Horse
+Polymorphic virus
+Sâu
+Armored virus
+Câu 7. Các user nội bộ báo cáo hệ thống của họ bị lây nhiễm nhiều lần. Trong mọi trường hợp virus có vẻ là cùng một loại. Thủ phạm thích hợp nhất là gì ?
+Máy chủ có thể là vật mang virus
+Ta có một sâu virus
+Phần mềm antivirus của ta bị sự cố
+Tấn công DoS đang thực hiện
+Câu 8. Các log file trên hệ thống của bạn phát hiện một nổ lực giành quyền truy cập đến một tài khoản đơn. Nổ lực này đã không thành công vào thời điểm đó. Theo kinh nghiệm của bạn thì loại tấn công thích hợp nhất là gì ?
+Tấn công đoán mật khẩu (Password Guessing)
+Tấn công cửa sau
+Tấn công bằng sâu
+TCP/IP hijacking
+Câu 9. Một user báo cáo là anh ta đang nhận một lỗi chỉ ra rằng địa chỉ TCP/IP của anh ta đã bị sử dụng khi anh ta bật máy tính. Tấn công nào có thể đang thực hiện ?
+Tấn công dạng “Man in the middle”
+Tấn công cửa sau
+Sâu
+TCP/IP hijacking
+Câu 10. Một đêm làm việc khuya và bạn phát hiện rằng ổ cứng của bạn hoạt động rất tích cực mặc dù bạn không thực hiện bất kỳ thao tác nào trên máy tính. Bạn nghi ngờ điều gì?
+Khả năng ổ đĩa ngừng hoạt động sắp xảy ra
+Một virus đang phát tán rộng trong hệ thống
+Hệ thống của bạn đang chịu tác động của tấn công DoS
+Tấn công TCP/IP hijacking đang cố gắng thực hiện
+Câu 11. Bản ghi lỗi hệ thống email của bạn báo cáo một số lượng lớn các nổ lực logon không thành công. Loại tấn công nào có thể đang xảy ra ?
+Tấn công khai thác phần mềm (Software exploitation attack)
+Tấn công cửa sau ( Back door Attack))
+Sâu (Worm)
+TCP/IP hijacking
+Câu 12. Bộ lọc gói thực hiện chức năng nào ?
+Ngăn chặn các gói trái phép đi vào từ mạng bên ngoài
+Cho phép tất cả các gói rời mạng
+Cho phép tất cả các gói đi vào mạng
+Loại trừ sự xung đột trong mạng
+Câu 13. Thiết bị nào lưu trữ thông tin về đích đến trong mạng ?
+Hub
+Modem
+Firewall
+Router
+Câu 14. Giao thức nào được sử dụng rộng rãi hiện nay như là một giao thức truyền tải đối với các kết nối quay số trên Internet ?
+SLIP
+PPP
+PPTP
+L2TP
+Câu 15. Giao thức nào sau đây không phù hợp đối với các kết nối VPN WAN ?
+PPP
+PPTP
+L2TP
+IPSec
+Câu 16. Giao thức nào sau đây tuy không phải là một giao thức đường hầm nhưng nó sử dụng các giao thức đường hầm để bảo mật trên mạng?
+IPSec
+PPTP
+L2TP
+L2F
+Câu 17. Một socket là sự kết hợp của các thành phần nào ?
+TCP và port number
+UDP và port number
+IP và session number
+IP và port number
+Câu 18. Thiết bị nào giám sát lưu lượng mạng theo cách thụ động ?
+Sniffer
+IDS
+Firewall
+Web browser
+Câu 19. Hệ thống nào chủ động thực hiện việc giám sát mạng, phân tích và có thể thực hiện các bước phòng ngừa , bảo vệ mạng ?
+IDS
+Sniffer
+Router
+Switch
+Câu 20. Hệ thống nào được cài đặt trên Host để cung cấp một tính năng IDS ?
+Network sniffer
+N-IDS (Network-based IDS)
+H-IDS (Host-based IDS)
+VPN
+Câu 21. Khi kết nối giữa các thiết bị không dây đã hoàn tất , giao thức nào được sử dụng?
+WEP
+WTLS
+WAP
+WOP
+Câu 22. Giao thức nào hoạt động trên 2.4GHz và có một dải băng thông rộng 1Mbps hay 2Mbps ?
+802.11 //1Mbps hoặc 2Mbps với băng thông 2.4GHz
+802.11a //54Mbps trong dải tần 5GHz
+802.11b //11Mbps trong băng thông 2.4GHz WIFI
+802.11g //Tốc độ hơn 20Mbps trên băng thông 2.4GHz
+Câu 23. Giao thức nào được thiết kế để cung cấp bảo mật cho mạng không dây tương đương với việc bảo mật của một mạng diện rộng ?
+WAP
+WTLS
+WEP
+IR
+Câu 24. Điểm yếu nào sau đây là chủ yếu của môi trường mạng không dây ?
+Phần mềm giải mã (Decryption software)
+IP spoofing (Giả mạo IP)
+A gap in the WAP (Một khe hở trong WAP)
+Định vị nơi làm việc (Site survey)
+Câu 25. Nếu ta muốn xác thực chữ ký của một người khác, khóa nào phải được sử dụng?
+Khóa công khai của bạn
+Khoá cá nhân của bạn
+Khoá cá nhân của người cần xác thực
+Khoá công khai của người cần xác thực
+Câu 26. Chữ ký số được sử dụng cho mục đích gì?
+Để bảo mật tài liệu sao cho người ngoài không đọc được
+Để kiểm tra định danh người gửi
+Cung cấp chứng chỉ
+Thu hồi một chứng chỉ
+Câu 27. Nếu muốn xem một tài liệu “bảo mật”được mã hóa trên hệ mật bất đối xứng do người khác gởi đến , bạn phải sử dụng khóa nào để giải mật tài liệu?
+Khoá công khai của bạn
+Khoá công khai của bên gửi
+Khoá cá nhân của bên gửi
+Khoá cá nhân của bạn
+Câu 28. Nếu ta muốn ký một tài liệu và sau đó gởi đến một người khác, khóa nào phải được sử dụng?
+Khoá công khai của bạn
+Khoá công khai của bên nhận
+Khoá cá nhân của bên nhận
+Khoá cá nhân của bạn
+Câu 29. Bạn nhận được một email từ Microsoft, trong đó có một file đính kèm. Trong thư nói rằng có một số lỗi đã được phát hiện và sửa chữa , bạn phải chạy chương trình được đính kèm trong thư để sửa những lỗi đó. Trong trường hợp này bạn sẽ làm gì để bảo đảm an toàn?
+Lưu chương trình đó lại và dùng chương trình diệt virus để quét, nếu không phát hiện thấy virus, sẽ chạy chương trình đó để sửa lỗi.
+Mở chương trình và chạy nó ngay. Chương trình đó thật sự an toàn vì nó được gửi từ Microsoft
+Xoá email đó ngay. Mocrosoft và các nhà cung cấp không bao giờ gửi chương trình sửa lỗi qua email.
+xxx
+Câu 30. Hệ mật DES sử dụng khối khoá được tạo bởi :
+56 bit ngẫu nhiên
+64 bit ngẫu nhiên
+128 bit ngẫu nhiên
+56 bit ngẫu nhiên và 8 bit kiểm tra “Parity”
+Câu 31. Hệ mật DES xử lý từng khối “ plain text ” có độ dài :
+56 bit
+32 bit
+64 bit
+48 bit
+Câu 32. Thuật giải SHA là :
+Hàm băm một chiều
+Dùng trong thuật giải tạo chữ ký số
+Cho giá trị băm 160 bit
+Tất cả đều đúng
+Câu 33. DSA là thuật giải :
+Lấy dấu tay “PrintingFinger”
+Tạo chữ ký số (DS)
+Phân phối khoá trước
+Bảo mật thông điệp
+Câu 34. Thuật giải MD5 cho ta một giá trị băm có độ dài :
+156 bit
+256 bit
+128 bit
+512 bit
+Câu 35. Trong các cặp khoá sau đây của hệ mật RSA với p=5 ; q=7 , cặp khóa nào có khả năng đúng nhất :
+(e = 12 , d =11)
+(e = 4 , d =11)
+( e = 7 , d =23)
+( e = 3 , d =18)
+Câu 36. Thuật giải Difie Hellman dùng để :
+Bảo mật thông điệp
+Xác thực thông điệp
+Phân phối khoá trước cho hệ mật đối xứng
+Lấy chữ ký sô
+Câu 37. MAC là một từ cấu tạo bằng những chữ đầu của một nhóm nào liên quan đến mật mã ?
+Kiểm soát truy cập phương tiện (Media access control)
+Kiểm soát truy cập bắt buộc (Mandatory access control)
+Mã xác thực thông điệp (Message authentication code)
+Các ủy ban đa tư vấn (Multiple advisory committees)
+Câu 38. Nội dung nào sau đây không cần sử dụng mật mã ?
+Bảo mật
+Xác thực
+Toàn vẹn
+Truy cập
+Câu 39. PKC được thực hiện bằng cách sử dụng các chức năng nào ?
+Chuyển giao các khóa công khai an toàn
+Chuy��n giao các khóa cá nhân an toàn
+Bảo mật dữ liệu ở hai đầu mút
+Sử dụng hai khóa khác nhau để mã hóa và giải mã
+Câu 40. Khái niệm nào sau đây được sử dụng để mô tả sự không thể chối từ của người gửi khi gửi thông điệp ?
+Toàn vẹn
+Tính không chối từ ( non-repudiation)
+Xác thực
+Bảo mật
+Câu 41. Khái niệm nào sau đây được dùng để xác định chuẩn thực thi các hệ thống mã hóa diện rộng?
+PKE
+PKI
+Đối xứng
+Không đối xứng
+Câu 42. Tổ chức chính cấp phát chứng chỉ được gọi là :
+CA
+RA
+LRA
+CRL
+Câu 43. Hầu hết định dạng chứng chỉ công cộng được sử dụng trong môi trường PKI là gì ?
+X.509
+X.508
+PKE
+RSA
+Câu 44. Quy trình mã hoá nào sử dụng cùng một khoá mã ở cả hai phía của một phiên làm việc ?
+Symmetrical
+Asymmetrical
+PKCS
+Split key
+Câu 45. PKCS sử dụng cặp khoá nào để mã hoá?
+Symmetric
+Public/private
+Asymmetric/symmetric
+Private/private
+Câu 46. Giao thức nào sau đây tương tự như SSL và được đề nghị sử dụng bổ sung vào các giao thức bảo mật ?
+TLS
+SSH
+RSH
+X.509
+Câu 47. Vấn đề gì nảy sinh khi sử dụng qui trình sinh khóa mã tập trung ?
+Bảo mật mạng
+Truyền khóa
+Thu hồi chứng chỉ
+Bảo mật khóa cá nhân
+Câu 48. Giao thức nào sau đây cung cấp dịch vụ bảo mật cho các phiên làm việc trên thiết bị đầu cuối của hệ thống UNIX từ xa ?
+SSL
+TLS
+SSH
+PKI
+Câu 49. Dịch vụ nào sau đây là một dịch vụ đơn hay một máy phục vụ để lưu trữ, phân phối, và quản lý các khóa phiên mật mã ?
+KDC
+KEA
+PKI
+PKCS
+Câu 50. Bạn có một fille dữ liệu trên đĩa cứng , phương pháp nào theo bạn là tốt nhất để bảo mật dữ liệu đó
+RSA
+DES
+DSA
+SHA
+1D 2C 3C 4D 5B 6A 7A 8A 9D 10B
+11A 12A 13D 14B 15A 16A 17D 18A 19A 20C
+21C 22A 23C 24C 25D 26B 27D 28D 29C 30D
+31C 32D 33B 34C 35C 36C 37C 38D 39D 40B
+41B 42A 43A 44A 45B 46A 47B 48C 49A 50B

@@ -1,0 +1,602 @@
+[
+  {
+    "id": 1,
+    "question": "Câu 1. Một hệ thống điều khiển truy nhập có thể được cấu thành từ các dịch vụ nào sau đây:",
+    "answers": [
+      "Xác thực, đăng nhập và kiểm toán (auditing)",
+      "Xác thực, đăng nhập và trao quyền",
+      "Xác thực, trao quyền và kiểm toán (auditing)",
+      "Xác thực, trao quyền và quản trị"
+    ],
+    "correctAnswer": "C",
+    "correctAnswerIndex": 2
+  },
+  {
+    "id": 2,
+    "question": "Câu 2. Ưu điểm của kỹ thuật mã hóa khóa công khai so với mã hóa khóa bí mật là:",
+    "answers": [
+      "Có độ an toàn cao hơn",
+      "Trao đổi khóa dễ dàng hơn",
+      "Chi phí tính toán thấp hơn",
+      "Quản lý dễ dàng hơn"
+    ],
+    "correctAnswer": "B",
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 3,
+    "question": "Câu 3. Độ an toàn của hệ mã hóa RSA dựa trên:",
+    "answers": [
+      "Khóa có kích thước lớn",
+      "Giải thuật rất phức tạp",
+      "Chi phí tính toán lớn",
+      "Tính khó của việc phân tích số nguyên lớn"
+    ],
+    "correctAnswer": "D",
+    "correctAnswerIndex": 3
+  },
+  {
+    "id": 4,
+    "question": "Câu 4. Trong hệ mã hóa RSA, quan hệ toán học giữa khóa bí mật d và khóa công khai e được gọi là:",
+    "answers": [
+      "d và e là 2 số nguyên tố cùng nhau",
+      "d là modulo nghịch đảo của e",
+      "d là modulo của e",
+      "d và e không có quan hệ với nhau"
+    ],
+    "correctAnswer": "B",
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 5,
+    "question": "Câu 5. Trong hệ thống phân phối khóa sử dụng KTC gồm có n thực thể (không tính KTC), số lượng khóa dài hạn mỗi thực thể và KTC phải lưu là:",
+    "answers": [
+      "Mỗi thực thể phải lưu 1 khóa, KTC phải lưu n2 khóa",
+      "Mỗi thực thể phải lưu 1 khóa, KTC phải lưu n khóa",
+      "Mỗi thực thể phải lưu n-1 khóa, KTC phải lưu n khóa",
+      "Mỗi thực thể phải lưu 1 khóa, KTC phải lưu 1 khóa"
+    ],
+    "correctAnswer": "B",
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 6,
+    "question": "Câu 6. Số lượng các khóa phụ (subkey) cần được tạo ra từ khóa chính trong giải thuật DES là:",
+    "answers": [
+      "18",
+      "16",
+      "14",
+      "12"
+    ],
+    "correctAnswer": "B",
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 7,
+    "question": "Câu 7. Các thuộc tính cơ bản của chứng chỉ số (Digital certificate) gồm:",
+    "answers": [
+      "Số nhận dạng, khóa công khai của chủ thể, thông tin định danh chủ thể",
+      "Khóa công khai của chủ thể, thông tin định danh chủ thể, thuật toán chữ ký sử dụng",
+      "Số nhận dạng, khóa công khai của chủ thể, chữ ký của nhà cung cấp CA",
+      "Khóa công khai của chủ thể, thông tin định danh chủ thể, chữ ký của nhà cung cấp CA"
+    ],
+    "correctAnswer": "D",
+    "correctAnswerIndex": 3
+  },
+  {
+    "id": 8,
+    "question": "Câu 8. Công cụ Vulnerability scanner cho phép tin tặc:",
+    "answers": [
+      "Tìm các cổng dịch vụ đang mở trên hệ thống",
+      "Thu thập các thông tin về các điểm yếu/lỗ hổng đã biết của hệ thống máy tính hoặc mạng",
+      "Nghe trộm và bắt các gói tin khi chúng được truyền trên mạng",
+      "Chặn bắt và sửa đổi thông tin"
+    ],
+    "correctAnswer": "B",
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 9,
+    "question": "Câu 9. Sự khác biệt giữa trung tâm phân phối khóa KDC và trung tâm dịch khóa KTC là:",
+    "answers": [
+      "KDC an toàn hơn KTC",
+      "KTC an toàn hơn KDC",
+      "KDC sinh khóa tập trung, còn KTC sinh khóa phân tán",
+      "KDC yêu cầu có một máy chủ tin cậy, còn KTC không yêu cầu có một máy chủ tin cậy"
+    ],
+    "correctAnswer": "D",
+    "correctAnswerIndex": 3
+  },
+  {
+    "id": 10,
+    "question": "Câu 10. Tấn công lợi dụng lỗi tràn bộ đệm có thể giúp tin tặc chèn và thực hiện mã độc trên hệ thống nạn nhân thông qua cơ chế nào sau đây:",
+    "answers": [
+      "Chèn mã độc vào thay thế mã trong chương trình có lỗi tràn bộ đệm",
+      "Tất cả các đáp án trên đều đúng",
+      "Chèn mã độc vào bộ đệm và lợi dụng cơ chế trở về từ chương trình con để thực hiện mã độc đã chèn",
+      "Chèn mã độc vào bộ đệm và lợi dụng cơ chế gọi thực hiện chương trình con để thực hiện mã độc đã chèn"
+    ],
+    "correctAnswer": "C",
+    "correctAnswerIndex": 2
+  },
+  {
+    "id": 11,
+    "question": "Câu 11. Phát biểu nào sau đây về chữ ký số là chính xác:",
+    "answers": [
+      "Chữ ký số được tạo ra bằng cách mã hóa thông điệp sử dụng khóa riêng của chủ thể",
+      "Chữ ký số được sử dụng để đảm bảo tính bí mật và toàn vẹn thông điệp",
+      "Chữ ký số được sử dụng để đảm bảo tính bí mật, toàn vẹn và xác thực thông điệp",
+      "Chữ ký số là một chuỗi dữ liệu liên kết với một thông điệp và thực thể tạo ra thông điệp"
+    ],
+    "correctAnswer": "D",
+    "correctAnswerIndex": 3
+  },
+  {
+    "id": 12,
+    "question": "Câu 12. Số lượng thao tác trong mỗi vòng xử lý của MD5 là:",
+    "answers": [
+      "12",
+      "16",
+      "14",
+      "18"
+    ],
+    "correctAnswer": "B",
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 13,
+    "question": "Câu 13. Lỗ hổng an ninh trong một hệ thống là:",
+    "answers": [
+      "Bất kỳ điểm yếu nào trong hệ thống cho phép mối đe dọa có thể gây tác hại",
+      "Các điểm yếu trong hệ điều hành",
+      "Tất cả điểm yếu hoặc khiếm khuyết trong hệ thống",
+      "Các điểm yếu trong các phần mềm ứng dụng"
+    ],
+    "correctAnswer": "A",
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 14,
+    "question": "Câu 14. Hai lĩnh vực chính của an toàn thông tin là:",
+    "answers": [
+      "Mật mã và An ninh mạng",
+      "An toàn công nghệ thông tin và An ninh mạng",
+      "An ninh máy tính và An ninh mạng",
+      "An toàn công nghệ thông tin và Đảm bảo thông tin"
+    ],
+    "correctAnswer": "D",
+    "correctAnswerIndex": 3
+  },
+  {
+    "id": 15,
+    "question": "Câu 15. Các hệ điều hành Microsoft Windows và Linux sử dụng các mô hình điều khiển truy cập nào dưới đây?",
+    "answers": [
+      "DAC và Role-BAC",
+      "DAC và MAC",
+      "MAC và Role-BAC",
+      "MAC và Rule-BAC"
+    ],
+    "correctAnswer": "A",
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 16,
+    "question": "Câu 16. SSL sử dụng giao thực SSL Handshake để khởi tạo phiên làm việc. SSL Handshake thực hiện việc trao đổi các khóa phiên dùng cho phiên làm việc dựa trên:",
+    "answers": [
+      "Chữ ký số",
+      "Chứng chỉ số",
+      "Mã hóa khóa công khai",
+      "Mã hóa khóa bí mật"
+    ],
+    "correctAnswer": "C",
+    "correctAnswerIndex": 2
+  },
+  {
+    "id": 17,
+    "question": "Câu 17. Tấn công bằng mã độc bao gồm các dạng tấn công:",
+    "answers": [
+      "Cả A và B",
+      "Cài đặt và thực hiện các phần mềm độc hại trên hệ thống nạn nhân",
+      "Lợi dụng các lỗ hổng an ninh để đánh cắp thông tin nhạy cảm",
+      "Lợi dụng các lỗ hổng an ninh để chèn và thực hiện mã độc trên hệ thống nạn nhân"
+    ],
+    "correctAnswer": "A",
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 18,
+    "question": "Câu 18. Tấn công Phishing là dạng tấn công vào:",
+    "answers": [
+      "Người quản trị và người dùng thông thường",
+      "Hệ điều hành và các ứng dụng",
+      "Các hệ thống mạng",
+      "Các phần mềm máy chủ"
+    ],
+    "correctAnswer": "A",
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 19,
+    "question": "Câu 19. Điểm khác nhau chính giữa các hệ thống ngăn chặn đột nhập (IPS) và phát hiện đột nhập (IDS) là:",
+    "answers": [
+      "IPS có khả năng phát hiện và ngăn chặn tấn công tốt hơn IDS",
+      "IDS có khả năng phát hiện và ngăn chặn tấn công tốt hơn IPS",
+      "IPS có khả năng chủ động ngăn chặn tấn công so với IDS",
+      "IPS có chi phí lớn hơn IDS"
+    ],
+    "correctAnswer": "C",
+    "correctAnswerIndex": 2
+  },
+  {
+    "id": 20,
+    "question": "Câu 20. Gửi một gói tin ICMP có kích thước lớn hơn 64Kb là một ví dụ của kiểu tấn công nào sau đây?",
+    "answers": [
+      "Buffer overflow",
+      "Syn flood",
+      "Teardrop",
+      "Ping of Death"
+    ],
+    "correctAnswer": "D",
+    "correctAnswerIndex": 3
+  },
+  {
+    "id": 21,
+    "question": "Câu 21. Chữ ký số (dùng riêng) thường được sử dụng để đảm bảo thuộc tính nào sau đây của thông điệp truyền:",
+    "answers": [
+      "Tính bí mật",
+      "Tính toàn vẹn",
+      "Tính xác thực",
+      "Tính không chối bỏ"
+    ],
+    "correctAnswer": "D",
+    "correctAnswerIndex": 3
+  },
+  {
+    "id": 22,
+    "question": "Câu 22. Tấn công DoS là dạng tấn công cho phép tin tặc:",
+    "answers": [
+      "Gây ngắt quãng dịch vụ cung cấp cho người dùng bình thường",
+      "Đánh cắp dữ liệu trên máy chủ",
+      "Đánh cắp dữ liệu trên máy khách",
+      "Sửa đổi dữ liệu trong CSDL"
+    ],
+    "correctAnswer": "A",
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 23,
+    "question": "Câu 23. Yêu cầu để đảm bảo sử dụng mã hóa đối xứng là",
+    "answers": [
+      "Có thuật tóan encryption tốt,có một khóa bí mật được biết bởi người nhận/gởi và kênh truyền bí mật để phân phát key",
+      "Có một kênh truyền phù hợp và một khóa bí mật được biết bởi người nhận/gởi",
+      "Có thuật tóan encryption tốt và có một khóa bí mật được biết bởi người nhận/gởi",
+      "Tất cả đều đúng"
+    ],
+    "correctAnswer": "A",
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 24,
+    "question": "Câu 24. Các thuật tóan nào sau đây là thuật tóan mã hóa đối xứng",
+    "answers": [
+      "Triple –DES, RC4, RC5, Blowfish",
+      "Triple –DES, RC4, RC5, IDEA",
+      "RC4, RC5, IDEA, Blowfish",
+      "IDEA, Blowfish, AES, Elliptic Cure"
+    ],
+    "correctAnswer": "B",
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 25,
+    "question": "Câu 25. Các phát biểu sau đây phát biểu nào đúng",
+    "answers": [
+      "Hầu hết các thuật tóan mã hóa đối xứng đều dựa trên cấu trúc thuật toán Feistel",
+      "Tấn công thông điệp thì thời gian giải mã tỷ lệ với kích thước khóa",
+      "Hầu hết các thuật tóan mã hóa khối đều đối xứng",
+      "Tất cả đều đúng"
+    ],
+    "correctAnswer": "D",
+    "correctAnswerIndex": 3
+  },
+  {
+    "id": 26,
+    "question": "Câu 26. Cơ chế bảo mật SSL hoạt động trên tầng",
+    "answers": [
+      "Network, Transport",
+      "Network, Session",
+      "Application, Session",
+      "Tất cả đều sai"
+    ],
+    "correctAnswer": "D",
+    "correctAnswerIndex": 3
+  },
+  {
+    "id": 27,
+    "question": "Câu 27. Keberos là dịch vụ ủy thác",
+    "answers": [
+      "Xác thực trên Web",
+      "Xác thực X.509",
+      "Xác thực trên Server",
+      "Xác thực trên các máy trạm với nhau"
+    ],
+    "correctAnswer": "D",
+    "correctAnswerIndex": 3
+  },
+  {
+    "id": 28,
+    "question": "Câu 28. PGP là giao thức để xác thực",
+    "answers": [
+      "Quyền đăng cập vào hệ thống máy chủ Window",
+      "Bảo mật cho thư điện tử",
+      "Thực hiện mã hóa thông điệp theo thuật tóan RSA",
+      "Địa chỉ của máy trạm khi kết nối vào Internet"
+    ],
+    "correctAnswer": "B",
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 29,
+    "question": "Câu 29. Công cụ/cơ chế bảo mật cho mạng không dây là",
+    "answers": [
+      "SSL",
+      "TSL",
+      "Giao thức PGP",
+      "WEP"
+    ],
+    "correctAnswer": "D",
+    "correctAnswerIndex": 3
+  },
+  {
+    "id": 30,
+    "question": "Câu 30. Giao thức SSL và TSL hoạt động ở tầng nào của mô hình OSI",
+    "answers": [
+      "Network",
+      "Sesion",
+      "Transport",
+      "Từ tầng Transport trở lên"
+    ],
+    "correctAnswer": "D",
+    "correctAnswerIndex": 3
+  },
+  {
+    "id": 31,
+    "question": "Câu 31. Giao thức SSL dùng để",
+    "answers": [
+      "Cung cấp bảo mật cho dữ liệu lưu thông trên dịch vụ HTTP",
+      "Cung cấp bảo mật cho thư điện tử",
+      "Cung cấp bảo mật cho Web",
+      "Cung cấp bảo mật cho xác thực người dùng vào các hệ thống vận hành trên Platform Window"
+    ],
+    "correctAnswer": "C",
+    "correctAnswerIndex": 2
+  },
+  {
+    "id": 32,
+    "question": "Câu 32. Chức năng chính của Virus là",
+    "answers": [
+      "Lây nhiễm và sinh sản",
+      "Sống ký sinh và lây nhiễm",
+      "Tự phát triển độc lập và lây nhiễm",
+      "Tất cả đều đúng"
+    ],
+    "correctAnswer": "B",
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 33,
+    "question": "Câu 33. Hoạt động của virus có 4 giai đoạn",
+    "answers": [
+      "Nằm im, lây nhiễm, tàn phá và tự hủy",
+      "Lây nhiễm, tấn công, hủy diệt và tự hủy",
+      "Nằm im, lây nhiễm, khởi sự và tàn phá",
+      "Lây nhiễm, khởi sự, tàn phát, kích họat lại"
+    ],
+    "correctAnswer": "C",
+    "correctAnswerIndex": 2
+  },
+  {
+    "id": 34,
+    "question": "Câu 34. Các dạng sau đây, dạng nào là của virus",
+    "answers": [
+      "stealth, cư trú bộ nhớ, macro, lưỡng tính, file",
+      "stealth, cư trú bộ nhớ, macro, lưỡng tính, file",
+      "virus ký sinh, file, boot sector, stealth, cư trú bộ nhớ, macro",
+      "virus ký sinh, cư trú bộ nhớ, boot sector, Stealth, đa hình, macro"
+    ],
+    "correctAnswer": "D",
+    "correctAnswerIndex": 3
+  },
+  {
+    "id": 35,
+    "question": "Câu 35. Virus Macro chỉ có khả năng tấn công vào các file",
+    "answers": [
+      "MS.Exel, MX Word, MS.Power Point",
+      "stealth, cư trú bộ nhớ, macro, lưỡng tính, file",
+      "MS.Exel, MX Word, Yahoo Mail",
+      "Tất cả các loại file"
+    ],
+    "correctAnswer": "A",
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 36,
+    "question": "Câu 36. Các giao thức bảo mật trên Internet như SSL, TLS và SSH hoạt động ở tầng nào trên mô hình OSI",
+    "answers": [
+      "Tầng Network",
+      "Tầng Transport",
+      "Từ tầng Transport trở lên đến tầng 7",
+      "Tầng Session"
+    ],
+    "correctAnswer": "C",
+    "correctAnswerIndex": 2
+  },
+  {
+    "id": 37,
+    "question": "Câu 37. Kỹ thuật tấn công phổ biến trên Web là",
+    "answers": [
+      "Chiếm hữu phiên làm việc.",
+      "Tràn bộ đệm.",
+      "Từ chối dịch vụ (DoS)",
+      "Chèn câu truy vấn SQL."
+    ],
+    "correctAnswer": "D",
+    "correctAnswerIndex": 3
+  },
+  {
+    "id": 38,
+    "question": "Câu 38. Các lỗ hổng bảo mật trên hệ thống là do",
+    "answers": [
+      "Dịch vụ cung cấp",
+      "Bản thân hệ điều hành",
+      "Con người tạo ra",
+      "Tất cả đều đúng"
+    ],
+    "correctAnswer": "D",
+    "correctAnswerIndex": 3
+  },
+  {
+    "id": 39,
+    "question": "Câu 39. Cho biết câu nào đúng trong các câu sau",
+    "answers": [
+      "Tất cả Firewall đều có chung thuộc tính là cho phép phân biệt hay đối xử khả năng từ chối hay truy nhập dựa vào địa chỉ nguồn",
+      "Chức năng chính của Firewall là kiểm sóat luồng thông tin giữa mạng cần bảo vệ và Internet thông qua các chính sách truy nhập đã được thiết lập",
+      "Hệ thống Firewall thường bao g��m cả phần cứng lẫn phần mềm",
+      "Tất cả đều đúng"
+    ],
+    "correctAnswer": "D",
+    "correctAnswerIndex": 3
+  },
+  {
+    "id": 40,
+    "question": "Câu 40. Loại Firewall nào sau đây cho phép hoạt động ở lớp phiên ( session) của mô hình OSI",
+    "answers": [
+      "Packet filtering firewall(lop mang)",
+      "Circuit level firewall(lop phien)",
+      "Application level firewall(lop ung dung)",
+      "Stateful multilayer inspection firewall"
+    ],
+    "correctAnswer": "B",
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 41,
+    "question": "Câu 41. Những giao thức WAN nào có thể được định hình trên một kết nối tuần tự không đồng bộ (Chọn 2)",
+    "answers": [
+      "PPP",
+      "ATM",
+      "HDLC",
+      "SDLC"
+    ],
+    "correctAnswer": "A",
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 42,
+    "question": "Câu 42. Khi thuê một giải pháp VPN, những loại tấn công nào bạn cần phải xét đến ?",
+    "answers": [
+      "Denial of Service (DoS) attacks, Internet Viruses",
+      "Distributed Denial of Service (DDoS) attacks.",
+      "Data confidentiality, IP Spoofing.",
+      "Network mapping, Internet Viruses."
+    ],
+    "correctAnswer": "C",
+    "correctAnswerIndex": 2
+  },
+  {
+    "id": 43,
+    "question": "Câu 43. Các phát biểu sau đây phát biểu là là đúng nhất",
+    "answers": [
+      "Fire wal là một vành đai phòng thủ cho máy tính hoặc hệ thống trước những tấn công",
+      "Là một điểm chặn của trong quá trình điều khiển và giám sát.",
+      "Là một phần mềm hoặc phần ứng có khả năng ngăn chặn tấn công từ bên trong và bên ngoài vào hệ thống.",
+      "Là một giải pháp giúp hệ thống phát hiện và ngăn chặn các truy cập trái phép"
+    ],
+    "correctAnswer": "B",
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 44,
+    "question": "Câu 44. Bảo mật thư điện tử là nhằm đảm bảo",
+    "answers": [
+      "Tính tin cẩn (confidentiality), Tính xác nhận, Toàn vẹn thông điệp(integrity), Sự thối thác ban đầu (non-repudiation of origin)",
+      "Tính xác nhận,Toàn vẹn thông điệp(integrity), Sự thối thác ban đầu (nonrepudiation of origin), tính bền vững",
+      "Sự thối thác ban đầu (non-repudiation of origin), tính bền vững, tính ổn khi gởi và nhận",
+      "Tất cả đều đúng"
+    ],
+    "correctAnswer": "A",
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 45,
+    "question": "Câu 45. Các giao thức được để bảo mật thư điện tử là",
+    "answers": [
+      "GPG, S/MINE",
+      "SHA-1, S/MINE",
+      "CAST-128 / IDEA/3DES",
+      "Keboros, X.509"
+    ],
+    "correctAnswer": "A",
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 46,
+    "question": "Câu 46. Chữ ký điện tử (digital signature) sử dụng thuật tóan nào sau đây",
+    "answers": [
+      "RSA,MD5",
+      "RSA,MD5, Keboros",
+      "MD5, SHA,RSA",
+      "Không dùng thuật tóan nào nêu trên"
+    ],
+    "correctAnswer": "C",
+    "correctAnswerIndex": 2
+  },
+  {
+    "id": 47,
+    "question": "Câu 47. Chữ ký điện tử (digital signature) sử dụng thuật tóan nào sau đâyChữ ký điện tử là",
+    "answers": [
+      "Là một chuỗi đã được mã hóa theo thuật tóan băm và đính kèm với văn bản gốc trước khi gởi.",
+      "Đoạn dữ liệu ngắn đính kèm với văn bản gốc để chứng thực tác giả của văn bản và giúp người nhận kiểm tra tính toàn vẹn của nội dung văn bản gốc.",
+      "a và b đều đúng",
+      "Tất cả cả đều sai"
+    ],
+    "correctAnswer": "C",
+    "correctAnswerIndex": 2
+  },
+  {
+    "id": 48,
+    "question": "Câu 48. Các bước mã hóa của chứ ký điện tử",
+    "answers": [
+      "Dùng giải thuật băm để thay đổi thông điệp cần truyền đi, Sử dụng khóa private key của người gửi để mã hóa message digest thu được ở bước trên, sau đó gộp digital signature vào message ban đầu.",
+      "Dùng giải thuật băm để thay đổi thông điệp cần truyền đi, sử dụng khóa private key của người gửi để mã hóa message digest thu được ở bước trên, sau đó gộp digital signature vào message ban đầu và nén dữ liệu gởi đi.",
+      "Chỉ sử dụng giải thuật băm để thay đổi thông điệp cần truyền đi và sử dụng khóa private key của người gửi để mã hóa message digest thu được ở bước trên.",
+      "Tất cả đều đúng"
+    ],
+    "correctAnswer": "A",
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 49,
+    "question": "Câu 49. Các bước kiểm tra của chứ ký điện tử",
+    "answers": [
+      "Gồm các bước 1.Dùng public key của người gửi (khóa này được thông báo đến mọi người) để giải mã chữ ký số của message, 2.Dùng giải thuật (MD5 hoặc SHA) băm message đính kèm, So sánh kết quả thu được ở bước 1 và 2. 3.Nếu trùng nhau, ta kết luận message này không bị thay đổi trong quá trình truyền và message này là của người gửi.",
+      "Chỉ có bước 1 và 2",
+      "Gồm các bước 1.Dùng public key của người gửi (khóa này được thông báo đến mọi người) để giải mã chữ ký số của message, 2.Dùng giải thuật (MD5 hoặc SHA) băm message đính kèm, So sánh kết quả thu được ở bước 1 và 2. 3.Nén dữ liệu rồi gởi đi",
+      "Không có bước nào ở trên là đúng"
+    ],
+    "correctAnswer": "A",
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 50,
+    "question": "Câu 50. Việc xác thực người dùng khi đăng cập vào hệ thống Window XP, 2000 hoặc 2003 sử dụng giải thuật",
+    "answers": [
+      "RSA",
+      "Keberos",
+      "MD5",
+      "SHATR"
+    ],
+    "correctAnswer": "B",
+    "correctAnswerIndex": 1
+  }
+]

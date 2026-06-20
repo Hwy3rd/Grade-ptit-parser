@@ -1,0 +1,602 @@
+[
+  {
+    "id": 1,
+    "question": "Câu 1. Tấn công smurf sử dụng giao thức nào để kiểm soát ?",
+    "answers": [
+      "TCP",
+      "IP",
+      "UDP",
+      "ICMP"
+    ],
+    "correctAnswer": "D",
+    "correctAnswerIndex": 3
+  },
+  {
+    "id": 2,
+    "question": "Câu 2. Tổ đặc trách thông báo rằng họ đã nhận một cuộc gọi khẩn cấp từ phó chủ tịch đêm qua yêu cầu logon vào ID và mật khẩu của ông ta. Đây là loại tấn công gì ?",
+    "answers": [
+      "Giả mạo",
+      "Tấn công chuyển tiếp",
+      "Social engineering (Khai thác giao tiếp)",
+      "Trojan"
+    ],
+    "correctAnswer": "C",
+    "correctAnswerIndex": 2
+  },
+  {
+    "id": 3,
+    "question": "Câu 3. Hệ thống của bạn đã ngừng phản ứng lại với các lệnh của bàn phím. Lưu ý rằng điều này xảy ra khi mở bảng tính và đã quay số qua internet. Loại tấn công nào có thể đã xảy ra ?",
+    "answers": [
+      "Logic Bomb",
+      "Sâu",
+      "Virus",
+      "Tấn công ACK"
+    ],
+    "correctAnswer": "C",
+    "correctAnswerIndex": 2
+  },
+  {
+    "id": 4,
+    "question": "Câu 4. Loại virus tự che giấu nó bằng cách ẩn trong mã nguồn của các phần mềm antivirus được gọi là gì ?",
+    "answers": [
+      "Armored virus",
+      "Polymorphic virus",
+      "Sâu",
+      "Stealth virus (Virus ẩn danh)"
+    ],
+    "correctAnswer": "D",
+    "correctAnswerIndex": 3
+  },
+  {
+    "id": 5,
+    "question": "Câu 5. Một virus được đính kèm chính nó vào boot sector của đĩa cứng và thông báo thông tin sai về kích thước các tập tin được gọi là gì ?",
+    "answers": [
+      "Virus Trojan",
+      "Stealth virus (virus ẩn danh)",
+      "Sâu",
+      "Polymorphic virus"
+    ],
+    "correctAnswer": "B",
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 6,
+    "question": "Câu 6. Một chương trình nằm trong một chương trình khác được cài vào hệ thống gọi là một …….",
+    "answers": [
+      "Trojan Horse",
+      "Polymorphic virus",
+      "Sâu",
+      "Armored virus"
+    ],
+    "correctAnswer": "A",
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 7,
+    "question": "Câu 7. Các user nội bộ báo cáo hệ thống của họ bị lây nhiễm nhiều lần. Trong mọi trường hợp virus có vẻ là cùng một loại. Thủ phạm thích hợp nhất là gì ?",
+    "answers": [
+      "Máy chủ có thể là vật mang virus",
+      "Ta có một sâu virus",
+      "Phần mềm antivirus của ta bị sự cố",
+      "Tấn công DoS đang thực hiện"
+    ],
+    "correctAnswer": "A",
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 8,
+    "question": "Câu 8. Các log file trên hệ thống của bạn phát hiện một nổ lực giành quyền truy cập đến một tài khoản đơn. Nổ lực này đã không thành công vào thời điểm đó. Theo kinh nghiệm của bạn thì loại tấn công thích hợp nhất là gì ?",
+    "answers": [
+      "Tấn công đoán mật khẩu (Password Guessing)",
+      "Tấn công cửa sau",
+      "Tấn công bằng sâu",
+      "TCP/IP hijacking"
+    ],
+    "correctAnswer": "A",
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 9,
+    "question": "Câu 9. Một user báo cáo là anh ta đang nhận một lỗi chỉ ra rằng địa chỉ TCP/IP của anh ta đã bị sử dụng khi anh ta bật máy tính. Tấn công nào có thể đang thực hiện ?",
+    "answers": [
+      "Tấn công dạng “Man in the middle”",
+      "Tấn công cửa sau",
+      "Sâu",
+      "TCP/IP hijacking"
+    ],
+    "correctAnswer": "D",
+    "correctAnswerIndex": 3
+  },
+  {
+    "id": 10,
+    "question": "Câu 10. Một đêm làm việc khuya và bạn phát hiện rằng ổ cứng của bạn hoạt động rất tích cực mặc dù bạn không thực hiện bất kỳ thao tác nào trên máy tính. Bạn nghi ngờ điều gì?",
+    "answers": [
+      "Khả năng ổ đĩa ngừng hoạt động sắp xảy ra",
+      "Một virus đang phát tán rộng trong hệ thống",
+      "Hệ thống của bạn đang chịu tác động của tấn công DoS",
+      "Tấn công TCP/IP hijacking đang cố gắng thực hiện"
+    ],
+    "correctAnswer": "B",
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 11,
+    "question": "Câu 11. Bản ghi lỗi hệ thống email của bạn báo cáo một số lượng lớn các nổ lực logon không thành công. Loại tấn công nào có thể đang xảy ra ?",
+    "answers": [
+      "Tấn công khai thác phần mềm (Software exploitation attack)",
+      "Tấn công cửa sau ( Back door Attack))",
+      "Sâu (Worm)",
+      "TCP/IP hijacking"
+    ],
+    "correctAnswer": "A",
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 12,
+    "question": "Câu 12. Bộ lọc gói thực hiện chức năng nào ?",
+    "answers": [
+      "Ngăn chặn các gói trái phép đi vào từ mạng bên ngoài",
+      "Cho phép tất cả các gói rời mạng",
+      "Cho phép tất cả các gói đi vào mạng",
+      "Loại trừ sự xung đột trong mạng"
+    ],
+    "correctAnswer": "A",
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 13,
+    "question": "Câu 13. Thiết bị nào lưu trữ thông tin về đích đến trong mạng ?",
+    "answers": [
+      "Hub",
+      "Modem",
+      "Firewall",
+      "Router"
+    ],
+    "correctAnswer": "D",
+    "correctAnswerIndex": 3
+  },
+  {
+    "id": 14,
+    "question": "Câu 14. Giao thức nào được sử dụng rộng rãi hiện nay như là một giao thức truyền tải đối với các kết nối quay số trên Internet ?",
+    "answers": [
+      "SLIP",
+      "PPP",
+      "PPTP",
+      "L2TP"
+    ],
+    "correctAnswer": "B",
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 15,
+    "question": "Câu 15. Giao thức nào sau đây không phù hợp đối với các kết nối VPN WAN ?",
+    "answers": [
+      "PPP",
+      "PPTP",
+      "L2TP",
+      "IPSec"
+    ],
+    "correctAnswer": "A",
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 16,
+    "question": "Câu 16. Giao thức nào sau đây tuy không phải là một giao thức đường hầm nhưng nó sử dụng các giao thức đường hầm để bảo mật trên mạng?",
+    "answers": [
+      "IPSec",
+      "PPTP",
+      "L2TP",
+      "L2F"
+    ],
+    "correctAnswer": "A",
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 17,
+    "question": "Câu 17. Một socket là sự kết hợp của các thành phần nào ?",
+    "answers": [
+      "TCP và port number",
+      "UDP và port number",
+      "IP và session number",
+      "IP và port number"
+    ],
+    "correctAnswer": "D",
+    "correctAnswerIndex": 3
+  },
+  {
+    "id": 18,
+    "question": "Câu 18. Thiết bị nào giám sát lưu lượng mạng theo cách thụ động ?",
+    "answers": [
+      "Sniffer",
+      "IDS",
+      "Firewall",
+      "Web browser"
+    ],
+    "correctAnswer": "A",
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 19,
+    "question": "Câu 19. Hệ thống nào chủ động thực hiện việc giám sát mạng, phân tích và có thể thực hiện các bước phòng ngừa , bảo vệ mạng ?",
+    "answers": [
+      "IDS",
+      "Sniffer",
+      "Router",
+      "Switch"
+    ],
+    "correctAnswer": "A",
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 20,
+    "question": "Câu 20. Hệ thống nào được cài đặt trên Host để cung cấp một tính năng IDS ?",
+    "answers": [
+      "Network sniffer",
+      "N-IDS (Network-based IDS)",
+      "H-IDS (Host-based IDS)",
+      "VPN"
+    ],
+    "correctAnswer": "C",
+    "correctAnswerIndex": 2
+  },
+  {
+    "id": 21,
+    "question": "Câu 21. Khi kết nối giữa các thiết bị không dây đã hoàn tất , giao thức nào được sử dụng?",
+    "answers": [
+      "WEP",
+      "WTLS",
+      "WAP",
+      "WOP"
+    ],
+    "correctAnswer": "C",
+    "correctAnswerIndex": 2
+  },
+  {
+    "id": 22,
+    "question": "Câu 22. Giao thức nào hoạt động trên 2.4GHz và có một dải băng thông rộng 1Mbps hay 2Mbps ?",
+    "answers": [
+      "802.11 //1Mbps hoặc 2Mbps với băng thông 2.4GHz",
+      "802.11a //54Mbps trong dải tần 5GHz",
+      "802.11b //11Mbps trong băng thông 2.4GHz WIFI",
+      "802.11g //Tốc độ hơn 20Mbps trên băng thông 2.4GHz"
+    ],
+    "correctAnswer": "A",
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 23,
+    "question": "Câu 23. Giao thức nào được thiết kế để cung cấp bảo mật cho mạng không dây tương đương với việc bảo mật của một mạng diện rộng ?",
+    "answers": [
+      "WAP",
+      "WTLS",
+      "WEP",
+      "IR"
+    ],
+    "correctAnswer": "C",
+    "correctAnswerIndex": 2
+  },
+  {
+    "id": 24,
+    "question": "Câu 24. Điểm yếu nào sau đây là chủ yếu của môi trường mạng không dây ?",
+    "answers": [
+      "Phần mềm giải mã (Decryption software)",
+      "IP spoofing (Giả mạo IP)",
+      "A gap in the WAP (Một khe hở trong WAP)",
+      "Định vị nơi làm việc (Site survey)"
+    ],
+    "correctAnswer": "C",
+    "correctAnswerIndex": 2
+  },
+  {
+    "id": 25,
+    "question": "Câu 25. Nếu ta muốn xác thực chữ ký của một người khác, khóa nào phải được sử dụng?",
+    "answers": [
+      "Khóa công khai của bạn",
+      "Khoá cá nhân của bạn",
+      "Khoá cá nhân của người cần xác thực",
+      "Khoá công khai của người cần xác thực"
+    ],
+    "correctAnswer": "D",
+    "correctAnswerIndex": 3
+  },
+  {
+    "id": 26,
+    "question": "Câu 26. Chữ ký số được sử dụng cho mục đích gì?",
+    "answers": [
+      "Để bảo mật tài liệu sao cho người ngoài không đọc được",
+      "Để kiểm tra định danh người gửi",
+      "Cung cấp chứng chỉ",
+      "Thu hồi một chứng chỉ"
+    ],
+    "correctAnswer": "B",
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 27,
+    "question": "Câu 27. Nếu muốn xem một tài liệu “bảo mật”được mã hóa trên hệ mật bất đối xứng do người khác gởi đến , bạn phải sử dụng khóa nào để giải mật tài liệu?",
+    "answers": [
+      "Khoá công khai của bạn",
+      "Khoá công khai của bên gửi",
+      "Khoá cá nhân của bên gửi",
+      "Khoá cá nhân của bạn"
+    ],
+    "correctAnswer": "D",
+    "correctAnswerIndex": 3
+  },
+  {
+    "id": 28,
+    "question": "Câu 28. Nếu ta muốn ký một tài liệu và sau đó gởi đến một người khác, khóa nào phải được sử dụng?",
+    "answers": [
+      "Khoá công khai của bạn",
+      "Khoá công khai của bên nhận",
+      "Khoá cá nhân của bên nhận",
+      "Khoá cá nhân của bạn"
+    ],
+    "correctAnswer": "D",
+    "correctAnswerIndex": 3
+  },
+  {
+    "id": 29,
+    "question": "Câu 29. Bạn nhận được một email từ Microsoft, trong đó có một file đính kèm. Trong thư nói rằng có một số lỗi đã được phát hiện và sửa chữa , bạn phải chạy chương trình được đính kèm trong thư để sửa những lỗi đó. Trong trường hợp này bạn sẽ làm gì để bảo đảm an toàn?",
+    "answers": [
+      "Lưu chương trình đó lại và dùng chương trình diệt virus để quét, nếu không phát hiện thấy virus, sẽ chạy chương trình đó để sửa lỗi.",
+      "Mở chương trình và chạy nó ngay. Chương trình đó thật sự an toàn vì nó được gửi từ Microsoft",
+      "Xoá email đó ngay. Mocrosoft và các nhà cung cấp không bao giờ gửi chương trình sửa lỗi qua email.",
+      "xxx"
+    ],
+    "correctAnswer": "C",
+    "correctAnswerIndex": 2
+  },
+  {
+    "id": 30,
+    "question": "Câu 30. Hệ mật DES sử dụng khối khoá được tạo bởi :",
+    "answers": [
+      "56 bit ngẫu nhiên",
+      "64 bit ngẫu nhiên",
+      "128 bit ngẫu nhiên",
+      "56 bit ngẫu nhiên và 8 bit kiểm tra “Parity”"
+    ],
+    "correctAnswer": "D",
+    "correctAnswerIndex": 3
+  },
+  {
+    "id": 31,
+    "question": "Câu 31. Hệ mật DES xử lý từng khối “ plain text ” có độ dài :",
+    "answers": [
+      "56 bit",
+      "32 bit",
+      "64 bit",
+      "48 bit"
+    ],
+    "correctAnswer": "C",
+    "correctAnswerIndex": 2
+  },
+  {
+    "id": 32,
+    "question": "Câu 32. Thuật giải SHA là :",
+    "answers": [
+      "Hàm băm một chiều",
+      "Dùng trong thuật giải tạo chữ ký số",
+      "Cho giá trị băm 160 bit",
+      "Tất cả đều đúng"
+    ],
+    "correctAnswer": "D",
+    "correctAnswerIndex": 3
+  },
+  {
+    "id": 33,
+    "question": "Câu 33. DSA là thuật giải :",
+    "answers": [
+      "Lấy dấu tay “PrintingFinger”",
+      "Tạo chữ ký số (DS)",
+      "Phân phối khoá trước",
+      "Bảo mật thông điệp"
+    ],
+    "correctAnswer": "B",
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 34,
+    "question": "Câu 34. Thuật giải MD5 cho ta một giá trị băm có độ dài :",
+    "answers": [
+      "156 bit",
+      "256 bit",
+      "128 bit",
+      "512 bit"
+    ],
+    "correctAnswer": "C",
+    "correctAnswerIndex": 2
+  },
+  {
+    "id": 35,
+    "question": "Câu 35. Trong các cặp khoá sau đây của hệ mật RSA với p=5 ; q=7 , cặp khóa nào có khả năng đúng nhất :",
+    "answers": [
+      "(e = 12 , d =11)",
+      "(e = 4 , d =11)",
+      "( e = 7 , d =23)",
+      "( e = 3 , d =18)"
+    ],
+    "correctAnswer": "C",
+    "correctAnswerIndex": 2
+  },
+  {
+    "id": 36,
+    "question": "Câu 36. Thuật giải Difie Hellman dùng để :",
+    "answers": [
+      "Bảo mật thông điệp",
+      "Xác thực thông điệp",
+      "Phân phối khoá trước cho hệ mật đối xứng",
+      "Lấy chữ ký sô"
+    ],
+    "correctAnswer": "C",
+    "correctAnswerIndex": 2
+  },
+  {
+    "id": 37,
+    "question": "Câu 37. MAC là một từ cấu tạo bằng những chữ đầu của một nhóm nào liên quan đến mật mã ?",
+    "answers": [
+      "Kiểm soát truy cập phương tiện (Media access control)",
+      "Kiểm soát truy cập bắt buộc (Mandatory access control)",
+      "Mã xác thực thông điệp (Message authentication code)",
+      "Các ủy ban đa tư vấn (Multiple advisory committees)"
+    ],
+    "correctAnswer": "C",
+    "correctAnswerIndex": 2
+  },
+  {
+    "id": 38,
+    "question": "Câu 38. Nội dung nào sau đây không cần sử dụng mật mã ?",
+    "answers": [
+      "Bảo mật",
+      "Xác thực",
+      "Toàn vẹn",
+      "Truy cập"
+    ],
+    "correctAnswer": "D",
+    "correctAnswerIndex": 3
+  },
+  {
+    "id": 39,
+    "question": "Câu 39. PKC được thực hiện bằng cách sử dụng các chức năng nào ?",
+    "answers": [
+      "Chuyển giao các khóa công khai an toàn",
+      "Chuy��n giao các khóa cá nhân an toàn",
+      "Bảo mật dữ liệu ở hai đầu mút",
+      "Sử dụng hai khóa khác nhau để mã hóa và giải mã"
+    ],
+    "correctAnswer": "D",
+    "correctAnswerIndex": 3
+  },
+  {
+    "id": 40,
+    "question": "Câu 40. Khái niệm nào sau đây được sử dụng để mô tả sự không thể chối từ của người gửi khi gửi thông điệp ?",
+    "answers": [
+      "Toàn vẹn",
+      "Tính không chối từ ( non-repudiation)",
+      "Xác thực",
+      "Bảo mật"
+    ],
+    "correctAnswer": "B",
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 41,
+    "question": "Câu 41. Khái niệm nào sau đây được dùng để xác định chuẩn thực thi các hệ thống mã hóa diện rộng?",
+    "answers": [
+      "PKE",
+      "PKI",
+      "Đối xứng",
+      "Không đối xứng"
+    ],
+    "correctAnswer": "B",
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 42,
+    "question": "Câu 42. Tổ chức chính cấp phát chứng chỉ được gọi là :",
+    "answers": [
+      "CA",
+      "RA",
+      "LRA",
+      "CRL"
+    ],
+    "correctAnswer": "A",
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 43,
+    "question": "Câu 43. Hầu hết định dạng chứng chỉ công cộng được sử dụng trong môi trường PKI là gì ?",
+    "answers": [
+      "X.509",
+      "X.508",
+      "PKE",
+      "RSA"
+    ],
+    "correctAnswer": "A",
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 44,
+    "question": "Câu 44. Quy trình mã hoá nào sử dụng cùng một khoá mã ở cả hai phía của một phiên làm việc ?",
+    "answers": [
+      "Symmetrical",
+      "Asymmetrical",
+      "PKCS",
+      "Split key"
+    ],
+    "correctAnswer": "A",
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 45,
+    "question": "Câu 45. PKCS sử dụng cặp khoá nào để mã hoá?",
+    "answers": [
+      "Symmetric",
+      "Public/private",
+      "Asymmetric/symmetric",
+      "Private/private"
+    ],
+    "correctAnswer": "B",
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 46,
+    "question": "Câu 46. Giao thức nào sau đây tương tự như SSL và được đề nghị sử dụng bổ sung vào các giao thức bảo mật ?",
+    "answers": [
+      "TLS",
+      "SSH",
+      "RSH",
+      "X.509"
+    ],
+    "correctAnswer": "A",
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 47,
+    "question": "Câu 47. Vấn đề gì nảy sinh khi sử dụng qui trình sinh khóa mã tập trung ?",
+    "answers": [
+      "Bảo mật mạng",
+      "Truyền khóa",
+      "Thu hồi chứng chỉ",
+      "Bảo mật khóa cá nhân"
+    ],
+    "correctAnswer": "B",
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 48,
+    "question": "Câu 48. Giao thức nào sau đây cung cấp dịch vụ bảo mật cho các phiên làm việc trên thiết bị đầu cuối của hệ thống UNIX từ xa ?",
+    "answers": [
+      "SSL",
+      "TLS",
+      "SSH",
+      "PKI"
+    ],
+    "correctAnswer": "C",
+    "correctAnswerIndex": 2
+  },
+  {
+    "id": 49,
+    "question": "Câu 49. Dịch vụ nào sau đây là một dịch vụ đơn hay một máy phục vụ để lưu trữ, phân phối, và quản lý các khóa phiên mật mã ?",
+    "answers": [
+      "KDC",
+      "KEA",
+      "PKI",
+      "PKCS"
+    ],
+    "correctAnswer": "A",
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 50,
+    "question": "Câu 50. Bạn có một fille dữ liệu trên đĩa cứng , phương pháp nào theo bạn là tốt nhất để bảo mật dữ liệu đó",
+    "answers": [
+      "RSA",
+      "DES",
+      "DSA",
+      "SHA"
+    ],
+    "correctAnswer": "B",
+    "correctAnswerIndex": 1
+  }
+]

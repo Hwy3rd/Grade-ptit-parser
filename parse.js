@@ -26,8 +26,8 @@ try {
 
     // Tách dòng câu hỏi và dòng bảng đáp án
     for (const line of lines) {
-      // Nhận diện dòng bảng đáp án linh hoạt hơn: chứa nhiều cụm ví dụ "1D", "1.D", "2A", "2.A"...
-      if (/^\d+\.?[A-D](\s+\d+\.?[A-D])*$/.test(line)) {
+      // Nhận diện dòng bảng đáp án linh hoạt hơn: chứa nhiều cụm ví dụ "1D", "1.D", "2A", "2.A", "44A,C"...
+      if (/^\d+\.?[A-D,]+(\s+\d+\.?[A-D,]+)*$/.test(line)) {
         answerSheetLines.push(line);
       } else {
         questionLines.push(line);
@@ -39,8 +39,8 @@ try {
     const answerSheetStr = answerSheetLines.join(' ');
     const answerPairs = answerSheetStr.split(/\s+/);
     for (const pair of answerPairs) {
-      // Hỗ trợ cả định dạng "1D" và "1.D"
-      const match = pair.match(/^(\d+)\.?([A-D])$/);
+      // Hỗ trợ cả định dạng "1D", "1.D", "44A,C"
+      const match = pair.match(/^(\d+)\.?([A-D,]+)$/);
       if (match) {
         const qNum = parseInt(match[1], 10);
         const ansLetter = match[2];
@@ -70,7 +70,8 @@ try {
 
         const correctAnswerLetter = answerMap.get(qId) || '';
         const letterToIndex = { 'A': 0, 'B': 1, 'C': 2, 'D': 3 };
-        const correctAnswerIndex = letterToIndex[correctAnswerLetter] !== undefined ? letterToIndex[correctAnswerLetter] : -1;
+        const firstLetter = correctAnswerLetter.split(',')[0];
+        const correctAnswerIndex = letterToIndex[firstLetter] !== undefined ? letterToIndex[firstLetter] : -1;
 
         questions.push({
           id: qId,
@@ -89,6 +90,10 @@ try {
     fs.writeFileSync(outputFile, JSON.stringify(questions, null, 2), 'utf8');
     console.log(`Successfully parsed ${questions.length} questions from ${file} to ${outputFile}`);
   });
+
+  const listFile = path.join(outputDir, 'list.json');
+  const jsonFiles = fs.readdirSync(outputDir).filter(f => f.endsWith('.json') && f !== 'list.json');
+  fs.writeFileSync(listFile, JSON.stringify(jsonFiles, null, 2), 'utf8');
 } catch (err) {
   console.error('Error processing files:', err);
 }

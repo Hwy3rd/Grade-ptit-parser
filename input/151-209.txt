@@ -291,7 +291,7 @@ Khóa có kích thước lớn
 Độ phức tạp cao của giải thuật RSA
 Tính khó của việc phân tích số nguyên rất lớn
 Chi phí tính toán lớn
-1A 2C 3D 4B 5B 6C 7D 8D 9D 10A
+1A 2C 3D 4B 5B 6C 7D 8D 9D 10D
 11C 12A 13D 14D 15A 16B 17B 18A 19B 20D
 21D 22C 23D 24A 25C 26B 27C 28D 29C 30C
 31D 32C 33A 34B 35B 36A 37A 38B 39B 40B

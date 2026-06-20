@@ -52,6 +52,9 @@ let editingQuestionId = null;
 
 // --- Khởi tạo và Lắng nghe sự kiện ---
 document.addEventListener("DOMContentLoaded", () => {
+  // Tải danh sách bộ câu hỏi động
+  loadQuestionSources();
+
   // Lắng nghe tải file lên
   fileUploadInput.addEventListener("change", handleFileUpload);
 
@@ -101,6 +104,32 @@ document.addEventListener("DOMContentLoaded", () => {
   // Làm lại
   restartBtn.addEventListener("click", resetApp);
 });
+
+// --- Tải danh sách bộ đề tự động ---
+async function loadQuestionSources() {
+  try {
+    const response = await fetch("questions/list.json");
+    if (!response.ok) throw new Error("Không thể tải danh sách bộ đề");
+    const files = await response.json();
+    
+    questionSourceSelect.innerHTML = "";
+    files.forEach((file, index) => {
+      const option = document.createElement("option");
+      option.value = file;
+      
+      // Giữ nguyên tên file nhưng bỏ phần mở rộng .json
+      option.textContent = file.replace(/\.json$/, "");
+      
+      // Default select the first or a default one if present
+      if (index === 0) {
+        option.selected = true;
+      }
+      questionSourceSelect.appendChild(option);
+    });
+  } catch (err) {
+    console.error("Lỗi tải danh sách câu hỏi:", err);
+  }
+}
 
 // --- Xử lý tải file lên ---
 function handleFileUpload(e) {
@@ -211,9 +240,16 @@ function prepareQuestions() {
   // Trộn thứ tự các đáp án trong từng câu hỏi
   currentQuestions.forEach((q) => {
     const letters = ["A", "B", "C", "D"];
+    const letterToIndex = { A: 0, B: 1, C: 2, D: 3 };
 
-    // Lưu đáp án đúng gốc trước khi trộn
-    const originalCorrectText = q.answers[q.correctAnswerIndex];
+    // Lưu tất cả đáp án đúng gốc trước khi trộn
+    const correctLetters = (q.correctAnswer || "").split(",");
+    const originalCorrectTexts = correctLetters
+      .map((letter) => {
+        const idx = letterToIndex[letter.toUpperCase()];
+        return idx !== undefined ? q.answers[idx] : null;
+      })
+      .filter((text) => text !== null);
 
     // Tạo danh sách cặp [{text: string, originalIndex: number}] để theo dõi
     let mappedAnswers = q.answers.map((ans, idx) => ({
@@ -224,12 +260,20 @@ function prepareQuestions() {
     // Trộn đáp án
     shuffleArray(mappedAnswers);
 
-    // Cập nhật lại mảng đáp án mới và tìm chỉ số đúng mới
+    // Cập nhật lại mảng đáp án mới và tìm các chỉ số đúng mới
     q.answers = mappedAnswers.map((item) => item.text);
 
-    const newCorrectIdx = q.answers.indexOf(originalCorrectText);
-    q.correctAnswerIndex = newCorrectIdx;
-    q.correctAnswer = letters[newCorrectIdx];
+    const newCorrectIdxs = originalCorrectTexts
+      .map((text) => q.answers.indexOf(text))
+      .filter((idx) => idx !== -1);
+
+    if (newCorrectIdxs.length > 0) {
+      q.correctAnswerIndex = newCorrectIdxs[0];
+      q.correctAnswer = newCorrectIdxs.map((idx) => letters[idx]).join(",");
+    } else {
+      q.correctAnswerIndex = -1;
+      q.correctAnswer = "";
+    }
   });
 }
 
@@ -307,19 +351,26 @@ function handleSingleAnswerSelect(selectedOpt, q, selectedLetter, selectedIdx) {
   // Lưu câu trả lời của người dùng
   userAnswers[q.id] = selectedLetter;
 
-  const isCorrect = selectedIdx === q.correctAnswerIndex;
+  const letters = ["A", "B", "C", "D"];
+  const correctLetters = (q.correctAnswer || "").split(",");
+  const isCorrect = correctLetters.includes(selectedLetter);
 
   if (isCorrect) {
     selectedOpt.classList.add("correct");
   } else {
     selectedOpt.classList.add("wrong");
     // Hiển thị đáp án đúng
-    const correctOpt = questionsContainer.querySelector(
-      `.answer-option[data-index="${q.correctAnswerIndex}"]`,
-    );
-    if (correctOpt) {
-      correctOpt.classList.add("correct");
-    }
+    correctLetters.forEach((letter) => {
+      const correctIdx = letters.indexOf(letter);
+      if (correctIdx !== -1) {
+        const correctOpt = questionsContainer.querySelector(
+          `.answer-option[data-index="${correctIdx}"]`,
+        );
+        if (correctOpt) {
+          correctOpt.classList.add("correct");
+        }
+      }
+    });
   }
 
   // Hiện nút "Tiếp tục"
@@ -405,6 +456,7 @@ function finishQuiz() {
 
   currentQuestions.forEach((q) => {
     const userAns = userAnswers[q.id];
+    const correctLetters = (q.correctAnswer || "").split(",");
     if (userAns === undefined) {
       unansweredCount++;
       // Coi như sai và thêm vào danh sách xem lại
@@ -412,7 +464,7 @@ function finishQuiz() {
         question: q,
         userAnswer: null,
       });
-    } else if (userAns === q.correctAnswer) {
+    } else if (correctLetters.includes(userAns)) {
       correctCount++;
     } else {
       wrongCount++;
@@ -461,20 +513,21 @@ function finishQuiz() {
       revAnswers.className = "review-answers";
 
       const letters = ["A", "B", "C", "D"];
+      const correctLetters = (question.correctAnswer || "").split(",");
       question.answers.forEach((ans, aIdx) => {
         const item = document.createElement("div");
         item.className = "review-answer-item";
         item.textContent = `${letters[aIdx]}. ${ans}`;
 
         // Đánh dấu đáp án đúng màu xanh
-        if (letters[aIdx] === question.correctAnswer) {
+        if (correctLetters.includes(letters[aIdx])) {
           item.classList.add("correct-ans");
         }
         // Đánh dấu đáp án sai của user màu đỏ
         if (
           userAnswer &&
           letters[aIdx] === userAnswer &&
-          userAnswer !== question.correctAnswer
+          !correctLetters.includes(userAnswer)
         ) {
           item.classList.add("user-wrong");
         }
@@ -516,26 +569,31 @@ function downloadUpdatedJson() {
   if (!editingQuestionId) return;
 
   const val = quickEditTxtFormat.value.trim();
-  const match = val.match(/^\d+([A-D])$/i);
+  const match = val.match(/^\d+([A-D,]+)$/i);
   if (!match) {
-    alert("Định dạng không hợp lệ! Vui lòng nhập đúng định dạng, ví dụ: 12D");
+    alert("Định dạng không hợp lệ! Vui lòng nhập đúng định dạng, ví dụ: 12D hoặc 12A,C");
     return;
   }
 
   const newLetter = match[1].toUpperCase();
+  const newLetters = newLetter.split(",");
   const letterToIndex = { A: 0, B: 1, C: 2, D: 3 };
-  const newIndex = letterToIndex[newLetter];
+  const newIndex = letterToIndex[newLetters[0]];
 
   // Cập nhật đáp án đúng trong mảng dữ liệu hiện tại
   const originalQ = questionsData.find((q) => q.id === editingQuestionId);
   if (originalQ) {
     const currentQ = currentQuestions.find((q) => q.id === editingQuestionId);
     if (currentQ) {
-      const correctText = currentQ.answers[newIndex];
-      const origIndex = originalQ.answers.indexOf(correctText);
-      if (origIndex !== -1) {
-        originalQ.correctAnswerIndex = origIndex;
-        originalQ.correctAnswer = ["A", "B", "C", "D"][origIndex];
+      const correctTexts = newLetters.map(letter => {
+        const idx = letterToIndex[letter];
+        return idx !== undefined ? currentQ.answers[idx] : null;
+      }).filter(text => text !== null);
+
+      const origIndices = correctTexts.map(text => originalQ.answers.indexOf(text)).filter(idx => idx !== -1);
+      if (origIndices.length > 0) {
+        originalQ.correctAnswerIndex = origIndices[0];
+        originalQ.correctAnswer = origIndices.map(idx => ["A", "B", "C", "D"][idx]).join(",");
       }
     }
   }
